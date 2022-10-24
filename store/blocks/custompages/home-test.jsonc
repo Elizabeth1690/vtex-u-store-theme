@@ -1,0 +1,5 @@
+{
+  "store.custom#home-test": {
+    "blocks": ["slider-layout#home__slider--children"]
+  }
+}

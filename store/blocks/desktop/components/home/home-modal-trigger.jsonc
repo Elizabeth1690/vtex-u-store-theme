@@ -1,0 +1,44 @@
+{
+  "modal-trigger#home__modal--children": {
+    "children": [
+      "rich-text#home__modal--trigger",
+      "modal-layout#home__modal--layout"
+    ]
+  },
+  "rich-text#home__modal--trigger": {
+    "props": {
+      "text": "Términos y condiciones"
+    }
+  },
+  "modal-layout#home__modal--layout": {
+    "children": ["rich-text#home__modal--content"]
+  },
+  "rich-text#home__modal--content": {
+    "props": {
+      "text": " # Términos y condiciones \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus purus ut lorem rhoncus luctus. Phasellus sollicitudin sit amet ligula at convallis. Proin nec ipsum quam. Curabitur elementum dolor dolor, at tempor dui molestie eu. Curabitur pretium lectus arcu, eget rutrum nibh commodo vitae. Sed fermentum tellus eget viverra commodo. Morbi aliquam imperdiet massa. Phasellus dignissim nisl ut odio mattis, vitae condimentum ipsum pulvinar. Donec congue leo lacus, id varius felis maximus a. Vivamus quis lacinia lacus. Pellentesque vel lorem in est rhoncus viverra. Quisque in libero velit. Donec ut cursus sapien. Quisque facilisis pharetra lorem, a auctor arcu varius."
+    }
+  },
+  "modal-trigger#home__modal--event": {
+    "children": ["modal-layout#home__modal--event"],
+    "props": {
+      "trigger": "event",
+      "customPixelEventName": "pageView"
+    }
+  },
+  "modal-layout#home__modal--event": {
+    "children": [
+      "rich-text#home__modal--event-content",
+      "modal-header#home__modal--event"
+    ]
+  },
+  "rich-text#home__modal--event-content": {
+    "props": {
+      "text": "Evento de Dom Loaded"
+    }
+  },
+  "modal-header#home__modal--event": {
+    "props": {
+      "showCloseButton": "true"
+    }
+  }
+}
