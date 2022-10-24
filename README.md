@@ -1,0 +1,1 @@
+# vtex-u-store-theme
