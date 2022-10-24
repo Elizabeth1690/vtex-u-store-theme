@@ -8,12 +8,7 @@
 }
 
 .flexRow--home__section-zero {
-  border: solid 3px red;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.flexRowContent--home__section-one {
-  border: solid 3px rgb(132, 0, 255);
 }

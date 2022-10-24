@@ -15,10 +15,8 @@
     "title": "Imagen de productos de aseo",
     "props": {
       "src": "assets/img/aseo-hogar.png",
-      "maxWidth": 600,
-      "height": 420,
       "title": "Promocion 1",
-      "blockClass": "home__image1",
+      "blockClass": "home__image-aseo",
       "link": {
         "url": "https://www.google.com",
         "newTab": true,
