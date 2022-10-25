@@ -11,4 +11,48 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 18px;
+}
+
+.flexRow--home__section--three {
+  margin-left: 90px;
+}
+.flexRow--home__section--four {
+  margin-left: 90px;
+  margin-bottom: 18px;
+}
+
+.flexRow--home__section--five {
+  margin-left: 50px;
+  margin-bottom: 18px;
+}
+.flexRowContent--home__section-seven {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--home__section-eight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.flexRowContent--home__section-nine {
+  margin-bottom: 18px;
+}
+.flexRow--home__section-ten {
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+
+.flexRow--home__section-eleven {
+  margin-left: 110px;
+  margin-bottom: 18px;
+}
+
+.flexRow--home__section--thirteen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
