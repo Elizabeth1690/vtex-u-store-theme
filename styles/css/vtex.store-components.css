@@ -1,8 +1,16 @@
 .imageElementLink--home__image1 {
-  width: 50%;
-  height: 80%;
+  border: solid 3px red;
 }
 
-.imageElement--home__image5 {
-  border: solid 2px black;
+.imageElement--home__image-aseo {
+  margin-left: 260px;
+  height: 416px;
+}
+
+.imageElement--home__image-tv {
+  height: 333px;
+}
+
+.imageElement--home__image-mercado {
+  margin-right: 10px;
 }
