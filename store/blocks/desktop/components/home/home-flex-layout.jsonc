@@ -1,12 +1,13 @@
 {
   "flex-layout.row#home__section--dektop-zero": {
+    "title": "Desktop sección imagen cyberlunes movible",
     "children": ["image#home__image"],
     "props": {
       "blockClass": "home__section-zero"
     }
   },
   "flex-layout.row#home__section--dektop-one": {
-    "title": "Sección Uno",
+    "title": "Desktop sección  slider y imagen con descuentos",
     "children": [
       "flex-layout.col#section__dektop---slider",
       "flex-layout.col#section__dektop---image"
@@ -16,23 +17,29 @@
     }
   },
   "flex-layout.col#section__dektop---slider": {
+    "title": "Sección slider",
     "children": ["slider-layout#home__slider--children"]
   },
   "flex-layout.col#section__dektop---image": {
+    "title": "imagen",
     "children": ["image#home__image1"]
   },
   "flex-layout.row#home__section--dektop-two": {
+    "title": "Desktop titulo categoria",
     "children": ["flex-layout.col#section__dektop--two-categoria"]
   },
   "flex-layout.col#section__dektop--two-categoria": {
+    "title": " sección titulo para las categorias",
     "children": ["rich-text#section__dektop--texto-categoria"]
   },
   "rich-text#section__dektop--texto-categoria": {
+    "title": " texto",
     "props": {
       "text": " Compra por categorías"
     }
   },
   "flex-layout.row#home__section--dektop-three": {
+    "title": "Desktop sección categoría",
     "children": [
       "flex-layout.col#section__dektop--three-mercado",
       "flex-layout.col#section__dektop--three-moda",
@@ -46,223 +53,261 @@
     }
   },
   "flex-layout.col#section__dektop--three-mercado": {
+    "title": "sección categoría uno",
     "children": [
       "image#section__dektop--image-mercado",
       "rich-text#section__dektop--texto-mercado"
     ]
   },
   "image#section__dektop--image-mercado": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-mercado.png",
       "description": "imagen de mercado"
     }
   },
   "rich-text#section__dektop--texto-mercado": {
+    "title": "texto",
     "props": {
       "text": "Mercado"
     }
   },
   "flex-layout.col#section__dektop--three-moda": {
+    "title": "sección categoría dos",
     "children": [
       "image#section__dektop--image-moda",
       "rich-text#section__dektop--texto-moda"
     ]
   },
   "image#section__dektop--image-moda": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-moda.png",
       "description": "imagen de moda"
     }
   },
   "rich-text#section__dektop--texto-moda": {
+    "title": "texto",
     "props": {
       "text": "Moda"
     }
   },
   "flex-layout.col#section__dektop--three-celulares": {
+    "title": "sección categoría tres",
     "children": [
       "image#section__dektop--image-celulares",
       "rich-text#section__dektop--texto-celulares"
     ]
   },
   "image#section__dektop--image-celulares": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-celulares.png",
       "description": "imagen de celulares"
     }
   },
   "rich-text#section__dektop--texto-celulares": {
+    "title": "texto",
     "props": {
       "text": "Celulares"
     }
   },
   "flex-layout.col#section__dektop--three-televisores": {
+    "title": "sección categoría cuatro",
     "children": [
       "image#section__dektop--image-televisores",
       "rich-text#section__dektop--texto-televisores"
     ]
   },
   "image#section__dektop--image-televisores": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-televisores.png",
       "description": "imagen de celulares"
     }
   },
   "rich-text#section__dektop--texto-televisores": {
+    "title": "texto",
     "props": {
       "text": "Televisores"
     }
   },
   "flex-layout.col#section__dektop--three-computadores": {
+    "title": "sección categoría cinco",
     "children": [
       "image#section__dektop--image-computadores",
       "rich-text#section__dektop--texto-computadores"
     ]
   },
   "image#section__dektop--image-computadores": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-computadores.png",
       "description": "imagen de celulares"
     }
   },
   "rich-text#section__dektop--texto-computadores": {
+    "title": "texto",
     "props": {
       "text": "Computadores"
     }
   },
   "flex-layout.col#section__dektop--three-colchones": {
+    "title": "sección categoría seis",
     "children": [
       "image#section__dektop--image-colchones",
       "rich-text#section__dektop--texto-colchones"
     ]
   },
   "image#section__dektop--image-colchones": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-colchones.png",
       "description": "imagen de celulares"
     }
   },
   "rich-text#section__dektop--texto-colchones": {
+    "title": "texto",
     "props": {
       "text": "Colchones"
     }
   },
   "flex-layout.row#home__section--dektop-four": {
+    "title": "Desktop sección categoría segunda parte",
     "children": [
       "flex-layout.col#section__dektop--four-electrodomesticos",
       "flex-layout.col#section__dektop--four-cocina",
       "flex-layout.col#section__dektop--four-deportes",
       "flex-layout.col#section__dektop--four-bebes",
       "flex-layout.col#section__dektop--four-jugueteria",
-      "flex-layout.col#section__dektop--four-salud-belleza"
+      "flex-layout.col#section__dektop--four-halloween"
     ],
     "props": {
       "blockClass": "home__section--four"
     }
   },
   "flex-layout.col#section__dektop--four-electrodomesticos": {
+    "title": "sección categoría siete",
     "children": [
       "image#section__dektop--image-electrodomesticos",
       "rich-text#section__dektop--texto-electrodomesticos"
     ]
   },
   "image#section__dektop--image-electrodomesticos": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-electrodomesticos.png",
       "description": "imagen de electrodomesticos"
     }
   },
   "rich-text#section__dektop--texto-electrodomesticos": {
+    "title": "texto",
     "props": {
       "text": "Electrodomésticos"
     }
   },
   "flex-layout.col#section__dektop--four-cocina": {
+    "title": "sección categoría ocho",
     "children": [
       "image#section__dektop--image-cocina",
       "rich-text#section__dektop--texto-cocina"
     ]
   },
   "image#section__dektop--image-cocina": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-cocina.png",
       "description": "imagen de cocina"
     }
   },
   "rich-text#section__dektop--texto-cocina": {
+    "title": "texto",
     "props": {
       "text": "Cocina"
     }
   },
   "flex-layout.col#section__dektop--four-deportes": {
+    "title": "sección categoría nueve",
     "children": [
       "image#section__dektop--image-deportes",
       "rich-text#section__dektop--texto-deportes"
     ]
   },
   "image#section__dektop--image-deportes": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-deportes.png",
       "description": "imagen de deportes"
     }
   },
   "rich-text#section__dektop--texto-deportes": {
+    "title": "texto",
     "props": {
       "text": "Deportes"
     }
   },
   "flex-layout.col#section__dektop--four-bebes": {
+    "title": "sección categoría diez",
     "children": [
       "image#section__dektop--image-bebes",
       "rich-text#section__dektop--texto-bebes"
     ]
   },
   "image#section__dektop--image-bebes": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-bebes.png",
       "description": "imagen de bebes"
     }
   },
   "rich-text#section__dektop--texto-bebes": {
+    "title": "texto",
     "props": {
       "text": "Bebes"
     }
   },
   "flex-layout.col#section__dektop--four-jugueteria": {
+    "title": "sección categoría once",
     "children": [
       "image#section__dektop--image-jugueteria",
       "rich-text#section__dektop--texto-jugueteria"
     ]
   },
   "image#section__dektop--image-jugueteria": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__categoria-jugueteria.png",
       "description": "imagen de jugueteria"
     }
   },
   "rich-text#section__dektop--texto-jugueteria": {
+    "title": "texto",
     "props": {
       "text": "Juguetería"
     }
   },
-  "flex-layout.col#section__dektop--four-salud-belleza": {
+  "flex-layout.col#section__dektop--four-halloween": {
+    "title": "sección categoría doce",
     "children": [
-      "image#section__dektop--image-salud-belleza",
-      "rich-text#section__dektop--texto-salud-belleza"
+      "image#section__dektop--image-halloween",
+      "rich-text#section__dektop--texto-halloween"
     ]
   },
-  "image#section__dektop--image-salud-belleza": {
+  "image#section__dektop--image-halloween": {
+    "title": "imagen",
     "props": {
-      "src": "assets/img/home__categoria-salud-belleza.png",
-      "description": "imagen de salud y belleza"
+      "src": "assets/img/home__categoria-halloween.png",
+      "description": "imagen de halloween"
     }
   },
-  "rich-text#section__dektop--texto-salud-belleza": {
+  "rich-text#section__dektop--texto-halloween": {
+    "title": "texto",
     "props": {
-      "text": "Salud y Belleza"
+      "text": "Halloween"
     }
   },
   "flex-layout.row#home__section--dektop-five": {
+    "title": "Desktop sección forma de pago y compra ",
     "children": [
       "flex-layout.col#section__dektop--image1",
       "flex-layout.col#section__dektop--image2",
@@ -274,18 +319,23 @@
     }
   },
   "flex-layout.col#section__dektop--image1": {
+    "title": "sección compra y pago uno",
     "children": ["image#home__image4"]
   },
   "flex-layout.col#section__dektop--image2": {
+    "title": "sección compra y pago dos",
     "children": ["image#home__image5"]
   },
   "flex-layout.col#section__dektop--image3": {
+    "title": "sección compra y pago tres",
     "children": ["image#home__image6"]
   },
   "flex-layout.col#section__dektop--image4": {
+    "title": "sección compra y pago cuatro",
     "children": ["image#home__image7"]
   },
   "flex-layout.row#home__section--dektop-six": {
+    "title": "Desktop titulo de oferta",
     "children": ["flex-layout.col#section__dektop--text"]
   },
   "flex-layout.col#section__dektop--text": {
@@ -293,29 +343,13 @@
     "children": ["rich-text#section__dektop--text-ofertas"]
   },
   "rich-text#section__dektop--text-ofertas": {
+    "title": "texto",
     "props": {
       "text": "Ofertas pensadas para ti"
     }
   },
-  /* 
   "flex-layout.row#home__section--dektop-seven": {
-    "children": ["image#home__image8"],
-    "props": {
-      "blockClass": "home__section-seven"
-    }
-  },
-  "flex-layout.row#home__section--dektop-eight": {
-    "title": "seción mercado",
-    "children": ["flex-layout.col#section__dektop--image"],
-    "props": {
-      "blockClass": "home__section-eight"
-    }
-  },
-  "flex-layout.col#section__dektop--image": {
-    "title": "seción supermercado",
-    "children": ["image#home__image9"]
-  },*/
-  "flex-layout.row#home__section--dektop-seven": {
+    "title": "Desktop sección ofertas",
     "children": [
       "flex-layout.col#section__dektop--image-ofertas-tv",
       "flex-layout.col#section__dektop--image-ofertas-movil",
@@ -329,18 +363,22 @@
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-tv": {
+    "title": "sección ofertas uno",
     "children": ["image#home__image8"],
     "props": {
       "blockClass": "home__image-tv"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-movil": {
+    "title": "sección ofertas dos",
     "children": ["image#home__image9"]
   },
   "flex-layout.col#section__dektop--image-ofertas-electrodomestico": {
+    "title": "sección ofertas tres",
     "children": ["image#home__image10"]
   },
   "flex-layout.row#home__section--dektop-eight": {
+    "title": "Desktop sección ofertas dos",
     "children": [
       "flex-layout.col#section__dektop--image-ofertas-huevos",
       "flex-layout.col#section__dektop--image-ofertas-licor",
@@ -348,18 +386,22 @@
     ]
   },
   "flex-layout.col#section__dektop--image-ofertas-huevos": {
+    "title": "sección ofertas uno",
     "children": ["image#home__image11"],
     "props": {
       "blockClass": "home__image-tv"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-licor": {
+    "title": "sección ofertas dos",
     "children": ["image#home__image12"]
   },
   "flex-layout.col#section__dektop--image-ofertas-computador": {
+    "title": "sección ofertas tres",
     "children": ["image#home__image13"]
   },
   "flex-layout.row#home__section--dektop-nine": {
+    "title": "Desktop sección ofertas tres",
     "children": [
       "flex-layout.col#section__dektop--image-ofertas-colchones",
       "flex-layout.col#section__dektop--image-ofertas-muebles",
@@ -367,42 +409,44 @@
     ]
   },
   "flex-layout.col#section__dektop--image-ofertas-colchones": {
+    "title": "sección ofertas cuatro",
+
     "children": ["image#home__image14"],
     "props": {
       "blockClass": "home__image-tv"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-muebles": {
+    "title": "sección ofertas cinco",
     "children": ["image#home__image15"]
   },
   "flex-layout.col#section__dektop--image-ofertas-ropa": {
+    "title": "sección ofertas seis",
     "children": ["image#home__image16"]
   },
   "flex-layout.row#home__section--dektop-ten": {
+    "title": "Desktop sección tecnología",
     "children": [
       "flex-layout.col#section__dektop--text-tecnologia",
       "flex-layout.col#section__dektop--text-tecnologia1"
     ]
   },
   "flex-layout.col#section__dektop--text-tecnologia": {
-    "title": "Texto de sección uno",
+    "title": "sección tecnología uno",
     "children": ["rich-text#section__dektop--title-tecnologia"]
   },
   "rich-text#section__dektop--title-tecnologia": {
+    "title": "texto",
     "props": {
       "text": "Lo mejor en tecnología"
     }
   },
   "flex-layout.col#section__dektop--text-tecnologia1": {
-    "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop--title-tecnologia1"]
-  },
-  "rich-text#section__dektop--title-tecnologia1": {
-    "props": {
-      "text": "¡ VER TODO!"
-    }
+    "title": "sección tecnología dos",
+    "children": ["rich-text#section__dektop-title2"]
   },
   "flex-layout.row#home__section--dektop-eleven": {
+    "title": "Desktop sección tecnología dos",
     "children": [
       "flex-layout.col#section__dektop--eleven-tv-hisense",
       "flex-layout.col#section__dektop--eleven-cel-xiaomi",
@@ -413,34 +457,40 @@
     }
   },
   "flex-layout.col#section__dektop--eleven-tv-hisense": {
+    "title": "sección tecnología uno",
     "children": ["image#section__dektop--image-tv-hisense"]
   },
   "image#section__dektop--image-tv-hisense": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-tv.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--eleven-cel-xiaomi": {
+    "title": "sección tecnología dos",
     "children": ["image#section__dektop--image-cel-xiaomi"]
   },
   "image#section__dektop--image-cel-xiaomi": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-movil.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--eleven-pc-acer": {
+    "title": "sección tecnología tres",
     "children": ["image#section__dektop--image-pc-acer"]
   },
   "image#section__dektop--image-pc-acer": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-computador.png",
       "description": "imagen de mercado"
     }
   },
-
   "flex-layout.row#home__section--dektop-twelve": {
+    "title": "Desktop tecnología tres",
     "children": [
       "flex-layout.col#section__dektop--eleven-pc-rt",
       "flex-layout.col#section__dektop--eleven-tv-lg",
@@ -451,34 +501,40 @@
     }
   },
   "flex-layout.col#section__dektop--eleven-pc-rt": {
+    "title": "sección tecnología uno",
     "children": ["image#section__dektop--image-pc-rt"]
   },
   "image#section__dektop--image-pc-rt": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-portatil.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--eleven-tv-lg": {
+    "title": "sección tecnología dos",
     "children": ["image#section__dektop--image-tv-lg"]
   },
   "image#section__dektop--image-tv-lg": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-tv-lg.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--eleven-cel-phone": {
+    "title": "sección tecnología tres",
     "children": ["image#section__dektop--cel-phone"]
   },
   "image#section__dektop--cel-phone": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-celulares.png",
       "description": "imagen de mercado"
     }
   },
-
   "flex-layout.row#home__section--dektop-thirteen": {
+    "title": "Desktop sección tecnología cuatro",
     "children": [
       "flex-layout.col#section__dektop--thirteen-pc-hp",
       "flex-layout.col#section__dektop--thirteen-tv-caixun",
@@ -489,27 +545,33 @@
     }
   },
   "flex-layout.col#section__dektop--thirteen-pc-hp": {
+    "title": "sección tecnología uno",
     "children": ["image#section__dektop--image-pc-hp"]
   },
   "image#section__dektop--image-pc-hp": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-portatiles.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--thirteen-tv-caixun": {
+    "title": "sección tecnología dos",
     "children": ["image#section__dektop--image-tv-caixun"]
   },
   "image#section__dektop--image-tv-caixun": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-tv-caixun.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--thirteen-cel-vivo": {
+    "title": "sección tecnología tres",
     "children": ["image#section__dektop--cel-vivo"]
   },
   "image#section__dektop--cel-vivo": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__tecnologia-cel.png",
       "description": "imagen de mercado"
@@ -517,6 +579,7 @@
   },
 
   "flex-layout.row#home__section--dektop-fourteen": {
+    "title": "Desktop titulo oferta de mercado",
     "children": [
       "flex-layout.col#section__dektop-text",
       "flex-layout.col#section__dektop-text1"
@@ -526,10 +589,11 @@
     }
   },
   "flex-layout.col#section__dektop-text": {
-    "title": "Texto de sección uno",
+    "title": "Texto de sección mercado uno",
     "children": ["rich-text#section__dektop-title"]
   },
   "rich-text#section__dektop-title": {
+    "title": "texto",
     "props": {
       "text": "Las mejores ofertas de mercado"
     }
@@ -544,6 +608,7 @@
     }
   },
   "flex-layout.row#home__section--dektop-fifteen": {
+    "title": "Desktop sección mercado",
     "children": [
       "flex-layout.col#section__dektop--fifteen-crea-lista",
       "flex-layout.col#section__dektop--fifteen-mercado-rapido"
@@ -553,18 +618,22 @@
     }
   },
   "flex-layout.col#section__dektop--fifteen-crea-lista": {
+    "title": "sección mercado uno",
     "children": ["image#section__dektop--image-crea-lista"]
   },
   "image#section__dektop--image-crea-lista": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__mercado-lista.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--fifteen-mercado-rapido": {
+    "title": "sección tecnología dos",
     "children": ["image#section__dektop--mercado-rapido"]
   },
   "image#section__dektop--mercado-rapido": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__mercado-rapido.png",
       "description": "imagen de mercado"
@@ -572,6 +641,7 @@
   },
 
   "flex-layout.row#home__section--dektop-sixteen": {
+    "title": "Desktop sección mercado dos",
     "children": [
       "flex-layout.col#section__dektop--sixteen-mercado-alimentos",
       "flex-layout.col#section__dektop--sixteen-mercado-aseo",
@@ -583,62 +653,432 @@
     }
   },
   "flex-layout.col#section__dektop--sixteen-mercado-alimentos": {
+    "title": "sección mercado uno",
     "children": ["image#section__dektop--image-mercado-alimentos"]
   },
   "image#section__dektop--image-mercado-alimentos": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__mercado-alimentos.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--sixteen-mercado-aseo": {
+    "title": "sección mercado dos",
     "children": ["image#section__dektop--mercado-aseo"]
   },
   "image#section__dektop--mercado-aseo": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__mercado-aseo.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--sixteen-mercado-congelados": {
+    "title": "sección mercado tres",
     "children": ["image#section__dektop--mercado-congelados"]
   },
   "image#section__dektop--mercado-congelados": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__mercado-congelados.png",
       "description": "imagen de mercado"
     }
   },
   "flex-layout.col#section__dektop--sixteen-mercado-vinos": {
+    "title": "sección mercado cuatro",
     "children": ["image#section__dektop--mercado-vinos"]
   },
   "image#section__dektop--mercado-vinos": {
+    "title": "imagen",
     "props": {
       "src": "assets/img/home__mercado-vinos.png",
       "description": "imagen de mercado"
     }
   },
-
   "flex-layout.row#home__section--dektop-seventeen": {
+    "title": "Desktop imagen de envios gratis",
     "children": ["image#home__image17"],
     "props": {
       "blockClass": "home__section-ten"
     }
-  }
+  },
 
-  /*
- 
-  "flex-layout.row#home__section--dektop-eleven": {
+  "flex-layout.row#home__section--dektop-eighteen": {
+    "title": "Desktop sección electrodomesticos",
     "children": [
-      "image#home__image16",
-      "image#home__image17",
-      "image#home__image18"
+      "flex-layout.col#section__dektop--eighteen-electrodomestico-nevera",
+      "flex-layout.col#section__dektop--eighteen-electrodomestico-nevera-frost",
+      "flex-layout.col#section__dektop--eighteen-electrodomestico-lavadora",
+      "flex-layout.col#section__dektop--eighteen-electrodomestico-aire-acondicionado"
     ],
     "props": {
-      "blockClass": "home__section-eleven"
+      "blockClass": "home__section--three"
     }
   },
- 
+  "flex-layout.col#section__dektop--eighteen-electrodomestico-nevera": {
+    "title": "sección electrodomesticos uno",
+    "children": ["image#section__dektop--image-electrodomestico-nevera"]
+  },
+  "image#section__dektop--image-electrodomestico-nevera": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__electrodomestico-nevera.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--eighteen-electrodomestico-nevera-frost": {
+    "title": "sección electrodomesticos dos",
+    "children": ["image#section__dektop--nevera-frost"]
+  },
+  "image#section__dektop--nevera-frost": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__electrodomestico-nevera-frost.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--eighteen-electrodomestico-lavadora": {
+    "title": "sección electrodomesticos tres",
+    "children": ["image#section__dektop--lavadora"]
+  },
+  "image#section__dektop--lavadora": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__electrodomestico-lavadora.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--eighteen-electrodomestico-aire-acondicionado": {
+    "title": "sección electrodomesticos cuatro",
+    "children": ["image#section__dektop---aire-acondicionado"]
+  },
+  "image#section__dektop---aire-acondicionado": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__electrodomestico-aire-acondicionado.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.row#home__section--dektop-nighteen": {
+    "title": "Desktop titulo moda y accesorios",
+    "children": [
+      "flex-layout.col#section__dektop--text-moda",
+      "flex-layout.col#section__dektop--text-moda1"
+    ]
+  },
+  "flex-layout.col#section__dektop--text-moda": {
+    "title": "Texto de sección uno",
+    "children": ["rich-text#section__dektop--title-moda"]
+  },
+  "rich-text#section__dektop--title-moda": {
+    "title": "texto",
+    "props": {
+      "text": "Moda y accesorios"
+    }
+  },
+  "flex-layout.col#section__dektop--text-moda1": {
+    "title": "Texto de sección dos",
+    "children": ["rich-text#section__dektop-title2"]
+  },
+
+  "flex-layout.row#home__section--dektop-twenty": {
+    "title": "Desktop imagen de americanino",
+    "children": ["flex-layout.col#section__dektop--image-americanino"],
+    "props": {
+      "blockClass": "home__section-eight"
+    }
+  },
+  "flex-layout.col#section__dektop--image-americanino": {
+    "title": "sección americanino uno",
+    "children": ["image#section__dektop--image-americanino"]
+  },
+  "image#section__dektop--image-americanino": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__moda-americanino.png",
+      "description": "imagen de americanino"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-one": {
+    "title": "Desktop sección moda",
+    "children": [
+      "flex-layout.col#section__dektop--twenty-one-velez",
+      "flex-layout.col#section__dektop--twenty-one-tenis-maletas",
+      "flex-layout.col#section__dektop--twenty-one-relojes-ropa"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-one-velez": {
+    "title": "sección moda uno",
+    "children": ["image#section__dektop--image-velez"]
+  },
+  "image#section__dektop--image-velez": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__moda-velez.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-one-tenis-maletas": {
+    "title": "sección moda dos",
+    "children": [
+      "image#section__dektop--image-tenis",
+      "image#section__dektop--image-maletas"
+    ]
+  },
+  "image#section__dektop--image-tenis": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__moda-tenis.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "image#section__dektop--image-maletas": {
+    "title": "imagen dos",
+    "props": {
+      "src": "assets/img/home__moda-maletas.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-one-relojes-ropa": {
+    "title": "sección moda tres",
+    "children": [
+      "image#section__dektop--relojes",
+      "image#section__dektop--ropa"
+    ]
+  },
+  "image#section__dektop--relojes": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__moda-relojes.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "image#section__dektop--ropa": {
+    "title": "imagen dos",
+    "props": {
+      "src": "assets/img/home__moda-ropa.png",
+      "description": "imagen de mercado"
+    }
+  },
+
+  // "flex-layout.row#home__section--dektop-twenty-one"
+  "flex-layout.row#home__section--dektop-twenty-two": {
+    "title": "Desktop titulo hogar",
+    "children": [
+      "flex-layout.col#section__dektop--text-hogar",
+      "flex-layout.col#section__dektop--text-hogar1"
+    ]
+  },
+  "flex-layout.col#section__dektop--text-hogar": {
+    "title": "Texto de sección uno",
+    "children": ["rich-text#section__dektop--title-hogar"]
+  },
+  "rich-text#section__dektop--title-hogar": {
+    "title": "Texto de sección uno",
+    "props": {
+      "text": "Todo para tu hogar"
+    }
+  },
+  "flex-layout.col#section__dektop--text-hogar1": {
+    "title": "Texto de sección dos",
+    "children": ["rich-text#section__dektop-title2"]
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-three": {
+    "title": "Desktop imagen de envios gratis de muebles",
+    "children": ["flex-layout.col#section__dektop--image-promocion-muebles"],
+    "props": {
+      "blockClass": "home__section-eight"
+    }
+  },
+  "flex-layout.col#section__dektop--image-promocion-muebles": {
+    "title": "sección muebles uno",
+    "children": ["image#section__dektop--image-promocion-muebles"]
+  },
+  "image#section__dektop--image-promocion-muebles": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__promocion-muebles.png",
+      "description": "imagen de promocion muebles"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-four": {
+    "title": "Desktop sección muebles",
+    "children": [
+      "flex-layout.col#section__dektop--twenty-four-hogar-colchones",
+      "flex-layout.col#section__dektop--twenty-four-hogar-sartenes",
+      "flex-layout.col#section__dektop--twenty-four-hogar-closets",
+      "flex-layout.col#section__dektop--twenty-four-hogar-escritorios"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-colchones": {
+    "title": "secciónmueble uno",
+    "children": ["image#section__dektop--image-hogar-colchones"]
+  },
+  "image#section__dektop--image-hogar-colchones": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-colchones.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-sartenes": {
+    "title": "sección mueble dos",
+    "children": ["image#section__dektop--hogar-sartenes"]
+  },
+  "image#section__dektop--hogar-sartenes": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-sartenes.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-closets": {
+    "title": "sección mueble tres",
+    "children": ["image#section__dektop--hogar-closets"]
+  },
+  "image#section__dektop--hogar-closets": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-closets.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-escritorios": {
+    "title": "sección mueble cuatro",
+    "children": ["image#section__dektop---hogar-escritorios"]
+  },
+  "image#section__dektop---hogar-escritorios": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-escritorios.png",
+      "description": "imagen de mercado"
+    }
+  },
+  // "flex-layout.row#home__section--dektop-twenty-five"
+
+  "flex-layout.row#home__section--dektop-twenty-six": {
+    "title": "Titulo todo para tu familia",
+    "children": [
+      "flex-layout.col#section__dektop--text-familia",
+      "flex-layout.col#section__dektop--text-familia1"
+    ]
+  },
+  "flex-layout.col#section__dektop--text-familia": {
+    "title": "Texto de sección uno",
+    "children": ["rich-text#section__dektop--title-familia"]
+  },
+  "rich-text#section__dektop--title-familia": {
+    "title": "Texto",
+    "props": {
+      "text": "Todo para tu Familia"
+    }
+  },
+  "flex-layout.col#section__dektop--text-familia1": {
+    "title": "Texto de sección dos",
+    "children": ["rich-text#section__dektop-title2"]
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-seven": {
+    "title": "Desktop imagen de disfraces",
+    "children": ["flex-layout.col#section__dektop--image-disfraces"],
+    "props": {
+      "blockClass": "home__section-eight"
+    }
+  },
+  "flex-layout.col#section__dektop--image-disfraces": {
+    "title": "sección disfrace uno",
+    "children": ["image#section__dektop--image-disfraces"]
+  },
+  "image#section__dektop--image-disfraces": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-disfraces.png",
+      "description": "imagen de americanino"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-eight": {
+    "title": "Desktop sección hogar para la familia",
+    "children": [
+      "flex-layout.col#section__dektop--twenty-four-hogar-bicicleta",
+      "flex-layout.col#section__dektop--twenty-four-hogar-coches",
+      "flex-layout.col#section__dektop--twenty-four-hogar-caminadora",
+      "flex-layout.col#section__dektop--twenty-four-hogar-sillas"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-bicicleta": {
+    "title": "sección hogar uno",
+    "children": ["image#section__dektop--image-hogar-bicicleta"]
+  },
+  "image#section__dektop--image-hogar-bicicleta": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-bicicleta.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-coches": {
+    "title": "sección hogar dos",
+    "children": ["image#section__dektop--hogar-coches"]
+  },
+  "image#section__dektop--hogar-coches": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-coches.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-caminadora": {
+    "title": "sección hogar tres",
+    "children": ["image#section__dektop--hogar-caminadora"]
+  },
+  "image#section__dektop--hogar-caminadora": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-caminadora.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-four-hogar-sillas": {
+    "title": "sección hogar cuatro",
+    "children": ["image#section__dektop---hogar-sillas"]
+  },
+  "image#section__dektop---hogar-sillas": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__hogar-sillas.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.row#home__section--dektop-twenty-nine": {
+    "title": "Desktop imagen de clorox",
+    "children": ["flex-layout.col#section__dektop--twenty-nine-aseo-clorox"]
+  },
+  "flex-layout.col#section__dektop--twenty-nine-aseo-clorox": {
+    "title": "sección aseo uno",
+    "children": ["image#section__dektop--aseo-clorox"]
+  },
+  "image#section__dektop--aseo-clorox": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/img/home__aseo-clorox.png",
+      "description": "imagen de mercado"
+    }
+  }
+  /*
 
   "flex-layout.row#home__section--dektop-thirteen": {
     "title": "Sección Dos",
