@@ -25,34 +25,35 @@
   },
   "image#home__slider--one": {
     "props": {
-      "src": "assets/img/slider-exito.png"
+      "src": "assets/img/home__slider-tv.png"
     }
   },
   "image#home__slider--two": {
     "props": {
-      "src": "assets/img/slider-exito1.png"
+      "src": "assets/img/home__slider-electrodomesticos.png"
     }
   },
   "image#home__slider--three": {
     "props": {
-      "src": "assets/img/slider-exito2.png"
+      "src": "assets/img/home__slider-movil.png"
     }
   },
   "image#home__slider--four": {
     "props": {
-      "src": "assets/img/slider-exito3.png"
+      "src": "assets/img/home__slider-morrales.png"
     }
   },
   "image#home__slider--five": {
     "props": {
-      "src": "assets/img/slider-exito4.png"
+      "src": "assets/img/home__slider-colchon.png"
     }
   },
   "image#home__slider--six": {
     "props": {
-      "src": "assets/img/slider-exito5.png"
+      "src": "assets/img/home__slider-cliente.png"
     }
-  },
+  }
+  /*
   "list-context.image-list#home__slider--list": {
     "title": "Lista de imágenes",
     "children": ["slider-layout#home__slider--list"],
@@ -85,5 +86,5 @@
       "infinite": true,
       "blockClass": "home__slider"
     }
-  }
+  }*/
 }

@@ -12,11 +12,11 @@
     }
   },
   "image#home__image1": {
-    "title": "Imagen de productos de aseo",
+    "title": "Imagen de promociones de gaseosas",
     "props": {
-      "src": "assets/img/aseo-hogar.png",
+      "src": "assets/img/home__promocion-gaseosas.png",
       "title": "Promocion 1",
-      "blockClass": "home__image-aseo",
+      "blockClass": "home__promocion-gaseosas",
       "link": {
         "url": "https://www.google.com",
         "newTab": true,
