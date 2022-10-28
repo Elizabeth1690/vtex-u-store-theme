@@ -103,6 +103,15 @@
   "search-bar#header__search": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": { "openAutocompleteOnFocus": true }
+  },
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon#home__orders--icon",
+      "variation": "popup",
+      "itemCountMode": "total",
+      "quantityDisplay": "always",
+      "customPixelEventName": "pageView"
+    }
   }
 
   /*"header-row#header__middle": {
