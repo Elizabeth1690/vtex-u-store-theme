@@ -1,4 +1,9 @@
-.headerRowBackground--header__top,
+.headerRowBackground--header__main,
 .headerRowBackground--header__middle {
   background-color: #ffe800;
+}
+
+.headerRowBackground--header__top {
+  background-color: #532679;
+  height: 5px;
 }

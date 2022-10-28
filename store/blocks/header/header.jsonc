@@ -9,27 +9,53 @@
   },
   "header-layout.desktop": {
     "title": "Header Desktop",
-    "children": ["header-row#header__top"]
+    "children": [
+      "header-row#header__top",
+      "header-row#header__main",
+      "header-row#header__middle"
+    ]
   },
   "header-layout.mobile": {
     "title": "Header Mobile",
-    "children": ["header-row#header__top", "header-row#header__middle"]
+    "children": [
+      "header-row#header__top",
+      "header-row#header__main",
+      "header-row#header__middle"
+    ]
   },
   "header-row#header__top": {
-    "title": "Header superior",
+    "title": "Sección superior del header",
+    "children": ["flex-layout.row#header__top-texto"],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "flex-layout.row#header__top-texto": {
+    "title": "Sección superior uno",
+    "children": ["rich-text#header__top--text"],
+    "props": { "horizontalAlign": "center" }
+  },
+  "rich-text#header__top--text": {
+    "props": {
+      "blockClass": "header__texto-uno",
+      "text": "👻 Vive la magia de Halloween en tu Éxito 🎃"
+    }
+  },
+  "header-row#header__main": {
+    "title": "Header principal",
 
     "children": [
-      "logo#header__top--logo",
+      "logo#header__main--logo",
       "header-spacer",
       "login",
       //"modal-trigger#header__top--login",
       "minicart.v2" /*"rich-text#test"*/
     ],
     "props": {
-      "blockClass": "header__top"
+      "blockClass": "header__main"
     }
   },
-  "logo#header__top--logo": {
+  "logo#header__main--logo": {
     "title": "logo",
     "props": {
       "url": "assets/img/logo-exito.png",
@@ -37,18 +63,18 @@
       "href": "/"
     }
   },
-  "modal-trigger#header__top--login": {
+  "modal-trigger#header__main--login": {
     "children": [
-      "rich-text#header__top--login",
-      "modal-layout#header__top--login"
+      "rich-text#header__main--login",
+      "modal-layout#header__main--login"
     ]
   },
-  "rich-text#header__top--login": {
+  "rich-text#header__main--login": {
     "props": {
       "text": "login"
     }
   },
-  "modal-layout#header__top--login": {
+  "modal-layout#header__main--login": {
     "children": ["login-content"]
   },
   "login": {
@@ -64,96 +90,27 @@
   "header-row#header__middle": {
     "title": "Header medio",
     "children": [
-      /*"rich-text#test", "rich-text#test"*/ "drawer#header__mobile--menu"
+      /*"rich-text#test", "rich-text#test"*/ "drawer#header__mobile--menu",
+      "search-bar#header__search"
     ],
     "props": {
       "blockClass": "header__middle"
     }
   },
-  "drawer#header__mobile--menu": {
-    "children": ["menu#header__menu" /*, "rich-text#test-app-version"*/],
-    "blocks": ["drawer-trigger"]
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
   },
-  "drawer-trigger": {
-    "children": ["rich-text#menu"]
+  "search-bar#header__search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": { "openAutocompleteOnFocus": true }
   },
-  "rich-text#menu": {
+  "minicart.v2": {
     "props": {
-      "text": "Menú"
-    }
-  },
-  "menu#header__menu": {
-    "children": ["menu-item#department__one", "menu-item#department__two"],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#department__one": {
-    "props": {
-      "id": "department-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
-        "noFollow": true,
-        "tagTitle": "Google Title",
-        "text": "Google"
-      }
-    },
-    "blocks": ["submenu.accordion#department__one"]
-  },
-
-  "submenu.accordion#department__one": {
-    "children": ["menu#department__one"]
-  },
-  "menu#department__one": {
-    "children": ["menu-item#category__one", "menu-item#category__two"],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#category__one": {
-    "props": {
-      "id": "category-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Google Driver",
-        "text": "Google Driver"
-      }
-    }
-  },
-  "menu-item#category__two": {
-    "props": {
-      "id": "category-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Google Meet",
-        "text": "Google Meet"
-      }
-    }
-  },
-  "menu-item#department__two": {
-    "props": {
-      "id": "department-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.bing.com/?setLang=es",
-        "noFollow": true,
-        "tagTitle": "Bing Title",
-        "text": "Bing"
-      }
-    }
-  },
-  "rich-text#test-app-version": {
-    "props": {
-      "text": "Test App Versión"
+      "MinicartIcon": "icon#home__orders--icon",
+      "variation": "popup",
+      "itemCountMode": "total",
+      "quantityDisplay": "always",
+      "customPixelEventName": "pageView"
     }
   }
 
