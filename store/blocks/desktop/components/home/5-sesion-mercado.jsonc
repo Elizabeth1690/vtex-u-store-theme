@@ -1,0 +1,120 @@
+{
+  "flex-layout.row#home__section--dektop-fourteen": {
+    "title": "Desktop titulo oferta de mercado",
+    "children": [
+      "flex-layout.col#section__dektop-text",
+      "flex-layout.col#section__dektop-text1"
+    ],
+    "props": {
+      "blockClass": "home__section-twelve"
+    }
+  },
+  "flex-layout.col#section__dektop-text": {
+    "title": "Texto de sección mercado uno",
+    "children": ["rich-text#section__dektop-title"]
+  },
+  "rich-text#section__dektop-title": {
+    "title": "Texto",
+    "props": {
+      "text": "Las mejores ofertas de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop-text1": {
+    "title": "Texto de sección dos",
+    "children": ["rich-text#section__dektop-title2"]
+  },
+  "rich-text#section__dektop-title2": {
+    "props": {
+      "text": "¡ VER TODO!"
+    }
+  },
+  "flex-layout.row#home__section--dektop-fifteen": {
+    "title": "Desktop sección mercado",
+    "children": [
+      "flex-layout.col#section__dektop--fifteen-crea-lista",
+      "flex-layout.col#section__dektop--fifteen-mercado-rapido"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--fifteen-crea-lista": {
+    "title": "Sección mercado uno",
+    "children": ["image#section__dektop--image-crea-lista"]
+  },
+  "image#section__dektop--image-crea-lista": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-lista.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--fifteen-mercado-rapido": {
+    "title": "Sección mercado dos",
+    "children": ["image#section__dektop--mercado-rapido"]
+  },
+  "image#section__dektop--mercado-rapido": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-rapido.png",
+      "description": "imagen de mercado"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-sixteen": {
+    "title": "Desktop sección mercado dos",
+    "children": [
+      "flex-layout.col#section__dektop--sixteen-mercado-alimentos",
+      "flex-layout.col#section__dektop--sixteen-mercado-aseo",
+      "flex-layout.col#section__dektop--sixteen-mercado-congelados",
+      "flex-layout.col#section__dektop--sixteen-mercado-vinos"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--sixteen-mercado-alimentos": {
+    "title": "Sección mercado uno",
+    "children": ["image#section__dektop--image-mercado-alimentos"]
+  },
+  "image#section__dektop--image-mercado-alimentos": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-alimentos.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--sixteen-mercado-aseo": {
+    "title": "Sección mercado dos",
+    "children": ["image#section__dektop--mercado-aseo"]
+  },
+  "image#section__dektop--mercado-aseo": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-aseo.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--sixteen-mercado-congelados": {
+    "title": "Sección mercado tres",
+    "children": ["image#section__dektop--mercado-congelados"]
+  },
+  "image#section__dektop--mercado-congelados": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-congelados.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--sixteen-mercado-vinos": {
+    "title": "Sección mercado cuatro",
+    "children": ["image#section__dektop--mercado-vinos"]
+  },
+  "image#section__dektop--mercado-vinos": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-vinos.png",
+      "description": "imagen de mercado"
+    }
+  }
+}
