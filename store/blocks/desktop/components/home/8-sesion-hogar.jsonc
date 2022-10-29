@@ -1,0 +1,156 @@
+{
+  "flex-layout.row#home__section--dektop-twenty-four": {
+    "title": "Desktop titulo hogar",
+    "children": [
+      "flex-layout.col#section__dektop--text-hogar",
+      "flex-layout.col#section__dektop--text-hogar1"
+    ]
+  },
+  "flex-layout.col#section__dektop--text-hogar": {
+    "title": "Texto de sección uno",
+    "children": ["rich-text#section__dektop--title-hogar"]
+  },
+  "rich-text#section__dektop--title-hogar": {
+    "title": "Texto de sección uno",
+    "props": {
+      "text": "Todo para tu hogar"
+    }
+  },
+  "flex-layout.col#section__dektop--text-hogar1": {
+    "title": "Texto de sección dos",
+    "children": ["rich-text#section__dektop-title2"]
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-five": {
+    "title": "Desktop imagen de envios gratis de muebles",
+    "children": ["flex-layout.col#section__dektop--image-promocion-muebles"],
+    "props": {
+      "blockClass": "home__section-eight"
+    }
+  },
+  "flex-layout.col#section__dektop--image-promocion-muebles": {
+    "title": "Sección muebles uno",
+    "children": ["image#section__dektop--image-promocion-muebles"]
+  },
+  "image#section__dektop--image-promocion-muebles": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__promocion-muebles.png",
+      "description": "imagen de promocion muebles"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-six": {
+    "title": "Desktop sección muebles",
+    "children": [
+      "flex-layout.col#section__dektop--twenty-six-hogar-colchones",
+      "flex-layout.col#section__dektop--twenty-six-hogar-sartenes",
+      "flex-layout.col#section__dektop--twenty-six-hogar-closets",
+      "flex-layout.col#section__dektop--twenty-six-hogar-escritorios"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-six-hogar-colchones": {
+    "title": "Secciónmueble uno",
+    "children": ["image#section__dektop--image-hogar-colchones"]
+  },
+  "image#section__dektop--image-hogar-colchones": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-colchones.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-six-hogar-sartenes": {
+    "title": "Sección mueble dos",
+    "children": ["image#section__dektop--hogar-sartenes"]
+  },
+  "image#section__dektop--hogar-sartenes": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-sartenes.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-six-hogar-closets": {
+    "title": "Sección mueble tres",
+    "children": ["image#section__dektop--hogar-closets"]
+  },
+  "image#section__dektop--hogar-closets": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-closets.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-six-hogar-escritorios": {
+    "title": "Sección mueble cuatro",
+    "children": ["image#section__dektop---hogar-escritorios"]
+  },
+  "image#section__dektop---hogar-escritorios": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-escritorios.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.row#home__section--dektop-twenty-seven": {
+    "title": "Desktop slider  hogar",
+    "children": ["list-context.image-list#home__slider--list-hogar"]
+  },
+  "list-context.image-list#home__slider--list-hogar": {
+    "title": "Lista de imágenes de hogar",
+    "children": ["slider-layout#home__slider--list-hogar-uno"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/home__fantasia.png",
+          "description": "Slide"
+        },
+        {
+          "image": "assets/img/home__inval.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/home__paraiso.png",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/home__rta.png",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/home__sprinf.png",
+          "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/home__vital.png",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/home__muebles.png",
+          "description": "Slide 6"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list-hogar-uno": {
+    "title": "Slider con lista aliados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

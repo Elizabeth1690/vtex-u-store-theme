@@ -1,4 +1,61 @@
 {
+  "header-row#header__main": {
+    "title": "Header principal",
+
+    "children": [
+      "logo#header__main--logo",
+      "header-spacer",
+      "login",
+      //"modal-trigger#header__top--login",
+      "minicart.v2" /*"rich-text#test"*/
+    ],
+    "props": {
+      "blockClass": "header__main"
+    }
+  },
+  "logo#header__main--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo-exito.png",
+      "width": 85,
+      "href": "/"
+    }
+  },
+  "modal-trigger#header__main--login": {
+    "children": [
+      "rich-text#header__main--login",
+      "modal-layout#header__main--login"
+    ]
+  },
+  "rich-text#header__main--login": {
+    "props": {
+      "text": "login"
+    }
+  },
+  "modal-layout#header__main--login": {
+    "children": ["login-content"]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "header-row#header__middle": {
+    "title": "Header medio",
+    "children": [
+      /*"rich-text#test", "rich-text#test"*/ "drawer#header__mobile--menu",
+      "search-bar#header__search"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+
   "drawer#header__mobile--menu": {
     "children": ["menu#header__menu" /*, "rich-text#test-app-version"*/]
     //  "blocks": ["drawer-trigger"]
@@ -83,6 +140,22 @@
   "rich-text#test-app-version": {
     "props": {
       "text": "Test App Versión"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "search-bar#header__search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": { "openAutocompleteOnFocus": true }
+  },
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon#home__orders--icon",
+      "variation": "popup",
+      "itemCountMode": "total",
+      "quantityDisplay": "always",
+      "customPixelEventName": "pageView"
     }
   }
 }

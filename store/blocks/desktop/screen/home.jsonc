@@ -25,12 +25,16 @@
       "flex-layout.row#home__section--dektop-twenty",
       "flex-layout.row#home__section--dektop-twenty-one",
       "flex-layout.row#home__section--dektop-twenty-two",
+      "flex-layout.row#home__section--dektop-twenty-three",
       "flex-layout.row#home__section--dektop-twenty-four",
       "flex-layout.row#home__section--dektop-twenty-six",
+      "flex-layout.row#home__section--dektop-twenty-seven",
       "flex-layout.row#home__section--dektop-twenty-eight",
       "flex-layout.row#home__section--dektop-twenty-nine",
       "flex-layout.row#home__section--dektop-thirty",
-      "flex-layout.row#home__section--dektop-thirty-one"
+      "flex-layout.row#home__section--dektop-thirty-one",
+      "flex-layout.row#home__section--dektop-thirty-two",
+      "flex-layout.row#home__section--dektop-thirty-three"
     ]
   }
 }

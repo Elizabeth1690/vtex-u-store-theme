@@ -1,0 +1,99 @@
+{
+  "flex-layout.row#home__section--dektop-twenty-eight": {
+    "title": "Titulo todo para tu familia",
+    "children": [
+      "flex-layout.col#section__dektop--text-familia",
+      "flex-layout.col#section__dektop--text-familia1"
+    ]
+  },
+  "flex-layout.col#section__dektop--text-familia": {
+    "title": "Texto de sección uno",
+    "children": ["rich-text#section__dektop--title-familia"]
+  },
+  "rich-text#section__dektop--title-familia": {
+    "title": "Texto",
+    "props": {
+      "text": "Todo para tu Familia"
+    }
+  },
+  "flex-layout.col#section__dektop--text-familia1": {
+    "title": "Texto de sección dos",
+    "children": ["rich-text#section__dektop-title2"]
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-nine": {
+    "title": "Desktop imagen de disfraces",
+    "children": ["flex-layout.col#section__dektop--image-disfraces"],
+    "props": {
+      "blockClass": "home__section-eight"
+    }
+  },
+  "flex-layout.col#section__dektop--image-disfraces": {
+    "title": "Sección disfrace uno",
+    "children": ["image#section__dektop--image-disfraces"]
+  },
+  "image#section__dektop--image-disfraces": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-disfraces.png",
+      "description": "imagen de americanino"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-thirty": {
+    "title": "Desktop sección hogar para la familia",
+    "children": [
+      "flex-layout.col#section__dektop--thirty-hogar-bicicleta",
+      "flex-layout.col#section__dektop--thirty-hogar-coches",
+      "flex-layout.col#section__dektop--thirty-hogar-caminadora",
+      "flex-layout.col#section__dektop--thirty-hogar-sillas"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--thirty-hogar-bicicleta": {
+    "title": "Sección hogar uno",
+    "children": ["image#section__dektop--image-hogar-bicicleta"]
+  },
+  "image#section__dektop--image-hogar-bicicleta": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-bicicleta.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--thirty-hogar-coches": {
+    "title": "Sección hogar dos",
+    "children": ["image#section__dektop--hogar-coches"]
+  },
+  "image#section__dektop--hogar-coches": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-coches.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--thirty-hogar-caminadora": {
+    "title": "Sección hogar tres",
+    "children": ["image#section__dektop--hogar-caminadora"]
+  },
+  "image#section__dektop--hogar-caminadora": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-caminadora.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--thirty-hogar-sillas": {
+    "title": "Sección hogar cuatro",
+    "children": ["image#section__dektop---hogar-sillas"]
+  },
+  "image#section__dektop---hogar-sillas": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-sillas.png",
+      "description": "imagen de mercado"
+    }
+  }
+}
