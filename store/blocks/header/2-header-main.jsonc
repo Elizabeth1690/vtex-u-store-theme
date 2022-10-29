@@ -1,0 +1,161 @@
+{
+  "header-row#header__main": {
+    "title": "Header principal",
+
+    "children": [
+      "logo#header__main--logo",
+      "header-spacer",
+      "login",
+      //"modal-trigger#header__top--login",
+      "minicart.v2" /*"rich-text#test"*/
+    ],
+    "props": {
+      "blockClass": "header__main"
+    }
+  },
+  "logo#header__main--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo-exito.png",
+      "width": 85,
+      "href": "/"
+    }
+  },
+  "modal-trigger#header__main--login": {
+    "children": [
+      "rich-text#header__main--login",
+      "modal-layout#header__main--login"
+    ]
+  },
+  "rich-text#header__main--login": {
+    "props": {
+      "text": "login"
+    }
+  },
+  "modal-layout#header__main--login": {
+    "children": ["login-content"]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "header-row#header__middle": {
+    "title": "Header medio",
+    "children": [
+      /*"rich-text#test", "rich-text#test"*/ "drawer#header__mobile--menu",
+      "search-bar#header__search"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header__menu" /*, "rich-text#test-app-version"*/]
+    //  "blocks": ["drawer-trigger"]
+  },
+  /*"drawer-trigger": {
+    "children": ["rich-text#menu"]
+  },
+  "rich-text#menu": {
+    "props": {
+      "text": "Menú"
+    }
+  },*/
+  "menu#header__menu": {
+    "children": ["menu-item#department__one", "menu-item#department__two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department__one": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Google Title",
+        "text": "Google"
+      }
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+
+  "submenu.accordion#department__one": {
+    "children": ["menu#department__one"]
+  },
+  "menu#department__one": {
+    "children": ["menu-item#category__one", "menu-item#category__two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Google Driver",
+        "text": "Google Driver"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Google Meet",
+        "text": "Google Meet"
+      }
+    }
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.bing.com/?setLang=es",
+        "noFollow": true,
+        "tagTitle": "Bing Title",
+        "text": "Bing"
+      }
+    }
+  },
+  "rich-text#test-app-version": {
+    "props": {
+      "text": "Test App Versión"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "search-bar#header__search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": { "openAutocompleteOnFocus": true }
+  },
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon#home__orders--icon",
+      "variation": "popup",
+      "itemCountMode": "total",
+      "quantityDisplay": "always",
+      "customPixelEventName": "pageView"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#home__section--dektop-thirty-one": {
+    "title": "Desktop slider hogar",
+    "children": ["list-context.image-list#home__slider--list"]
+  },
+
+  "list-context.image-list#home__slider--list": {
+    "title": "Lista de imágenes",
+    "children": ["slider-layout#home__slider--list"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/home__tarjetas.png",
+          "description": "Slide"
+        },
+        {
+          "image": "assets/img/home__reloj.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/home__patrocinio-cocacola.png",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/home__lg.png",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/home__lavadora.png",
+          "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/home__celulares.png",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/home__cocacola.png",
+          "description": "Slide 6"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list": {
+    "title": "Slider con lista",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}
+
+
+

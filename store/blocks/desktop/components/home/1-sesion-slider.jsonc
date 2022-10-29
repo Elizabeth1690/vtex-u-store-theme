@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#home__section--dektop-zero": {
+    "title": "Desktop sección imagen cyberlunes movible",
+    "children": ["image#section__dektop--cyber-lunes"],
+    "props": {
+      "blockClass": "home__section-zero"
+    }
+  },
+  "image#section__dektop--cyber-lunes": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__compra.movible.gif",
+      "description": "imagen de cyber lunes"
+    }
+  },
+  "flex-layout.row#home__section--dektop-one": {
+    "title": "Desktop sección  slider y imagen con descuentos",
+    "children": [
+      "flex-layout.col#section__dektop---slider",
+      "flex-layout.col#section__dektop---image"
+    ],
+    "props": {
+      "blockClass": "home__section-one"
+    }
+  },
+  "flex-layout.col#section__dektop---slider": {
+    "title": "Sección slider",
+    "children": ["slider-layout#home__slider--children"]
+  },
+  "slider-layout#home__slider--children": {
+    "title": "Slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three",
+      "image#home__slider--four",
+      "image#home__slider--five",
+      "image#home__slider--six"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/home__slider-tv.png"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/home__slider-electrodomesticos.png"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/home__slider-movil.png"
+    }
+  },
+  "image#home__slider--four": {
+    "props": {
+      "src": "assets/img/home__slider-morrales.png"
+    }
+  },
+  "image#home__slider--five": {
+    "props": {
+      "src": "assets/img/home__slider-colchon.png"
+    }
+  },
+  "image#home__slider--six": {
+    "props": {
+      "src": "assets/img/home__slider-cliente.png"
+    }
+  },
+  "flex-layout.col#section__dektop---image": {
+    "title": "Imagen",
+    "children": ["image#section__dektop--promocion-gaseosa"]
+  },
+
+  "image#section__dektop--promocion-gaseosa": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__promocion-gaseosas.png",
+      "description": "imagen de promoción de gaseosas"
+    }
+  },
+
+  "icon#home__orders--icon": {
+    "props": {
+      "id": "hpa-calendar",
+      "size": "40"
+    }
+  }
+}

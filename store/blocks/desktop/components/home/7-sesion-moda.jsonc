@@ -1,0 +1,182 @@
+{
+  "flex-layout.row#home__section--dektop-twenty": {
+    "title": "Desktop titulo moda y accesorios",
+    "children": [
+      "flex-layout.col#section__dektop--text-moda",
+      "flex-layout.col#section__dektop--text-moda1"
+    ]
+  },
+  "flex-layout.col#section__dektop--text-moda": {
+    "title": "Texto de sección uno",
+    "children": ["rich-text#section__dektop--title-moda"]
+  },
+  "rich-text#section__dektop--title-moda": {
+    "title": "Texto",
+    "props": {
+      "text": "Moda y accesorios"
+    }
+  },
+  "flex-layout.col#section__dektop--text-moda1": {
+    "title": "Texto de sección dos",
+    "children": ["rich-text#section__dektop-title2"]
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-one": {
+    "title": "Desktop imagen de americanino",
+    "children": ["flex-layout.col#section__dektop--image-americanino"],
+    "props": {
+      "blockClass": "home__section-eight"
+    }
+  },
+  "flex-layout.col#section__dektop--image-americanino": {
+    "title": "Sección americanino uno",
+    "children": ["image#section__dektop--image-americanino"]
+  },
+  "image#section__dektop--image-americanino": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__moda-americanino.png",
+      "description": "imagen de americanino"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-two": {
+    "title": "Desktop sección moda",
+    "children": [
+      "flex-layout.col#section__dektop--twenty-two-velez",
+      "flex-layout.col#section__dektop--twenty-two-tenis-maletas",
+      "flex-layout.col#section__dektop--twenty-two-relojes-ropa"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-two-velez": {
+    "title": "Sección moda uno",
+    "children": ["image#section__dektop--image-velez"]
+  },
+  "image#section__dektop--image-velez": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__moda-velez.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-two-tenis-maletas": {
+    "title": "Sección moda dos",
+    "children": [
+      "image#section__dektop--image-tenis",
+      "image#section__dektop--image-maletas"
+    ]
+  },
+  "image#section__dektop--image-tenis": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__moda-tenis.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "image#section__dektop--image-maletas": {
+    "title": "Imagen dos",
+    "props": {
+      "src": "assets/img/home__moda-maletas.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "flex-layout.col#section__dektop--twenty-two-relojes-ropa": {
+    "title": "Sección moda tres",
+    "children": [
+      "image#section__dektop--relojes",
+      "image#section__dektop--ropa"
+    ]
+  },
+  "image#section__dektop--relojes": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__moda-relojes.png",
+      "description": "imagen de mercado"
+    }
+  },
+  "image#section__dektop--ropa": {
+    "title": "Imagen dos",
+    "props": {
+      "src": "assets/img/home__moda-ropa.png",
+      "description": "imagen de mercado"
+    }
+  },
+
+  "flex-layout.row#home__section--dektop-twenty-three": {
+    "title": "Desktop slider  marca de ropa",
+    "children": ["list-context.image-list#home__slider--list-marca"]
+  },
+
+  "list-context.image-list#home__slider--list-marca": {
+    "title": "Lista de imágenes hogar",
+    "children": ["slider-layout#home__slider--list-marcas-uno"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/home__arkitct.png",
+          "description": "Slide"
+        },
+        {
+          "image": "assets/img/home__leo.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/home__leonisa.png",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/home__levis.png",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/home__lugano.png",
+          "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/home__nike.png",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/home__sprite.png",
+          "description": "Slide 6"
+        },
+        {
+          "image": "assets/img/home__tenis.png",
+          "description": "Slide 7"
+        },
+        {
+          "image": "assets/img/home__toto.png",
+          "description": "Slide 8"
+        },
+        {
+          "image": "assets/img/home__velez.png",
+          "description": "Slide 9"
+        },
+        {
+          "image": "assets/img/home__americanino.png",
+          "description": "Slide 10"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list-marcas-uno": {
+    "title": "Slider con lista hogar",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

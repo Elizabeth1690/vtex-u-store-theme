@@ -1,0 +1,19 @@
+{
+  "header-row#header__top": {
+    "title": "Sección superior del header",
+    "children": ["flex-layout.row#header__top-texto"],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "flex-layout.row#header__top-texto": {
+    "title": "Sección superior uno",
+    "children": ["rich-text#header__top--text"]
+  },
+  "rich-text#header__top--text": {
+    "props": {
+      "blockClass": "header__texto-uno",
+      "text": "👻 Vive la magia de Halloween en tu Éxito 🎃"
+    }
+  }
+}
