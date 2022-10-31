@@ -1,48 +1,4 @@
 {
-  "flex-layout.row#home__section--dektop-seventeen": {
-    "title": "Desktop titulo electrodomésticos para el hogar",
-    "children": [
-      "flex-layout.col#section__dektop-text-electro",
-      "flex-layout.col#section__dektop-text-electro1"
-    ],
-    "props": {
-      "blockClass": "home__section-twelve"
-    }
-  },
-  "flex-layout.col#section__dektop-text-electro": {
-    "title": "Texto de sección electrodomestico uno",
-    "children": ["rich-text#section__dektop-title-electro"]
-  },
-  "rich-text#section__dektop-title-electro": {
-    "title": "Texto",
-    "props": {
-      "text": "Electrodomésticos para tu hogar"
-    }
-  },
-  "flex-layout.col#section__dektop-text-electro1": {
-    "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop-title-electro1"]
-  },
-  "rich-text#section__dektop-title-electro1": {
-    "props": {
-      "text": "¡ VER TODO!"
-    }
-  },
-
-  "flex-layout.row#home__section--dektop-eighteen": {
-    "title": "Desktop imagen de envios gratis",
-    "children": ["image#section__dektop--image-envios-gratis"],
-    "props": {
-      "blockClass": "home__section-ten"
-    }
-  },
-  "image#section__dektop--image-envios-gratis": {
-    "title": "Imagen",
-    "props": {
-      "src": "assets/img/home__envio-gratis.png",
-      "description": "imagen de mercado"
-    }
-  },
   "flex-layout.row#home__section--dektop-nighteen": {
     "title": "Desktop sección electrodomesticos",
     "children": [

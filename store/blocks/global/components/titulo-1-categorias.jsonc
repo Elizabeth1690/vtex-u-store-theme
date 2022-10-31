@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--dektop-two": {
+    "title": "Desktop titulo categoria",
+    "children": ["flex-layout.col#section__dektop--two-categoria"]
+  },
+  "flex-layout.col#section__dektop--two-categoria": {
+    "title": " Sección titulo para las categorias",
+    "children": ["rich-text#section__dektop--texto-categoria"]
+  },
+  "rich-text#section__dektop--texto-categoria": {
+    "title": " Texto",
+    "props": {
+      "text": " Compra por categorías"
+    }
+  }
+}

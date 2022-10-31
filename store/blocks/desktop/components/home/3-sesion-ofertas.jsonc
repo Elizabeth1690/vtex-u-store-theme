@@ -1,18 +1,4 @@
 {
-  "flex-layout.row#home__section--dektop-six": {
-    "title": "Desktop titulo de oferta",
-    "children": ["flex-layout.col#section__dektop--text"]
-  },
-  "flex-layout.col#section__dektop--text": {
-    "title": "Texto de sección uno",
-    "children": ["rich-text#section__dektop--text-ofertas"]
-  },
-  "rich-text#section__dektop--text-ofertas": {
-    "title": "Texto",
-    "props": {
-      "text": "Ofertas pensadas para ti"
-    }
-  },
   "flex-layout.row#home__section--dektop-seven": {
     "title": "Desktop sección ofertas",
     "children": [
@@ -31,7 +17,8 @@
     "title": "Sección ofertas uno",
     "children": ["image#section__dektop--oferta-tv"],
     "props": {
-      "blockClass": "home__image-tv"
+      "blockClass": "home__image-tv",
+      "width": "40%"
     }
   },
   "image#section__dektop--oferta-tv": {
@@ -43,13 +30,18 @@
   },
   "flex-layout.col#section__dektop--image-ofertas-movil": {
     "title": "Sección ofertas dos",
-    "children": ["image#section__dektop--oferta-movil"]
+    "children": ["image#section__dektop--oferta-movil"],
+    "props": {
+      "blockClass": "home__image-tv",
+      "width": "30%"
+    }
   },
   "image#section__dektop--oferta-movil": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-movil.png",
-      "description": "imagen de oferta movil"
+      "description": "imagen de oferta movil",
+      "blockClass": "home__section-movil"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-electrodomestico": {
@@ -60,7 +52,8 @@
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-electrodomesticos.png",
-      "description": "imagen de oferta electrodomestico"
+      "description": "imagen de oferta electrodomestico",
+      "blockClass": "home__section-electro"
     }
   },
   "flex-layout.row#home__section--dektop-eight": {

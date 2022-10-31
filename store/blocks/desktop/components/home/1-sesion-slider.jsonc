@@ -1,18 +1,4 @@
 {
-  "flex-layout.row#home__section--dektop-zero": {
-    "title": "Desktop sección imagen cyberlunes movible",
-    "children": ["image#section__dektop--cyber-lunes"],
-    "props": {
-      "blockClass": "home__section-zero"
-    }
-  },
-  "image#section__dektop--cyber-lunes": {
-    "title": "Imagen",
-    "props": {
-      "src": "assets/img/home__compra.movible.gif",
-      "description": "imagen de cyber lunes"
-    }
-  },
   "flex-layout.row#home__section--dektop-one": {
     "title": "Desktop sección  slider y imagen con descuentos",
     "children": [
@@ -20,12 +6,15 @@
       "flex-layout.col#section__dektop---image"
     ],
     "props": {
-      "blockClass": "home__section-one"
+      "blockClass": "home__section-one-slider"
     }
   },
   "flex-layout.col#section__dektop---slider": {
     "title": "Sección slider",
-    "children": ["slider-layout#home__slider--children"]
+    "children": ["slider-layout#home__slider--children"],
+    "props": {
+      "width": "45%"
+    }
   },
   "slider-layout#home__slider--children": {
     "title": "Slider con hijos declarados",
@@ -83,14 +72,20 @@
   },
   "flex-layout.col#section__dektop---image": {
     "title": "Imagen",
-    "children": ["image#section__dektop--promocion-gaseosa"]
+    "children": ["image#section__dektop--promocion-gaseosa"],
+    "props": {
+      "blockClass": "home__session-imagen",
+      "width": "60%",
+      "paddingLeft": "3"
+    }
   },
 
   "image#section__dektop--promocion-gaseosa": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__promocion-gaseosas.png",
-      "description": "imagen de promoción de gaseosas"
+      "description": "imagen de promoción de gaseosas",
+      "blockClass": "imagen__dektop-gaseosa"
     }
   },
 

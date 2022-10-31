@@ -1,0 +1,228 @@
+{
+  "flex-layout.row#home__section--phone-one": {
+    "title": "Phone sección categoría",
+    "children": [
+      "flex-layout.col#section__phone--one-mercado",
+      "flex-layout.col#section__phone--one-moda",
+      "flex-layout.col#section__phone--one-celulares"
+    ],
+    "props": {
+      "blockClass": "home__section--three",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#section__phone--one-mercado": {
+    "title": "Sección categoría uno",
+    "children": [
+      "image#section__phone--image-mercado",
+      "rich-text#section__phone--texto-mercado"
+    ]
+  },
+  "image#section__phone--image-mercado": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-mercado.png",
+      "description": "imagen de mercado",
+      "blockClass": "home__section--three"
+    }
+  },
+
+  "rich-text#section__phone--texto-mercado": {
+    "title": "Texto",
+    "props": {
+      "text": "Mercado"
+    }
+  },
+  "flex-layout.col#section__phone--one-moda": {
+    "title": "Sección categoría dos",
+    "children": [
+      "image#section__phone--image-moda",
+      "rich-text#section__phone--texto-moda"
+    ]
+  },
+  "image#section__phone--image-moda": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-moda.png",
+      "description": "imagen de moda"
+    }
+  },
+  "rich-text#section__phone--texto-moda": {
+    "title": "Texto",
+    "props": {
+      "text": "Moda"
+    }
+  },
+  "flex-layout.col#section__phone--one-celulares": {
+    "title": "Sección categoría tres",
+    "children": [
+      "image#section__phone--image-celulares",
+      "rich-text#section__phone--texto-celulares"
+    ]
+  },
+  "image#section__phone--image-celulares": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-celulares.png",
+      "description": "imagen de celulares"
+    }
+  },
+  "rich-text#section__phone--texto-celulares": {
+    "title": "Texto",
+    "props": {
+      "text": "Celulares"
+    }
+  },
+  "flex-layout.row#home__section--phone-two": {
+    "title": "Tablet sección categoría",
+    "children": [
+      "flex-layout.col#section__phone--two-televisores",
+      "flex-layout.col#section__phone--two-computadores",
+      "flex-layout.col#section__phone--two-colchones"
+    ],
+    "props": {
+      "blockClass": "home__section--three",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#section__phone--two-televisores": {
+    "title": "Sección categoría cuatro",
+    "children": [
+      "image#section__phone--image-televisores",
+      "rich-text#section__phone--texto-televisores"
+    ]
+  },
+  "image#section__phone--image-televisores": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-televisores.png",
+      "description": "imagen de celulares"
+    }
+  },
+  "rich-text#section__phone--texto-televisores": {
+    "title": "Texto",
+    "props": {
+      "text": "Televisores"
+    }
+  },
+  "flex-layout.col#section__phone--two-computadores": {
+    "title": "Sección categoría cinco",
+    "children": [
+      "image#section__phone--image-computadores",
+      "rich-text#section__phone--texto-computadores"
+    ]
+  },
+  "image#section__phone--image-computadores": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-computadores.png",
+      "description": "imagen de celulares"
+    }
+  },
+  "rich-text#section__phone--texto-computadores": {
+    "title": "Texto",
+    "props": {
+      "text": "Computadores"
+    }
+  },
+  "flex-layout.col#section__phone--two-colchones": {
+    "title": "Sección categoría seis",
+    "children": [
+      "image#section__phone--image-colchones",
+      "rich-text#section__dektop--texto-colchones"
+    ]
+  },
+  "image#section__phone--image-colchones": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-colchones.png",
+      "description": "imagen de celulares"
+    }
+  },
+  "rich-text#section__phone--texto-colchones": {
+    "title": "Texto",
+    "props": {
+      "text": "Colchones"
+    }
+  },
+  "flex-layout.row#home__section--phone-three": {
+    "title": "Desktop sección categoría segunda parte",
+    "children": [
+      "flex-layout.col#section__phone--three-electrodomesticos",
+      "flex-layout.col#section__phone--three-cocina",
+      "flex-layout.col#section__phone--three-deportes"
+    ],
+    "props": {
+      "blockClass": "home__section--four",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#section__phone--three-electrodomesticos": {
+    "title": "Sección categoría siete",
+    "children": [
+      "image#section__phone--image-electrodomesticos",
+      "rich-text#section__phone--texto-electrodomesticos"
+    ]
+  },
+  "image#section__phone--image-electrodomesticos": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-electrodomesticos.png",
+      "description": "imagen de electrodomesticos"
+    }
+  },
+  "rich-text#section__phone--texto-electrodomesticos": {
+    "title": "Texto",
+    "props": {
+      "text": "Electrodomésticos"
+    }
+  },
+  "flex-layout.col#section__phone--three-cocina": {
+    "title": "Sección categoría ocho",
+    "children": [
+      "image#section__phone--image-cocina",
+      "rich-text#section__phone--texto-cocina"
+    ]
+  },
+  "image#section__phone--image-cocina": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-cocina.png",
+      "description": "imagen de cocina"
+    }
+  },
+  "rich-text#section__phone--texto-cocina": {
+    "title": "Texto",
+    "props": {
+      "text": "Cocina"
+    }
+  },
+  "flex-layout.col#section__phone--three-deportes": {
+    "title": "Sección categoría nueve",
+    "children": [
+      "image#section__phone--image-deportes",
+      "rich-text#section__phone--texto-deportes"
+    ]
+  },
+  "image#section__phone--image-deportes": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__categoria-deportes.png",
+      "description": "imagen de deportes"
+    }
+  },
+  "rich-text#section__phone--texto-deportes": {
+    "title": "Texto",
+    "props": {
+      "text": "Deportes"
+    }
+  },
+  "flex-layout.row#home__section--phone-four": {
+    "children": ["rich-text#section__phone-title1"]
+  },
+  "rich-text#section__phone-title1": {
+    "props": {
+      "text": "Ver más"
+    }
+  }
+}

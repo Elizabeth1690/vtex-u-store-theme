@@ -1,26 +1,4 @@
 {
-  "flex-layout.row#home__section--dektop-twenty-four": {
-    "title": "Desktop titulo hogar",
-    "children": [
-      "flex-layout.col#section__dektop--text-hogar",
-      "flex-layout.col#section__dektop--text-hogar1"
-    ]
-  },
-  "flex-layout.col#section__dektop--text-hogar": {
-    "title": "Texto de sección uno",
-    "children": ["rich-text#section__dektop--title-hogar"]
-  },
-  "rich-text#section__dektop--title-hogar": {
-    "title": "Texto de sección uno",
-    "props": {
-      "text": "Todo para tu hogar"
-    }
-  },
-  "flex-layout.col#section__dektop--text-hogar1": {
-    "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop-title2"]
-  },
-
   "flex-layout.row#home__section--dektop-twenty-five": {
     "title": "Desktop imagen de envios gratis de muebles",
     "children": ["flex-layout.col#section__dektop--image-promocion-muebles"],
@@ -142,8 +120,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 2,
-        "tablet": 1,
-        "mobile": 1
+        "tablet": 3,
+        "mobile": 2
       },
       "infinite": true,
       "blockClass": "home__slider",

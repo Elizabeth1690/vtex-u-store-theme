@@ -1,4 +1,3 @@
 .sliderLayoutContainer--home__slider {
-  width: 890px;
-  margin-left: 31px;
+  border: solid 5px red;
 }
