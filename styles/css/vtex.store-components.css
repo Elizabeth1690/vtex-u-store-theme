@@ -6,8 +6,9 @@
   height: 333px;
 }
 
-.imageElement--home__image-mercado {
-  margin-right: 10px;
+.container :global(.vtex-flex-layout-0-x-flexRowContent--home__section-images) {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Diseño de phone*/

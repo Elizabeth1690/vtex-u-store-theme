@@ -1,0 +1,7 @@
+{
+  "rich-text#header__main--login": {
+    "props": {
+      "text": "login"
+    }
+  }
+}

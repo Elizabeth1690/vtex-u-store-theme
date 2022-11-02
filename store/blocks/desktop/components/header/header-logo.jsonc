@@ -1,0 +1,10 @@
+{
+  "logo#header__main--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo-exito.png",
+      "width": 85,
+      "href": "/"
+    }
+  }
+}

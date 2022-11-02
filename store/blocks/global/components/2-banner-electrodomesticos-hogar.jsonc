@@ -3,7 +3,7 @@
     "title": "Desktop imagen de envios gratis",
     "children": ["image#section__dektop--image-envios-gratis"],
     "props": {
-      "blockClass": "home__section-ten"
+      "blockClass": "home__section-zero"
     }
   },
   "image#section__dektop--image-envios-gratis": {

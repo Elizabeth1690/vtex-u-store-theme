@@ -1,0 +1,28 @@
+{
+  "header-row#header__middle": {
+    "title": "Header principal",
+
+    "children": [
+      "logo#header__main--logo",
+      //"header-spacer",
+      "search-bar#header__search",
+      "login",
+      //"modal-trigger#header__top--login",
+      "minicart.v2" /*"rich-text#test"*/
+    ],
+    "props": {
+      "blockClass": "header__main"
+    }
+  },
+
+  "modal-trigger#header__main--login": {
+    "children": [
+      "rich-text#header__main--login",
+      "modal-layout#header__main--login"
+    ]
+  },
+
+  "modal-layout#header__main--login": {
+    "children": ["login-content"]
+  }
+}

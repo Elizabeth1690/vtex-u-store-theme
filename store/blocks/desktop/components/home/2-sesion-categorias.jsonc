@@ -18,7 +18,10 @@
     "children": [
       "image#section__dektop--image-mercado",
       "rich-text#section__dektop--texto-mercado"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-mercado": {
     "title": "Imagen",
@@ -30,7 +33,10 @@
   "rich-text#section__dektop--texto-mercado": {
     "title": "Texto",
     "props": {
-      "text": "Mercado"
+      "text": "Mercado",
+      "blockClass": "section__three--text-mercado",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--three-moda": {
@@ -38,7 +44,10 @@
     "children": [
       "image#section__dektop--image-moda",
       "rich-text#section__dektop--texto-moda"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-moda": {
     "title": "Imagen",
@@ -50,7 +59,9 @@
   "rich-text#section__dektop--texto-moda": {
     "title": "Texto",
     "props": {
-      "text": "Moda"
+      "text": "Moda",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--three-celulares": {
@@ -58,7 +69,10 @@
     "children": [
       "image#section__dektop--image-celulares",
       "rich-text#section__dektop--texto-celulares"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-celulares": {
     "title": "Imagen",
@@ -70,7 +84,9 @@
   "rich-text#section__dektop--texto-celulares": {
     "title": "Texto",
     "props": {
-      "text": "Celulares"
+      "text": "Celulares",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--three-televisores": {
@@ -78,7 +94,10 @@
     "children": [
       "image#section__dektop--image-televisores",
       "rich-text#section__dektop--texto-televisores"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-televisores": {
     "title": "Imagen",
@@ -90,7 +109,9 @@
   "rich-text#section__dektop--texto-televisores": {
     "title": "Texto",
     "props": {
-      "text": "Televisores"
+      "text": "Televisores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--three-computadores": {
@@ -98,7 +119,10 @@
     "children": [
       "image#section__dektop--image-computadores",
       "rich-text#section__dektop--texto-computadores"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-computadores": {
     "title": "Imagen",
@@ -110,7 +134,9 @@
   "rich-text#section__dektop--texto-computadores": {
     "title": "Texto",
     "props": {
-      "text": "Computadores"
+      "text": "Computadores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--three-colchones": {
@@ -118,7 +144,10 @@
     "children": [
       "image#section__dektop--image-colchones",
       "rich-text#section__dektop--texto-colchones"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-colchones": {
     "title": "Imagen",
@@ -130,7 +159,9 @@
   "rich-text#section__dektop--texto-colchones": {
     "title": "Texto",
     "props": {
-      "text": "Colchones"
+      "text": "Colchones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.row#home__section--dektop-four": {
@@ -152,7 +183,10 @@
     "children": [
       "image#section__dektop--image-electrodomesticos",
       "rich-text#section__dektop--texto-electrodomesticos"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-electrodomesticos": {
     "title": "Imagen",
@@ -164,7 +198,9 @@
   "rich-text#section__dektop--texto-electrodomesticos": {
     "title": "Texto",
     "props": {
-      "text": "Electrodomésticos"
+      "text": "Electrodomésticos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--four-cocina": {
@@ -172,7 +208,10 @@
     "children": [
       "image#section__dektop--image-cocina",
       "rich-text#section__dektop--texto-cocina"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-cocina": {
     "title": "Imagen",
@@ -184,7 +223,9 @@
   "rich-text#section__dektop--texto-cocina": {
     "title": "Texto",
     "props": {
-      "text": "Cocina"
+      "text": "Cocina",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--four-deportes": {
@@ -192,7 +233,10 @@
     "children": [
       "image#section__dektop--image-deportes",
       "rich-text#section__dektop--texto-deportes"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-deportes": {
     "title": "Imagen",
@@ -204,7 +248,9 @@
   "rich-text#section__dektop--texto-deportes": {
     "title": "Texto",
     "props": {
-      "text": "Deportes"
+      "text": "Deportes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--four-bebes": {
@@ -212,7 +258,10 @@
     "children": [
       "image#section__dektop--image-bebes",
       "rich-text#section__dektop--texto-bebes"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-bebes": {
     "title": "Imagen",
@@ -224,7 +273,9 @@
   "rich-text#section__dektop--texto-bebes": {
     "title": "Texto",
     "props": {
-      "text": "Bebes"
+      "text": "Bebes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--four-jugueteria": {
@@ -232,7 +283,10 @@
     "children": [
       "image#section__dektop--image-jugueteria",
       "rich-text#section__dektop--texto-jugueteria"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-jugueteria": {
     "title": "Imagen",
@@ -244,7 +298,9 @@
   "rich-text#section__dektop--texto-jugueteria": {
     "title": "Texto",
     "props": {
-      "text": "Juguetería"
+      "text": "Juguetería",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#section__dektop--four-halloween": {
@@ -252,7 +308,10 @@
     "children": [
       "image#section__dektop--image-halloween",
       "rich-text#section__dektop--texto-halloween"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-categorias"
+    }
   },
   "image#section__dektop--image-halloween": {
     "title": "Imagen",
@@ -264,7 +323,9 @@
   "rich-text#section__dektop--texto-halloween": {
     "title": "Texto",
     "props": {
-      "text": "Halloween"
+      "text": "Halloween",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.row#home__section--dektop-five": {
@@ -276,15 +337,14 @@
       "flex-layout.col#section__dektop--image4"
     ],
     "props": {
-      "blockClass": "home__section--five-image",
-      "horizontalAlign": "center"
+      "blockClass": "home__section-images"
     }
   },
   "flex-layout.col#section__dektop--image1": {
     "title": "Sección compra y pago uno",
     "children": ["image#section__dektop--compra-pago"],
     "props": {
-      "width": "25%"
+      "width": "20%"
     }
   },
   "image#section__dektop--compra-pago": {
@@ -299,7 +359,7 @@
     "title": "Sección entrega express",
     "children": ["image#section__dektop--entrega-express"],
     "props": {
-      "width": "25%"
+      "width": "20%"
     }
   },
   "image#section__dektop--entrega-express": {
@@ -313,7 +373,7 @@
     "title": "Sección venta teléfonica",
     "children": ["image#section__dektop--venta-telefonica"],
     "props": {
-      "width": "25%"
+      "width": "20%"
     }
   },
   "image#section__dektop--venta-telefonica": {
@@ -328,7 +388,7 @@
     "title": "Sección compra y pago cuatro",
     "children": ["image#section__dektop--compra-recoge"],
     "props": {
-      "width": "25%"
+      "width": "20%"
     }
   },
   "image#section__dektop--compra-recoge": {
