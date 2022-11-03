@@ -7,18 +7,23 @@
       "flex-layout.col#section__dektop--twenty-two-relojes-ropa"
     ],
     "props": {
-      "blockClass": "home__section--three"
+      "blockClass": "home__section--moda"
     }
   },
   "flex-layout.col#section__dektop--twenty-two-velez": {
     "title": "Sección moda uno",
-    "children": ["image#section__dektop--image-velez"]
+    "children": ["image#section__dektop--image-velez"],
+    "props": {
+      "width": "44%",
+      "marginRight": 7
+    }
   },
   "image#section__dektop--image-velez": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__moda-velez.png",
-      "description": "imagen de mercado"
+      "description": "imagen de zapatos",
+      "blockClass": "home__image-moda-velez"
     }
   },
   "flex-layout.col#section__dektop--twenty-two-tenis-maletas": {
@@ -26,20 +31,25 @@
     "children": [
       "image#section__dektop--image-tenis",
       "image#section__dektop--image-maletas"
-    ]
+    ],
+    "props": {
+      "width": "28%"
+    }
   },
   "image#section__dektop--image-tenis": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__moda-tenis.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
   "image#section__dektop--image-maletas": {
     "title": "Imagen dos",
     "props": {
       "src": "assets/img/home__moda-maletas.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
   "flex-layout.col#section__dektop--twenty-two-relojes-ropa": {
@@ -47,13 +57,18 @@
     "children": [
       "image#section__dektop--relojes",
       "image#section__dektop--ropa"
-    ]
+    ],
+    "props": {
+      "width": "28%",
+      "marginLeft": 7
+    }
   },
   "image#section__dektop--relojes": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__moda-relojes.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
   "image#section__dektop--ropa": {
@@ -77,7 +92,8 @@
       "images": [
         {
           "image": "assets/img/home__arkitct.png",
-          "description": "Slide"
+          "description": "Slide",
+          "blockClass": "home__image-slide-prueba"
         },
         {
           "image": "assets/img/home__leo.png",

@@ -175,7 +175,8 @@
       "flex-layout.col#section__dektop--four-halloween"
     ],
     "props": {
-      "blockClass": "home__section--four"
+      "blockClass": "home__section--four",
+      "marginBottom": 7
     }
   },
   "flex-layout.col#section__dektop--four-electrodomesticos": {
@@ -337,14 +338,15 @@
       "flex-layout.col#section__dektop--image4"
     ],
     "props": {
-      "blockClass": "home__section-images"
+      "blockClass": "home__section-images",
+      "marginBottom": 7
     }
   },
   "flex-layout.col#section__dektop--image1": {
     "title": "Sección compra y pago uno",
     "children": ["image#section__dektop--compra-pago"],
     "props": {
-      "width": "20%"
+      "width": "22%"
     }
   },
   "image#section__dektop--compra-pago": {
@@ -359,7 +361,7 @@
     "title": "Sección entrega express",
     "children": ["image#section__dektop--entrega-express"],
     "props": {
-      "width": "20%"
+      "width": "22%"
     }
   },
   "image#section__dektop--entrega-express": {
@@ -373,7 +375,7 @@
     "title": "Sección venta teléfonica",
     "children": ["image#section__dektop--venta-telefonica"],
     "props": {
-      "width": "20%"
+      "width": "22%"
     }
   },
   "image#section__dektop--venta-telefonica": {
@@ -388,7 +390,7 @@
     "title": "Sección compra y pago cuatro",
     "children": ["image#section__dektop--compra-recoge"],
     "props": {
-      "width": "20%"
+      "width": "22%"
     }
   },
   "image#section__dektop--compra-recoge": {

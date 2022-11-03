@@ -12,3 +12,13 @@
 }
 
 /* Diseño de phone*/
+
+.imageElement--home__image-moda {
+  height: 226px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.imageElement--home__image-moda-velez {
+  height: 476px;
+}

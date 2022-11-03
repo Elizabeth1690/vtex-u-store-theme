@@ -6,14 +6,15 @@
       "flex-layout.col#section__dektop---image"
     ],
     "props": {
-      "blockClass": "home__section-one-slider"
+      "blockClass": "home__section-image-slider"
     }
   },
   "flex-layout.col#section__dektop---slider": {
     "title": "Sección slider",
     "children": ["slider-layout#home__slider--children"],
     "props": {
-      "width": "70%"
+      "width": "70%",
+      "marginLeft": 5
     }
   },
   "slider-layout#home__slider--children": {
@@ -75,7 +76,8 @@
     "children": ["image#section__dektop--promocion-gaseosa"],
     "props": {
       "blockClass": "home__session-imagen",
-      "width": "30%"
+      "width": "30%",
+      "paddingRight": 7
     }
   },
 
@@ -84,7 +86,8 @@
     "props": {
       "src": "assets/img/home__promocion-gaseosas.png",
       "description": "imagen de promoción de gaseosas",
-      "blockClass": "imagen__dektop-gaseosa"
+      "blockClass": "imagen__dektop-gaseosa",
+      "height": "100%"
     }
   },
 
