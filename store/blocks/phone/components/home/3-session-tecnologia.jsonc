@@ -3,7 +3,8 @@
     "title": "Desktop slider  aliados",
     "children": ["list-context.image-list#home__slider--list-aliados"],
     "props": {
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "home__slider-row-aliados"
     }
   },
 

@@ -13,8 +13,7 @@
     "title": "Sección slider",
     "children": ["slider-layout#home__slider--children"],
     "props": {
-      "width": "70%",
-      "marginLeft": 5
+      "width": "70%"
     }
   },
   "slider-layout#home__slider--children": {
@@ -76,8 +75,7 @@
     "children": ["image#section__dektop--promocion-gaseosa"],
     "props": {
       "blockClass": "home__session-imagen",
-      "width": "30%",
-      "paddingRight": 7
+      "width": "30%"
     }
   },
 

@@ -119,7 +119,7 @@
     "title": "Slider con lista aliados",
     "props": {
       "itemsPerPage": {
-        "desktop": 2,
+        "desktop": 5,
         "tablet": 3,
         "mobile": 2
       },

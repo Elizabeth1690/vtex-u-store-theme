@@ -50,7 +50,7 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "home__slider1",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
@@ -58,6 +58,3 @@
     }
   }
 }
-
-
-

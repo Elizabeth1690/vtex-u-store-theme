@@ -5,6 +5,9 @@
       "responsive-layout.desktop",
       "responsive-layout.tablet",
       "responsive-layout.phone"
-    ]
+    ],
+    "props": {
+      "blockClass": "prueba"
+    }
   }
 }

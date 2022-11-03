@@ -1,5 +1,12 @@
 {
   "responsive-layout.desktop": {
+    "children": ["flex-layout.row#home__section--dektop-global"]
+  },
+  "flex-layout.row#home__section--dektop-global": {
+    "children": ["flex-layout.col#home__section--dektop-global-uno"],
+    "props": { "blockClass": "section__dektop-principal" }
+  },
+  "flex-layout.col#home__section--dektop-global-uno": {
     "children": [
       "icon#home__orders--icon",
       "flex-layout.row#home__section--dektop-zero",
@@ -37,6 +44,9 @@
       "flex-layout.row#home__section--dektop-thirty-three",
       "flex-layout.row#home__section--dektop-thirty-four",
       "flex-layout.row#home__section--dektop-thirty-five"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__dektop-global"
+    }
   }
 }

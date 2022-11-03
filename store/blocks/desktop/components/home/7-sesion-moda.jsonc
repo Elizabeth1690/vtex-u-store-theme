@@ -75,13 +75,17 @@
     "title": "Imagen dos",
     "props": {
       "src": "assets/img/home__moda-ropa.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
 
   "flex-layout.row#home__section--dektop-twenty-three": {
     "title": "Desktop slider  marca de ropa",
-    "children": ["list-context.image-list#home__slider--list-marca"]
+    "children": ["list-context.image-list#home__slider--list-marca"],
+    "props": {
+      "blockClass": "home__section-slider-marca"
+    }
   },
 
   "list-context.image-list#home__slider--list-marca": {
@@ -93,47 +97,57 @@
         {
           "image": "assets/img/home__arkitct.png",
           "description": "Slide",
-          "blockClass": "home__image-slide-prueba"
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__leo.png",
-          "description": "Slide 1"
+          "description": "Slide 1",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__leonisa.png",
-          "description": "Slide 2"
+          "description": "Slide 2",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__levis.png",
-          "description": "Slide 3"
+          "description": "Slide 3",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__lugano.png",
-          "description": "Slide 4"
+          "description": "Slide 4",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__nike.png",
-          "description": "Slide 5"
+          "description": "Slide 5",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__sprite.png",
-          "description": "Slide 6"
+          "description": "Slide 6",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__tenis.png",
-          "description": "Slide 7"
+          "description": "Slide 7",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__toto.png",
-          "description": "Slide 8"
+          "description": "Slide 8",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__velez.png",
-          "description": "Slide 9"
+          "description": "Slide 9",
+          "blockClass": "home__slider-image"
         },
         {
           "image": "assets/img/home__americanino.png",
-          "description": "Slide 10"
+          "description": "Slide 10",
+          "blockClass": "home__slider-image"
         }
       ]
     }
@@ -142,7 +156,7 @@
     "title": "Slider con lista hogar",
     "props": {
       "itemsPerPage": {
-        "desktop": 2,
+        "desktop": 5,
         "tablet": 3,
         "mobile": 2
       },

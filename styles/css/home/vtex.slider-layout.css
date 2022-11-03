@@ -1,4 +1,8 @@
-.imageElement--home__slider {
-  display: flex;
-  justify-content: space-between;
+/*.imageElement--home__slider {
+}*/
+
+.imageElement--home__slider-aliados {
+  width: 50px;
 }
+
+

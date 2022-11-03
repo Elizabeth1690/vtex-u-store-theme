@@ -76,3 +76,15 @@
   margin-left: 90px;
   margin-right: 100px;
 }
+
+.flexCol--section__dektop-global {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/*
+.flexRow--section__dektop-principal
+{
+    max-width: 1440px;
+  margin: auto;
+}*/
