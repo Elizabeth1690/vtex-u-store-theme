@@ -10,14 +10,15 @@
     "title": "Sección aseo uno",
     "children": ["image#section__dektop--aseo-clorox"],
     "props": {
-      "blockClass": "home__section-zero"
+      "blockClass": "home__section-clorox"
     }
   },
   "image#section__dektop--aseo-clorox": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__aseo-clorox.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "width": "50%"
     }
   }
 }

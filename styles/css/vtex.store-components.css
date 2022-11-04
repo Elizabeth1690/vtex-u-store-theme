@@ -35,3 +35,20 @@
 .imageElement--home__slider-aliados {
   width: 96% !important;
 }
+
+.imageElement--imagen__dektop-gaseosa {
+  height: 100%;
+}
+
+.imageElement--home__image-ofertas {
+  width: 100%;
+  height: auto;
+}
+
+.imageElement--home__image-ofertas-uno {
+  height: 355px;
+}
+
+.imageElement--home__image-tecno {
+  height: 385px;
+}

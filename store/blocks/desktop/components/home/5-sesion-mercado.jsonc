@@ -6,7 +6,7 @@
       "flex-layout.col#section__dektop--fifteen-mercado-rapido"
     ],
     "props": {
-      "blockClass": "home__section--three"
+      "blockClass": "home__section--mercado"
     }
   },
   "flex-layout.col#section__dektop--fifteen-crea-lista": {

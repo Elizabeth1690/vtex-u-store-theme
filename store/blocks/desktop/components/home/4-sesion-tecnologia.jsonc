@@ -7,47 +7,50 @@
       "flex-layout.col#section__dektop--eleven-pc-acer"
     ],
     "props": {
-      "blockClass": "home__section-tecno"
+      "blockClass": "home__section-dektop-ofertas"
     }
   },
   "flex-layout.col#section__dektop--eleven-tv-hisense": {
     "title": "Sección tecnología uno",
     "children": ["image#section__dektop--image-tv-hisense"],
     "props": {
-      "width": "55%"
+      "width": "50%"
     }
   },
   "image#section__dektop--image-tv-hisense": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-tv.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-tecno"
     }
   },
   "flex-layout.col#section__dektop--eleven-cel-xiaomi": {
     "title": "Sección tecnología dos",
     "children": ["image#section__dektop--image-cel-xiaomi"],
     "props": {
-      "width": "30%"
+      "width": "25%"
     }
   },
   "image#section__dektop--image-cel-xiaomi": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-movil.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--eleven-pc-acer": {
     "title": "Sección tecnología tres",
     "children": ["image#section__dektop--image-pc-acer"],
-    "props": { "width": "30%" }
+    "props": { "width": "25%" }
   },
   "image#section__dektop--image-pc-acer": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-computador.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.row#home__section--dektop-twelve": {
@@ -58,49 +61,52 @@
       "flex-layout.col#section__dektop--eleven-cel-phone"
     ],
     "props": {
-      "blockClass": "home__section--twelve-tecno"
+      "blockClass": "home__section-dektop-ofertas"
     }
   },
   "flex-layout.col#section__dektop--eleven-pc-rt": {
     "title": "Sección tecnología uno",
     "children": ["image#section__dektop--image-pc-rt"],
     "props": {
-      "width": "30%"
+      "width": "25%"
     }
   },
   "image#section__dektop--image-pc-rt": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-portatil.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--eleven-tv-lg": {
     "title": "Sección tecnología dos",
     "children": ["image#section__dektop--image-tv-lg"],
     "props": {
-      "width": "30%"
+      "width": "25%"
     }
   },
   "image#section__dektop--image-tv-lg": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-tv-lg.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--eleven-cel-phone": {
     "title": "Sección tecnología tres",
     "children": ["image#section__dektop--cel-phone"],
     "props": {
-      "width": "55%"
+      "width": "50%"
     }
   },
   "image#section__dektop--cel-phone": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-celulares.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-tecno"
     }
   },
   "flex-layout.row#home__section--dektop-thirteen": {
@@ -111,49 +117,52 @@
       "flex-layout.col#section__dektop--thirteen-cel-vivo"
     ],
     "props": {
-      "blockClass": "home__section-tecno"
+      "blockClass": "home__section-dektop-ofertas"
     }
   },
   "flex-layout.col#section__dektop--thirteen-pc-hp": {
     "title": "Sección tecnología uno",
     "children": ["image#section__dektop--image-pc-hp"],
     "props": {
-      "width": "55%"
+      "width": "50%"
     }
   },
   "image#section__dektop--image-pc-hp": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-portatiles.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-tecno"
     }
   },
   "flex-layout.col#section__dektop--thirteen-tv-caixun": {
     "title": "Sección tecnología dos",
     "children": ["image#section__dektop--image-tv-caixun"],
     "props": {
-      "width": "30%"
+      "width": "25%"
     }
   },
   "image#section__dektop--image-tv-caixun": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-tv-caixun.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--thirteen-cel-vivo": {
     "title": "Sección tecnología tres",
     "children": ["image#section__dektop--cel-vivo"],
     "props": {
-      "width": "30%"
+      "width": "25%"
     }
   },
   "image#section__dektop--cel-vivo": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__tecnologia-cel.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-ofertas"
     }
   }
 }

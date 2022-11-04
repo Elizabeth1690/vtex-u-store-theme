@@ -10,7 +10,8 @@
   "rich-text#section__dektop--texto-categoria": {
     "title": " Texto",
     "props": {
-      "text": " Compra por categorías"
+      "text": " Compra por categorías",
+      "blockClass": "section__title-categoria"
     }
   }
 }

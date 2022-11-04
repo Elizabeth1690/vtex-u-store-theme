@@ -25,7 +25,7 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "home__slider-image",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
@@ -84,16 +84,15 @@
     "props": {
       "src": "assets/img/home__promocion-gaseosas.png",
       "description": "imagen de promoción de gaseosas",
-      "blockClass": "imagen__dektop-gaseosa",
-      "height": "100%"
+      "blockClass": "imagen__dektop-gaseosa"
     }
-  },
-
+  }
+  /*
   "icon#home__orders--icon": {
     "props": {
       "id": "sti-newcar",
       "viewBox": "0 0 175 50",
       "size": "40"
     }
-  }
+  }*/
 }

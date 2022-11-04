@@ -3,12 +3,11 @@
     "children": ["flex-layout.row#home__section--dektop-global"]
   },
   "flex-layout.row#home__section--dektop-global": {
-    "children": ["flex-layout.col#home__section--dektop-global-uno"],
-    "props": { "blockClass": "section__dektop-principal" }
+    "children": ["flex-layout.col#home__section--dektop-global-uno"]
   },
   "flex-layout.col#home__section--dektop-global-uno": {
     "children": [
-      "icon#home__orders--icon",
+      //"icon#home__orders--icon",
       "flex-layout.row#home__section--dektop-zero",
       "flex-layout.row#home__section--dektop-one",
       "flex-layout.row#home__section--dektop-two",

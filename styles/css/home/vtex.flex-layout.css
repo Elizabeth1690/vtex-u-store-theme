@@ -10,14 +10,6 @@
   margin-bottom: 18px;
 }
 
-.flexRowContent--home__section-tecno {
-  margin-left: 16px;
-}
-
-.flexRowContent--home__section--twelve-tecno {
-  margin-left: 12px;
-}
-
 .flexRow--home__section-images {
   margin-left: 45px;
   margin-right: 45px;
@@ -45,16 +37,6 @@
   justify-content: space-between;
 }
 
-.flexRowContent--home__section--sixteen-mercado {
-  display: flex;
-  justify-content: space-between;
-}
-
-.flexRowContent--home__section--sixteen-mercado {
-  margin-left: 12px;
-  margin-right: 10px;
-}
-
 .flexColChild--home__section-categorias {
   align-items: center;
   display: flex;
@@ -63,28 +45,24 @@
   text-decoration: none;
 }
 
-.flexRowContent--home__section-nine-dektop {
-  padding-left: 78px;
-}
-
-.flexRowContent--home__section-ofertas {
-  padding-right: 80px;
-  padding-left: 20px;
-}
-
-.flexRow--home__section--moda {
-  margin-left: 90px;
-  margin-right: 100px;
-}
-
 .flexCol--section__dektop-global {
   max-width: 1280px;
   margin: auto;
 }
 
-/*
-.flexRow--section__dektop-principal
-{
-    max-width: 1440px;
-  margin: auto;
-}*/
+.flexColChild--home__section-clorox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexColChild--home__session-imagen {
+  padding-left: 10px;
+}
+
+.flexRowContent--home__section-dektop-ofertas {
+  max-width: 1280px;
+  gap: 21px;
+  margin: 0px auto;
+  padding: 10px 0px;
+}

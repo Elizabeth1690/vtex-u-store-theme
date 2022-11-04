@@ -96,58 +96,47 @@
       "images": [
         {
           "image": "assets/img/home__arkitct.png",
-          "description": "Slide",
-          "blockClass": "home__slider-image"
+          "description": "Slide"
         },
         {
           "image": "assets/img/home__leo.png",
-          "description": "Slide 1",
-          "blockClass": "home__slider-image"
+          "description": "Slide 1"
         },
         {
           "image": "assets/img/home__leonisa.png",
-          "description": "Slide 2",
-          "blockClass": "home__slider-image"
+          "description": "Slide 2"
         },
         {
           "image": "assets/img/home__levis.png",
-          "description": "Slide 3",
-          "blockClass": "home__slider-image"
+          "description": "Slide 3"
         },
         {
           "image": "assets/img/home__lugano.png",
-          "description": "Slide 4",
-          "blockClass": "home__slider-image"
+          "description": "Slide 4"
         },
         {
           "image": "assets/img/home__nike.png",
-          "description": "Slide 5",
-          "blockClass": "home__slider-image"
+          "description": "Slide 5"
         },
         {
           "image": "assets/img/home__sprite.png",
-          "description": "Slide 6",
-          "blockClass": "home__slider-image"
+          "description": "Slide 6"
         },
         {
           "image": "assets/img/home__tenis.png",
-          "description": "Slide 7",
-          "blockClass": "home__slider-image"
+          "description": "Slide 7"
         },
         {
           "image": "assets/img/home__toto.png",
-          "description": "Slide 8",
-          "blockClass": "home__slider-image"
+          "description": "Slide 8"
         },
         {
           "image": "assets/img/home__velez.png",
-          "description": "Slide 9",
-          "blockClass": "home__slider-image"
+          "description": "Slide 9"
         },
         {
           "image": "assets/img/home__americanino.png",
-          "description": "Slide 10",
-          "blockClass": "home__slider-image"
+          "description": "Slide 10"
         }
       ]
     }
@@ -161,7 +150,7 @@
         "mobile": 2
       },
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "home__slider-moda",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
