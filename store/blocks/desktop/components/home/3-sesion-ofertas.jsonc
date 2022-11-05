@@ -1,18 +1,4 @@
 {
-  "flex-layout.row#home__section--dektop-six": {
-    "title": "Desktop titulo de oferta",
-    "children": ["flex-layout.col#section__dektop--text"]
-  },
-  "flex-layout.col#section__dektop--text": {
-    "title": "Texto de sección uno",
-    "children": ["rich-text#section__dektop--text-ofertas"]
-  },
-  "rich-text#section__dektop--text-ofertas": {
-    "title": "Texto",
-    "props": {
-      "text": "Ofertas pensadas para ti"
-    }
-  },
   "flex-layout.row#home__section--dektop-seven": {
     "title": "Desktop sección ofertas",
     "children": [
@@ -21,46 +7,55 @@
       "flex-layout.col#section__dektop--image-ofertas-electrodomestico"
     ],
     "props": {
-      "colSizing": "auto",
-      "horizontalAlign": "center",
-      "colJustify": "around",
-      "blockClass": "home__section-nine"
+      "blockClass": "home__section-dektop-ofertas"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-tv": {
     "title": "Sección ofertas uno",
     "children": ["image#section__dektop--oferta-tv"],
     "props": {
-      "blockClass": "home__image-tv"
+      "blockClass": "home__section-tv",
+      "width": "50%"
     }
   },
   "image#section__dektop--oferta-tv": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-tv.png",
-      "description": "imagen de oferta televisión"
+      "description": "imagen de oferta televisión",
+      "blockClass": "home__image-ofertas-uno"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-movil": {
     "title": "Sección ofertas dos",
-    "children": ["image#section__dektop--oferta-movil"]
+    "children": ["image#section__dektop--oferta-movil"],
+    "props": {
+      "blockClass": "home__section-movil",
+      "width": "25%"
+    }
   },
   "image#section__dektop--oferta-movil": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-movil.png",
-      "description": "imagen de oferta movil"
+      "description": "imagen de oferta movil",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-electrodomestico": {
     "title": "Sección ofertas tres",
-    "children": ["image#section__dektop--oferta-electrodomestico"]
+    "children": ["image#section__dektop--oferta-electrodomestico"],
+    "props": {
+      "blockClass": "home__section-electro",
+      "width": "25%"
+    }
   },
   "image#section__dektop--oferta-electrodomestico": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-electrodomesticos.png",
-      "description": "imagen de oferta electrodomestico"
+      "description": "imagen de oferta electrodomestico",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.row#home__section--dektop-eight": {
@@ -69,42 +64,57 @@
       "flex-layout.col#section__dektop--image-ofertas-huevos",
       "flex-layout.col#section__dektop--image-ofertas-licor",
       "flex-layout.col#section__dektop--image-ofertas-computador"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-dektop-ofertas"
+    }
   },
   "flex-layout.col#section__dektop--image-ofertas-huevos": {
     "title": "Sección ofertas uno",
     "children": ["image#section__dektop--oferta-huevos"],
     "props": {
-      "blockClass": "home__image-tv"
+      "blockClass": "home__section-huevos",
+      "width": "25%"
     }
   },
   "image#section__dektop--oferta-huevos": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-huevos.png",
-      "description": "imagen de oferta huevos"
+      "description": "imagen de oferta huevos",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-licor": {
     "title": "Sección ofertas dos",
-    "children": ["image#section__dektop--oferta-licor"]
+    "children": ["image#section__dektop--oferta-licor"],
+    "props": {
+      "blockClass": "home__section-licor",
+      "width": "25%"
+    }
   },
   "image#section__dektop--oferta-licor": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-licor.png",
-      "description": "imagen de oferta licor"
+      "description": "imagen de oferta licor",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-computador": {
     "title": "Sección ofertas tres",
-    "children": ["image#section__dektop--oferta-computador"]
+    "children": ["image#section__dektop--oferta-computador"],
+    "props": {
+      "blockClass": "home__section-pc",
+      "width": "50%"
+    }
   },
   "image#section__dektop--oferta-computador": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-computador.png",
-      "description": "imagen de oferta licor"
+      "description": "imagen de oferta licor",
+      "blockClass": "home__image-ofertas-uno"
     }
   },
   "flex-layout.row#home__section--dektop-nine": {
@@ -113,43 +123,58 @@
       "flex-layout.col#section__dektop--image-ofertas-colchones",
       "flex-layout.col#section__dektop--image-ofertas-muebles",
       "flex-layout.col#section__dektop--image-ofertas-ropa"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section-dektop-ofertas",
+      "marginBottom": 7
+    }
   },
   "flex-layout.col#section__dektop--image-ofertas-colchones": {
     "title": "Sección ofertas cuatro",
-
     "children": ["image#section__dektop--oferta-colchones"],
     "props": {
-      "blockClass": "home__image-tv"
+      "blockClass": "home__section-tv",
+      "width": "50%"
     }
   },
   "image#section__dektop--oferta-colchones": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-colchones.png",
-      "description": "imagen de oferta colchones"
+      "description": "imagen de oferta colchones",
+      "blockClass": "home__image-ofertas-uno"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-muebles": {
     "title": "Sección ofertas cinco",
-    "children": ["image#section__dektop--oferta-muebles"]
+    "children": ["image#section__dektop--oferta-muebles"],
+    "props": {
+      "blockClass": "home__section-muebles",
+      "width": "25%"
+    }
   },
   "image#section__dektop--oferta-muebles": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-muebles.png",
-      "description": "imagen de oferta muebles"
+      "description": "imagen de oferta muebles",
+      "blockClass": "home__image-ofertas"
     }
   },
   "flex-layout.col#section__dektop--image-ofertas-ropa": {
     "title": "Sección ofertas seis",
-    "children": ["image#section__dektop--oferta-ropa"]
+    "children": ["image#section__dektop--oferta-ropa"],
+    "props": {
+      "blockClass": "home__section-electro",
+      "width": "25%"
+    }
   },
   "image#section__dektop--oferta-ropa": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__ofertas-ropa.png",
-      "description": "imagen de oferta ropa"
+      "description": "imagen de oferta ropa",
+      "blockClass": "home__image-ofertas"
     }
   }
 }

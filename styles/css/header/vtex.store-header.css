@@ -5,5 +5,10 @@
 
 .headerRowBackground--header__top {
   background-color: #532679;
-  height: 5px;
+  color: white;
+  height: auto;
+}
+
+.headerRowContainer--header__top {
+  justify-content: center;
 }

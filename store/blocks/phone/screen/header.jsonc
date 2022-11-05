@@ -1,6 +1,6 @@
 {
-  "header-layout.desktop": {
-    "title": "Header Desktop",
+  "header-layout.mobile": {
+    "title": "Header Mobile",
     "children": ["header-row#header__top", "header-row#header__middle"]
   }
 }

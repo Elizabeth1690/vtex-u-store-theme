@@ -1,0 +1,14 @@
+{
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "minicart.v2": {
+    "props": {
+      // "MinicartIcon": "icon#home__orders--icon",
+      // "variation": "popup"
+      "itemCountMode": "total"
+      // "quantityDisplay": "always"
+      // "customPixelEventName": "pageView"
+    }
+  }
+}

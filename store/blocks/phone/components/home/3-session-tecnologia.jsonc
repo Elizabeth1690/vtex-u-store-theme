@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#home__section--phone-eleven": {
+    "title": "Phone slider  tecnología",
+    "children": ["list-context.image-list#home__slider--list-tecno"],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "home__slider-row-tecno"
+    }
+  },
+
+  "list-context.image-list#home__slider--list-tecno": {
+    "title": "Lista de imágenes de tecnologías",
+    "children": ["slider-layout#home__slider--list-tecno-uno"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/home__tecnologia-tv.png",
+          "description": "Slide"
+        },
+        {
+          "image": "assets/img/home__tecnologia-movil.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/home__tecnologia-computador.png",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/home__tecnologia-portatil.png",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/home__tecnologia-tv-lg.png",
+          "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/home__tecnologia-celulares.png",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/home__tecnologia-portatiles.png",
+          "description": "Slide 6"
+        },
+        {
+          "image": "assets/img/home__tecnologia-tv-caixun.png",
+          "description": "Slide 7"
+        },
+        {
+          "image": "assets/img/home__tecnologia-cel.png",
+          "description": "Slide 8"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list-tecno-uno": {
+    "title": "Slider con lista aliados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider-tecno",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

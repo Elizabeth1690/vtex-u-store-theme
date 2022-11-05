@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#home__section--dektop-zero": {
+    "title": "Desktop sección imagen cyberlunes movible",
+    "children": ["image#section__dektop--cyber-lunes"],
+    "props": {
+      "blockClass": "home__section-zero",
+      "marginTop": 2
+    }
+  },
+  "image#section__dektop--cyber-lunes": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__compra.movible.gif",
+      "description": "imagen de cyber lunes"
+    }
+  }
+}

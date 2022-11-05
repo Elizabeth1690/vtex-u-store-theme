@@ -1,7 +1,10 @@
 {
-  "flex-layout.row#home__section--dektop-thirty-two": {
+  "flex-layout.row#home__section--dektop-thirty-four": {
     "title": "Desktop slider  aliados",
-    "children": ["list-context.image-list#home__slider--list-aliados"]
+    "children": ["list-context.image-list#home__slider--list-aliados"],
+    "props": {
+      "marginBottom": 7
+    }
   },
 
   "list-context.image-list#home__slider--list-aliados": {
@@ -46,27 +49,11 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "home__slider-aliados",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
       }
-    }
-  },
-
-  "flex-layout.row#home__section--dektop-thirty-three": {
-    "title": "Desktop imagen de clorox",
-    "children": ["flex-layout.col#section__dektop--thirty-one-aseo-clorox"]
-  },
-  "flex-layout.col#section__dektop--thirty-one-aseo-clorox": {
-    "title": "Sección aseo uno",
-    "children": ["image#section__dektop--aseo-clorox"]
-  },
-  "image#section__dektop--aseo-clorox": {
-    "title": "Imagen",
-    "props": {
-      "src": "assets/img/home__aseo-clorox.png",
-      "description": "imagen de mercado"
     }
   }
 }

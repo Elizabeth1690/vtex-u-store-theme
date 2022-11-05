@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#home__section--dektop-six": {
+    "title": "Desktop titulo de oferta",
+    "children": ["flex-layout.col#section__dektop--text"]
+  },
+  "flex-layout.col#section__dektop--text": {
+    "title": "Texto de sección uno",
+    "children": ["rich-text#section__dektop--text-ofertas"]
+  },
+  "rich-text#section__dektop--text-ofertas": {
+    "title": "Texto",
+    "props": {
+      "text": "Ofertas pensadas para ti",
+      "blockClass": "section__title-categoria"
+    }
+  }
+}

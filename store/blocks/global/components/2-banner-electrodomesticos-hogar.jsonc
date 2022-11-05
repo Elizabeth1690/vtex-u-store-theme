@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__section--dektop-eighteen": {
+    "title": "Desktop imagen de envios gratis",
+    "children": ["image#section__dektop--image-envios-gratis"],
+    "props": {
+      "blockClass": "home__section-zero"
+    }
+  },
+  "image#section__dektop--image-envios-gratis": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__envio-gratis.png",
+      "description": "imagen de mercado"
+    }
+  }
+}

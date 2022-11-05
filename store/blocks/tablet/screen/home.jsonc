@@ -1,19 +1,20 @@
 {
-  "responsive-layout.desktop": {
-    "children": ["flex-layout.row#home__section--dektop-global"]
+  "responsive-layout.tablet": {
+    "title": "Componente Tableta",
+    "children": ["flex-layout.row#home__section--tablet-principal"]
   },
-  "flex-layout.row#home__section--dektop-global": {
-    "children": ["flex-layout.col#home__section--dektop-global-uno"]
+  "flex-layout.row#home__section--tablet-principal": {
+    "children": ["flex-layout.col#home__section--tablet-secundaria"]
   },
-  "flex-layout.col#home__section--dektop-global-uno": {
+  "flex-layout.col#home__section--tablet-secundaria": {
     "children": [
-      //"icon#home__orders--icon",
       "flex-layout.row#home__section--dektop-zero",
-      "flex-layout.row#home__section--dektop-one",
+      "flex-layout.row#home__section--tablet-one",
+      "flex-layout.row#home__section--tablet-two",
       "flex-layout.row#home__section--dektop-two",
       "flex-layout.row#home__section--dektop-three",
       "flex-layout.row#home__section--dektop-four",
-      "flex-layout.row#home__section--dektop-five",
+      "flex-layout.row#home__section--tablet-three",
       "flex-layout.row#home__section--dektop-six",
       "flex-layout.row#home__section--dektop-seven",
       "flex-layout.row#home__section--dektop-eight",
@@ -33,6 +34,7 @@
       "flex-layout.row#home__section--dektop-twenty-two",
       "flex-layout.row#home__section--dektop-twenty-three",
       "flex-layout.row#home__section--dektop-twenty-four",
+      "flex-layout.row#home__section--dektop-twenty-five",
       "flex-layout.row#home__section--dektop-twenty-six",
       "flex-layout.row#home__section--dektop-twenty-seven",
       "flex-layout.row#home__section--dektop-twenty-eight",
@@ -45,7 +47,7 @@
       "flex-layout.row#home__section--dektop-thirty-five"
     ],
     "props": {
-      "blockClass": "section__dektop-global"
+      "blockClass": "section__tablet-margin"
     }
   }
 }

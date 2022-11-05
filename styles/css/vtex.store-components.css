@@ -2,15 +2,57 @@
   border: solid 3px red;
 }
 
-.imageElement--home__promocion-gaseosas {
-  margin-left: 260px;
-  height: 418px;
-}
-
 .imageElement--home__image-tv {
   height: 333px;
 }
 
-.imageElement--home__image-mercado {
-  margin-right: 10px;
+.container :global(.vtex-flex-layout-0-x-flexRowContent--home__section-images) {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Diseño de phone*/
+
+.imageElement--home__image-moda {
+  height: 226px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.imageElement--home__image-moda-velez {
+  height: 476px;
+}
+
+.imageElement--home__slider {
+  width: 50% !important;
+}
+
+.imageElement--home__slider-moda {
+  width: 60% !important;
+}
+
+.imageElement--home__slider1 {
+  width: 96% !important;
+  border-radius: 20px;
+}
+
+.imageElement--home__slider-aliados {
+  width: 96% !important;
+}
+
+.imageElement--imagen__dektop-gaseosa {
+  height: 100%;
+}
+
+.imageElement--home__image-ofertas {
+  width: 100%;
+  height: auto;
+}
+
+.imageElement--home__image-ofertas-uno {
+  height: 355px;
+}
+
+.imageElement--home__image-tecno {
+  height: 385px;
 }
