@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#home__section--dektop-thirty-five": {
+    "title": "Desktop imagen de clorox",
+    "children": ["flex-layout.col#section__dektop--thirty-one-aseo-clorox"],
+    "props": {
+      "blockClass": "home__section-zero"
+    }
+  },
+  "flex-layout.col#section__dektop--thirty-one-aseo-clorox": {
+    "title": "Sección aseo uno",
+    "children": ["image#section__dektop--aseo-clorox"],
+    "props": {
+      "blockClass": "home__section-clorox"
+    }
+  },
+  "image#section__dektop--aseo-clorox": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__aseo-clorox.png",
+      "description": "imagen de mercado",
+      "width": "50%"
+    }
+  }
+}

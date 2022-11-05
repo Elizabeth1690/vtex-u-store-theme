@@ -1,3 +1,28 @@
 /*.paragraph--section__one--title {
   color: white;
 }*/
+
+.paragraph--section__title-categoria {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.paragraph--section__title-general {
+  color: rgb(119, 119, 119);
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.paragraph--home__texto-todo {
+  text-align: left;
+  color: rgb(24, 145, 189);
+  border-bottom: 2px solid;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-decoration: none;
+  line-height: 16px;
+}

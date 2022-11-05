@@ -1,0 +1,55 @@
+{
+  "responsive-layout.phone": {
+    "title": "Componente Teléfono",
+
+    "children": ["flex-layout.row#home__section--phone-principal"]
+  },
+  "flex-layout.row#home__section--phone-principal": {
+    "children": ["flex-layout.col#home__section--phone-secundaria"]
+  },
+  "flex-layout.col#home__section--phone-secundaria": {
+    "children": [
+      "flex-layout.row#home__section--dektop-zero",
+      "flex-layout.row#home__section--tablet-one",
+      "flex-layout.row#home__section--tablet-two",
+      "flex-layout.row#home__section--dektop-two",
+      "flex-layout.row#home__section--phone-one",
+      "flex-layout.row#home__section--phone-two",
+      "flex-layout.row#home__section--phone-three",
+      "flex-layout.row#home__section--phone-four",
+      "flex-layout.row#home__section--tablet-three",
+      "flex-layout.row#home__section--dektop-six",
+      "flex-layout.row#home__section--phone-five",
+      "flex-layout.row#home__section--phone-six",
+      "flex-layout.row#home__section--phone-seven",
+      "flex-layout.row#home__section--phone-eight",
+      "flex-layout.row#home__section--phone-nine",
+      "flex-layout.row#home__section--phone-ten",
+      "flex-layout.row#home__section--dektop-ten",
+      "flex-layout.row#home__section--phone-eleven",
+      "flex-layout.row#home__section--dektop-fourteen",
+      "flex-layout.row#home__section--phone-twelve",
+      "flex-layout.row#home__section--phone-thirteen",
+      "flex-layout.row#home__section--dektop-seventeen",
+      "flex-layout.row#home__section--dektop-eighteen",
+      "flex-layout.row#home__section--phone-fourteen",
+      "flex-layout.row#home__section--dektop-twenty",
+      "flex-layout.row#home__section--dektop-twenty-one",
+      "flex-layout.row#home__section--phone-fifteen",
+      "flex-layout.row#home__section--dektop-twenty-three",
+      "flex-layout.row#home__section--dektop-twenty-four",
+      "flex-layout.row#home__section--dektop-twenty-seven",
+      "flex-layout.row#home__section--dektop-twenty-eight",
+      "flex-layout.row#home__section--dektop-twenty-nine",
+      "flex-layout.row#home__section--dektop-thirty-three",
+      "flex-layout.row#home__section--dektop-thirty-one",
+      "flex-layout.row#home__section--dektop-thirty-two",
+      "flex-layout.row#home__section--dektop-thirty-three",
+      "flex-layout.row#home__section--dektop-thirty-four",
+      "flex-layout.row#home__section--dektop-thirty-five"
+    ],
+    "props": {
+      "blockClass": "section__phone-margin"
+    }
+  }
+}

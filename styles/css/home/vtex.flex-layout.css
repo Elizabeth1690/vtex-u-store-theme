@@ -1,7 +1,3 @@
-.flexColchild--section__one--image {
-  max-width: 600px;
-}
-
 .flexCol--section__two--item :global(.vtex-store-link-0-x-buttonLink)::after {
   background-color: black;
   content: "Hello world";
@@ -11,48 +7,70 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 18px;
+  margin-bottom: 13px;
 }
 
-.flexRow--home__section--three {
-  margin-left: 90px;
-}
-.flexRow--home__section--four {
-  margin-left: 90px;
-  margin-bottom: 18px;
+.flexRowContent--home__section--four,
+.flexRowContent--home__section--three {
+  display: flex;
+  justify-content: space-between;
 }
 
-.flexRow--home__section--five {
-  margin-left: 50px;
-  margin-bottom: 18px;
+.flexColChild--home__section-categorias {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
 }
-.flexRowContent--home__section-seven {
+
+.flexCol--section__dektop-global {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flexCol--section__tablet-margin {
+  max-width: 800px;
+  margin: auto;
+}
+
+.flexCol--section__phone-margin {
+  max-width: 500px;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .flexRowContent--home__section-tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .flexColChild--home__session-imagen-mercado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+.flexColChild--home__section-clorox {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.flexRow--home__section-eight {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 18px;
-}
-.flexRowContent--home__section-nine {
-  margin-bottom: 18px;
-}
-.flexRow--home__section-ten {
-  margin-left: 18px;
-  margin-bottom: 18px;
+.flexColChild--home__session-imagen {
+  padding-left: 10px;
 }
 
-.flexRow--home__section-eleven {
-  margin-left: 110px;
-  margin-bottom: 18px;
+.flexRowContent--home__section-dektop-ofertas {
+  max-width: 1280px;
+  gap: 21px;
+  /* margin: 0px auto;*/
+  padding: 10px 0px;
 }
 
-.flexRow--home__section--thirteen {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.flexRowContent--section__texto-categoria {
+  margin-left: 8px;
 }

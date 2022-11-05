@@ -1,0 +1,12 @@
+{
+  "header-row#header__middle-phone": {
+    "title": "Header medio",
+    "children": [
+      /*"rich-text#test", "rich-text#test"*/ "drawer#header__mobile--menu",
+      "search-bar#header__search"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  }
+}

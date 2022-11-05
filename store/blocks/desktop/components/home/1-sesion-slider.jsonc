@@ -1,18 +1,4 @@
 {
-  "flex-layout.row#home__section--dektop-zero": {
-    "title": "Desktop sección imagen cyberlunes movible",
-    "children": ["image#section__dektop--cyber-lunes"],
-    "props": {
-      "blockClass": "home__section-zero"
-    }
-  },
-  "image#section__dektop--cyber-lunes": {
-    "title": "Imagen",
-    "props": {
-      "src": "assets/img/home__compra.movible.gif",
-      "description": "imagen de cyber lunes"
-    }
-  },
   "flex-layout.row#home__section--dektop-one": {
     "title": "Desktop sección  slider y imagen con descuentos",
     "children": [
@@ -20,12 +6,16 @@
       "flex-layout.col#section__dektop---image"
     ],
     "props": {
-      "blockClass": "home__section-one"
+      "blockClass": "home__section-image-slider",
+      "marginBottom": 7
     }
   },
   "flex-layout.col#section__dektop---slider": {
     "title": "Sección slider",
-    "children": ["slider-layout#home__slider--children"]
+    "children": ["slider-layout#home__slider--children"],
+    "props": {
+      "width": "70%"
+    }
   },
   "slider-layout#home__slider--children": {
     "title": "Slider con hijos declarados",
@@ -36,7 +26,7 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "home__slider-image",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
@@ -83,21 +73,27 @@
   },
   "flex-layout.col#section__dektop---image": {
     "title": "Imagen",
-    "children": ["image#section__dektop--promocion-gaseosa"]
+    "children": ["image#section__dektop--promocion-gaseosa"],
+    "props": {
+      "blockClass": "home__session-imagen",
+      "width": "30%"
+    }
   },
 
   "image#section__dektop--promocion-gaseosa": {
     "title": "Imagen",
     "props": {
-      "src": "assets/img/home__promocion-gaseosas.png",
-      "description": "imagen de promoción de gaseosas"
-    }
-  },
-
-  "icon#home__orders--icon": {
-    "props": {
-      "id": "hpa-calendar",
-      "size": "40"
+      "src": "assets/img/home--promocion-mercado1.png",
+      "description": "imagen de promoción de gaseosas",
+      "blockClass": "imagen__dektop-gaseosa"
     }
   }
+  /*
+  "icon#home__orders--icon": {
+    "props": {
+      "id": "sti-newcar",
+      "viewBox": "0 0 175 50",
+      "size": "40"
+    }
+  }*/
 }

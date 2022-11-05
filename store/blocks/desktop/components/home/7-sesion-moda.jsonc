@@ -1,45 +1,4 @@
 {
-  "flex-layout.row#home__section--dektop-twenty": {
-    "title": "Desktop titulo moda y accesorios",
-    "children": [
-      "flex-layout.col#section__dektop--text-moda",
-      "flex-layout.col#section__dektop--text-moda1"
-    ]
-  },
-  "flex-layout.col#section__dektop--text-moda": {
-    "title": "Texto de sección uno",
-    "children": ["rich-text#section__dektop--title-moda"]
-  },
-  "rich-text#section__dektop--title-moda": {
-    "title": "Texto",
-    "props": {
-      "text": "Moda y accesorios"
-    }
-  },
-  "flex-layout.col#section__dektop--text-moda1": {
-    "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop-title2"]
-  },
-
-  "flex-layout.row#home__section--dektop-twenty-one": {
-    "title": "Desktop imagen de americanino",
-    "children": ["flex-layout.col#section__dektop--image-americanino"],
-    "props": {
-      "blockClass": "home__section-eight"
-    }
-  },
-  "flex-layout.col#section__dektop--image-americanino": {
-    "title": "Sección americanino uno",
-    "children": ["image#section__dektop--image-americanino"]
-  },
-  "image#section__dektop--image-americanino": {
-    "title": "Imagen",
-    "props": {
-      "src": "assets/img/home__moda-americanino.png",
-      "description": "imagen de americanino"
-    }
-  },
-
   "flex-layout.row#home__section--dektop-twenty-two": {
     "title": "Desktop sección moda",
     "children": [
@@ -48,18 +7,23 @@
       "flex-layout.col#section__dektop--twenty-two-relojes-ropa"
     ],
     "props": {
-      "blockClass": "home__section--three"
+      "blockClass": "home__section--moda"
     }
   },
   "flex-layout.col#section__dektop--twenty-two-velez": {
     "title": "Sección moda uno",
-    "children": ["image#section__dektop--image-velez"]
+    "children": ["image#section__dektop--image-velez"],
+    "props": {
+      "width": "44%",
+      "marginRight": 7
+    }
   },
   "image#section__dektop--image-velez": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__moda-velez.png",
-      "description": "imagen de mercado"
+      "description": "imagen de zapatos",
+      "blockClass": "home__image-moda-velez"
     }
   },
   "flex-layout.col#section__dektop--twenty-two-tenis-maletas": {
@@ -67,20 +31,25 @@
     "children": [
       "image#section__dektop--image-tenis",
       "image#section__dektop--image-maletas"
-    ]
+    ],
+    "props": {
+      "width": "28%"
+    }
   },
   "image#section__dektop--image-tenis": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__moda-tenis.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
   "image#section__dektop--image-maletas": {
     "title": "Imagen dos",
     "props": {
       "src": "assets/img/home__moda-maletas.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
   "flex-layout.col#section__dektop--twenty-two-relojes-ropa": {
@@ -88,26 +57,36 @@
     "children": [
       "image#section__dektop--relojes",
       "image#section__dektop--ropa"
-    ]
+    ],
+    "props": {
+      "width": "28%",
+      "marginLeft": 7
+    }
   },
   "image#section__dektop--relojes": {
     "title": "Imagen",
     "props": {
       "src": "assets/img/home__moda-relojes.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
   "image#section__dektop--ropa": {
     "title": "Imagen dos",
     "props": {
       "src": "assets/img/home__moda-ropa.png",
-      "description": "imagen de mercado"
+      "description": "imagen de mercado",
+      "blockClass": "home__image-moda"
     }
   },
 
   "flex-layout.row#home__section--dektop-twenty-three": {
     "title": "Desktop slider  marca de ropa",
-    "children": ["list-context.image-list#home__slider--list-marca"]
+    "children": ["list-context.image-list#home__slider--list-marca"],
+    "props": {
+      "blockClass": "home__section-slider-marca",
+      "marginBottom": 5
+    }
   },
 
   "list-context.image-list#home__slider--list-marca": {
@@ -167,12 +146,12 @@
     "title": "Slider con lista hogar",
     "props": {
       "itemsPerPage": {
-        "desktop": 2,
-        "tablet": 1,
-        "mobile": 1
+        "desktop": 5,
+        "tablet": 3,
+        "mobile": 2
       },
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "home__slider-moda",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true

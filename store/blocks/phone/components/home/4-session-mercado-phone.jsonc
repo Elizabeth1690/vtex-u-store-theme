@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#home__section--phone-twelve": {
+    "title": "Phone slider  mercado",
+    "children": ["list-context.image-list#home__slider--list-mercado"],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "home__slider-row-mercado"
+    }
+  },
+
+  "list-context.image-list#home__slider--list-mercado": {
+    "title": "Lista de imágenes de tecnologías",
+    "children": ["slider-layout#home__slider--list-mercado-uno"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/home__mercado-rapido.png",
+          "description": "Slide"
+        },
+        {
+          "image": "assets/img/home__mercado-lista.png",
+          "description": "Slide 1"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list-mercado-uno": {
+    "title": "Slider con lista aliados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider-tecno",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  },
+
+  "flex-layout.row#home__section--phone-thirteen": {
+    "children": [
+      "flex-layout.col#section__phone--image-mercado-alimentos",
+      "flex-layout.col#section__phone--image-mercado-aseo"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home__section-phone-mercado",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#section__phone--image-mercado-alimentos": {
+    "title": "Sección ofertas dos",
+    "children": ["image#section__phone--image-mercado-alimentos"]
+  },
+  "image#section__phone--image-mercado-alimentos": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-alimentos.png",
+      "description": "imagen de oferta alimentos",
+      "blockClass": "home__image-alimentos",
+      "width": 150
+    }
+  },
+  "flex-layout.col#section__phone--image-mercado-aseo": {
+    "title": "Sección ofertas tres",
+    "children": ["image#section__phone--image-mercado-aseo"]
+  },
+  "image#section__phone--image-mercado-aseo": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__mercado-aseo.png",
+      "description": "imagen de oferta aseo",
+      "blockClass": "home__image-aseo",
+      "width": 150
+    }
+  }
+}
