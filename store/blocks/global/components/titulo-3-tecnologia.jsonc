@@ -4,7 +4,10 @@
     "children": [
       "flex-layout.col#section__dektop--text-tecnologia",
       "flex-layout.col#section__dektop--text-tecnologia1"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__dektop-tecnologia"
+    }
   },
   "flex-layout.col#section__dektop--text-tecnologia": {
     "title": "Sección tecnología uno",
@@ -13,11 +16,15 @@
   "rich-text#section__dektop--title-tecnologia": {
     "title": "Texto",
     "props": {
-      "text": "Lo mejor en tecnología"
+      "text": "Lo mejor en tecnología",
+      "blockClass": "section__title-general"
     }
   },
   "flex-layout.col#section__dektop--text-tecnologia1": {
     "title": "Sección tecnología dos",
-    "children": ["rich-text#section__dektop-title2"]
+    "children": ["rich-text#section__dektop-title2"],
+    "props": {
+      "horizontalAlign": "right"
+    }
   }
 }

@@ -16,16 +16,21 @@
   "rich-text#section__dektop-title": {
     "title": "Texto",
     "props": {
-      "text": "Las mejores ofertas de mercado"
+      "text": "Las mejores ofertas de mercado",
+      "blockClass": "section__title-general"
     }
   },
   "flex-layout.col#section__dektop-text1": {
     "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop-title2"]
+    "children": ["rich-text#section__dektop-title2"],
+    "props": {
+      "horizontalAlign": "right"
+    }
   },
   "rich-text#section__dektop-title2": {
     "props": {
-      "text": "¡ VER TODO!"
+      "text": "¡ VER TODO!",
+      "blockClass": "home__texto-todo"
     }
   }
 }

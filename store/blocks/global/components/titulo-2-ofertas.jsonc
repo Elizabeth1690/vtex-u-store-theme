@@ -10,7 +10,8 @@
   "rich-text#section__dektop--text-ofertas": {
     "title": "Texto",
     "props": {
-      "text": "Ofertas pensadas para ti"
+      "text": "Ofertas pensadas para ti",
+      "blockClass": "section__title-categoria"
     }
   }
 }

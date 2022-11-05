@@ -10,7 +10,8 @@
   "rich-text#section__dektop--title-lanzamiento": {
     "title": "Texto de sección uno",
     "props": {
-      "text": "Lanzamientos y novedades"
+      "text": "Lanzamientos y novedades",
+      "blockClass": "section__title-general"
     }
   }
 }

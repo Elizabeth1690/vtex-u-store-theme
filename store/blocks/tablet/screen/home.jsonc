@@ -1,8 +1,13 @@
 {
   "responsive-layout.tablet": {
     "title": "Componente Tableta",
+    "children": ["flex-layout.row#home__section--tablet-principal"]
+  },
+  "flex-layout.row#home__section--tablet-principal": {
+    "children": ["flex-layout.col#home__section--tablet-secundaria"]
+  },
+  "flex-layout.col#home__section--tablet-secundaria": {
     "children": [
-      "flex-layout.row#home__section--phone-two",
       "flex-layout.row#home__section--dektop-zero",
       "flex-layout.row#home__section--tablet-one",
       "flex-layout.row#home__section--tablet-two",
@@ -40,6 +45,9 @@
       "flex-layout.row#home__section--dektop-thirty-three",
       "flex-layout.row#home__section--dektop-thirty-four",
       "flex-layout.row#home__section--dektop-thirty-five"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__tablet-margin"
+    }
   }
 }

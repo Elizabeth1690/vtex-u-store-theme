@@ -117,7 +117,8 @@
       "flex-layout.col#section__dektop--thirteen-cel-vivo"
     ],
     "props": {
-      "blockClass": "home__section-dektop-ofertas"
+      "blockClass": "home__section-dektop-ofertas",
+      "marginBottom": 7
     }
   },
   "flex-layout.col#section__dektop--thirteen-pc-hp": {

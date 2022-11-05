@@ -16,11 +16,15 @@
   "rich-text#section__dektop-title-electro": {
     "title": "Texto",
     "props": {
-      "text": "Electrodomésticos para tu hogar"
+      "text": "Electrodomésticos para tu hogar",
+      "blockClass": "section__title-general"
     }
   },
   "flex-layout.col#section__dektop-text-electro1": {
     "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop-title2"]
+    "children": ["rich-text#section__dektop-title2"],
+    "props": {
+      "horizontalAlign": "right"
+    }
   }
 }

@@ -13,11 +13,15 @@
   "rich-text#section__dektop--title-hogar": {
     "title": "Texto de sección uno",
     "props": {
-      "text": "Todo para tu hogar"
+      "text": "Todo para tu hogar",
+      "blockClass": "section__title-general"
     }
   },
   "flex-layout.col#section__dektop--text-hogar1": {
     "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop-title2"]
+    "children": ["rich-text#section__dektop-title2"],
+    "props": {
+      "horizontalAlign": "right"
+    }
   }
 }

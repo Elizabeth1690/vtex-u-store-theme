@@ -10,7 +10,8 @@
   "rich-text#section__dektop--title-aliados": {
     "title": "Texto de sección uno",
     "props": {
-      "text": "Nuestros aliados"
+      "text": "Nuestros aliados",
+      "blockClass": "section__title-general"
     }
   }
 }

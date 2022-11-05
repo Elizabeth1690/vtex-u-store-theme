@@ -3,7 +3,8 @@
     "title": "Desktop sección imagen cyberlunes movible",
     "children": ["image#section__dektop--cyber-lunes"],
     "props": {
-      "blockClass": "home__section-zero"
+      "blockClass": "home__section-zero",
+      "marginTop": 2
     }
   },
   "image#section__dektop--cyber-lunes": {

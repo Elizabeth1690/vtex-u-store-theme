@@ -13,11 +13,15 @@
   "rich-text#section__dektop--title-moda": {
     "title": "Texto",
     "props": {
-      "text": "Moda y accesorios"
+      "text": "Moda y accesorios",
+      "blockClass": "section__title-general"
     }
   },
   "flex-layout.col#section__dektop--text-moda1": {
     "title": "Texto de sección dos",
-    "children": ["rich-text#section__dektop-title2"]
+    "children": ["rich-text#section__dektop-title2"],
+    "props": {
+      "horizontalAlign": "right"
+    }
   }
 }

@@ -84,7 +84,8 @@
     "title": "Desktop slider  marca de ropa",
     "children": ["list-context.image-list#home__slider--list-marca"],
     "props": {
-      "blockClass": "home__section-slider-marca"
+      "blockClass": "home__section-slider-marca",
+      "marginBottom": 5
     }
   },
 

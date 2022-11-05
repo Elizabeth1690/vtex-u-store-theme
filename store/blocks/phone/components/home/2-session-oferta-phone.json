@@ -67,7 +67,7 @@
   },
   "flex-layout.col#section__phone--image-ofertas-computador": {
     "title": "Sección ofertas tres",
-    "children": ["image#section__dektop--oferta-computador"]
+    "children": ["image#section__phone--oferta-computador"]
   },
   "image#section__phone--oferta-computador": {
     "title": "Imagen",

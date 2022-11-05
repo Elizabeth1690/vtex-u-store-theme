@@ -1,7 +1,10 @@
 {
   "flex-layout.row#home__section--dektop-two": {
     "title": "Desktop titulo categoria",
-    "children": ["flex-layout.col#section__dektop--two-categoria"]
+    "children": ["flex-layout.col#section__dektop--two-categoria"],
+    "props": {
+      "blockClass": "section__texto-categoria"
+    }
   },
   "flex-layout.col#section__dektop--two-categoria": {
     "title": " Sección titulo para las categorias",

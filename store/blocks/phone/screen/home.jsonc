@@ -1,6 +1,13 @@
 {
   "responsive-layout.phone": {
     "title": "Componente Teléfono",
+
+    "children": ["flex-layout.row#home__section--phone-principal"]
+  },
+  "flex-layout.row#home__section--phone-principal": {
+    "children": ["flex-layout.col#home__section--phone-secundaria"]
+  },
+  "flex-layout.col#home__section--phone-secundaria": {
     "children": [
       "flex-layout.row#home__section--dektop-zero",
       "flex-layout.row#home__section--tablet-one",
@@ -24,11 +31,12 @@
       "flex-layout.row#home__section--phone-twelve",
       "flex-layout.row#home__section--phone-thirteen",
       "flex-layout.row#home__section--dektop-seventeen",
-      "flex-layout.row#home__section--phone-fourteen",
       "flex-layout.row#home__section--dektop-eighteen",
+      "flex-layout.row#home__section--phone-fourteen",
       "flex-layout.row#home__section--dektop-twenty",
-      "flex-layout.row#home__section--dektop-twenty-three",
       "flex-layout.row#home__section--dektop-twenty-one",
+      "flex-layout.row#home__section--phone-fifteen",
+      "flex-layout.row#home__section--dektop-twenty-three",
       "flex-layout.row#home__section--dektop-twenty-four",
       "flex-layout.row#home__section--dektop-twenty-seven",
       "flex-layout.row#home__section--dektop-twenty-eight",
@@ -39,6 +47,9 @@
       "flex-layout.row#home__section--dektop-thirty-three",
       "flex-layout.row#home__section--dektop-thirty-four",
       "flex-layout.row#home__section--dektop-thirty-five"
-    ]
+    ],
+    "props": {
+      "blockClass": "section__phone-margin"
+    }
   }
 }

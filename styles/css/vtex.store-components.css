@@ -27,6 +27,10 @@
   width: 50% !important;
 }
 
+.imageElement--home__slider-moda {
+  width: 60% !important;
+}
+
 .imageElement--home__slider1 {
   width: 96% !important;
   border-radius: 20px;

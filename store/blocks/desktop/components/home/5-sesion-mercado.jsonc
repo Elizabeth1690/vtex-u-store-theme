@@ -41,7 +41,8 @@
       "flex-layout.col#section__dektop--sixteen-mercado-vinos"
     ],
     "props": {
-      "blockClass": "home__section--sixteen-mercado"
+      "blockClass": "home__section--sixteen-mercado",
+      "marginBottom": 7
     }
   },
   "flex-layout.col#section__dektop--sixteen-mercado-alimentos": {

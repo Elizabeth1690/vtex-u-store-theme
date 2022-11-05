@@ -1,6 +1,7 @@
-/*.imageElement--home__slider {
-}*/
-
 .imageElement--home__slider-aliados {
   width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+
 }

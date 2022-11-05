@@ -6,7 +6,8 @@
       "flex-layout.col#section__dektop---image"
     ],
     "props": {
-      "blockClass": "home__section-image-slider"
+      "blockClass": "home__section-image-slider",
+      "marginBottom": 7
     }
   },
   "flex-layout.col#section__dektop---slider": {
@@ -82,7 +83,7 @@
   "image#section__dektop--promocion-gaseosa": {
     "title": "Imagen",
     "props": {
-      "src": "assets/img/home__promocion-gaseosas.png",
+      "src": "assets/img/home--promocion-mercado1.png",
       "description": "imagen de promoción de gaseosas",
       "blockClass": "imagen__dektop-gaseosa"
     }
