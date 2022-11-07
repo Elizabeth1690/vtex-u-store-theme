@@ -18,7 +18,8 @@
     "props": {
       "src": "assets/img/home__aseo-clorox.png",
       "description": "imagen de mercado",
-      "width": "50%"
+      "width": "57%",
+      "blockClass": "image-clorox"
     }
   }
 }

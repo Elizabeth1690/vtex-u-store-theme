@@ -6,7 +6,8 @@
       "flex-layout.col#section__dektop--text-tecnologia1"
     ],
     "props": {
-      "blockClass": "section__dektop-tecnologia"
+      "blockClass": "section__dektop-title-general",
+      "preserveLayoutOnMobile": "true"
     }
   },
   "flex-layout.col#section__dektop--text-tecnologia": {

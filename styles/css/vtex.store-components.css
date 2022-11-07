@@ -1,7 +1,3 @@
-.imageElementLink--home__image1 {
-  border: solid 3px red;
-}
-
 .imageElement--home__image-tv {
   height: 333px;
 }
@@ -10,8 +6,6 @@
   display: flex;
   justify-content: space-between;
 }
-
-/* Diseño de phone*/
 
 .imageElement--home__image-moda {
   height: 226px;
@@ -28,7 +22,7 @@
 }
 
 .imageElement--home__slider-moda {
-  width: 60% !important;
+  width: 70% !important;
 }
 
 .imageElement--home__slider1 {
@@ -55,4 +49,46 @@
 
 .imageElement--home__image-tecno {
   height: 385px;
+}
+
+/* Diseño de tablet*/
+
+@media screen and (max-width: 768px) {
+  .imageElement--home__image-ofertas-uno {
+    height: 200px;
+  }
+
+  .imageElement--home__image-ofertas-uno {
+    height: 198px;
+  }
+
+  .imageElement--home__image-tecno {
+    height: 215px;
+  }
+  .imageElement--home__image-moda {
+    height: 150px;
+    margin-right: 80px;
+  }
+  .imageElement--home__image-moda-velez {
+    height: 325px;
+  }
+  .imageElement--image-clorox {
+    width: 100% !important;
+  }
+}
+
+/* Diseño de phone */
+
+@media screen and (max-width: 480px) {
+  .imageElement--home__slider {
+    width: 189px !important;
+  }
+
+  .imageElement--home__slider-tecno {
+    width: 100%;
+    height: 150px;
+  }
+  .imageElement--image-clorox {
+    width: 100% !important;
+  }
 }
