@@ -26,3 +26,41 @@
   text-decoration: none;
   line-height: 16px;
 }
+
+/*  Estilos  tablet*/
+
+@media screen and (max-width: 768px) {
+  .container--section__title-categoria {
+    margin-bottom: 20px;
+  }
+}
+
+/* Diseño phone*/
+
+@media screen and (max-width: 480px) {
+  .paragraph--section__title-categoria {
+    font-size: 16px;
+  }
+
+  .paragraph--text-ver-mas {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-decoration: none;
+    line-height: 10px;
+  }
+
+  .paragraph--section__title-general {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .paragraph--home__texto-todo {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .paragraph--home__text-categoria {
+    font-size: 12px;
+    color: blue;
+  }
+}

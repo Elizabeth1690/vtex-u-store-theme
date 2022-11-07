@@ -1,9 +1,10 @@
 {
   "flex-layout.row#home__section--phone-five": {
-    "title": "Desktop sección ofertas",
+    "title": "Phone sección ofertas",
     "children": ["flex-layout.col#section__phone--image-ofertas-tv"],
     "props": {
-      "blockClass": "home__section-nine"
+      "blockClass": "home__section-nine",
+      "marginBottom": 3
     }
   },
   "flex-layout.col#section__phone--image-ofertas-tv": {
@@ -21,19 +22,23 @@
     }
   },
   "flex-layout.row#home__section--phone-six": {
+    "title": "Phone sección ofertas 1",
     "children": [
       "flex-layout.col#section__phone--image-ofertas-movil",
       "flex-layout.col#section__phone--image-ofertas-electrodomestico"
     ],
     "props": {
-      "colSizing": "auto",
       "blockClass": "home__section-phone-two",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": "true",
+      "marginBottom": 3
     }
   },
   "flex-layout.col#section__phone--image-ofertas-movil": {
-    "title": "Sección ofertas dos",
-    "children": ["image#section__phone--oferta-movil"]
+    "title": "Sección ofertas uno",
+    "children": ["image#section__phone--oferta-movil"],
+    "props": {
+      "blockClass": "home__section-movil"
+    }
   },
   "image#section__phone--oferta-movil": {
     "title": "Imagen",
@@ -45,8 +50,11 @@
     }
   },
   "flex-layout.col#section__phone--image-ofertas-electrodomestico": {
-    "title": "Sección ofertas tres",
-    "children": ["image#section__phone--oferta-electrodomestico"]
+    "title": "Sección ofertas dos",
+    "children": ["image#section__phone--oferta-electrodomestico"],
+    "props": {
+      "blockClass": "home__section-electro"
+    }
   },
   "image#section__phone--oferta-electrodomestico": {
     "title": "Imagen",
@@ -59,14 +67,15 @@
   },
 
   "flex-layout.row#home__section--phone-seven": {
-    "title": "Desktop sección ofertas",
+    "title": "Phone sección ofertas 2",
     "children": ["flex-layout.col#section__phone--image-ofertas-computador"],
     "props": {
-      "blockClass": "home__section-nine"
+      "blockClass": "home__section-nine",
+      "marginBottom": 3
     }
   },
   "flex-layout.col#section__phone--image-ofertas-computador": {
-    "title": "Sección ofertas tres",
+    "title": "Sección ofertas uno",
     "children": ["image#section__phone--oferta-computador"]
   },
   "image#section__phone--oferta-computador": {
@@ -78,6 +87,7 @@
   },
 
   "flex-layout.row#home__section--phone-eight": {
+    "title": "Phone sección ofertas 3",
     "children": [
       "flex-layout.col#section__phone--image-ofertas-licor",
       "flex-layout.col#section__phone--image-ofertas-huevos"
@@ -85,11 +95,12 @@
     "props": {
       "colSizing": "auto",
       "blockClass": "home__section-phone-two",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": "true",
+      "marginBottom": 3
     }
   },
   "flex-layout.col#section__phone--image-ofertas-licor": {
-    "title": "Sección ofertas dos",
+    "title": "Sección ofertas uno",
     "children": ["image#section__phone--oferta-licor"]
   },
   "image#section__phone--oferta-licor": {
@@ -101,7 +112,7 @@
     }
   },
   "flex-layout.col#section__phone--image-ofertas-huevos": {
-    "title": "Sección ofertas uno",
+    "title": "Sección ofertas dos",
     "children": ["image#section__phone--oferta-huevos"],
     "props": {
       "blockClass": "home__image-tv"
@@ -117,14 +128,15 @@
   },
 
   "flex-layout.row#home__section--phone-nine": {
-    "title": "Desktop sección ofertas",
+    "title": "Phone sección ofertas 4",
     "children": ["flex-layout.col#section__phone--image-ofertas-colchones"],
     "props": {
-      "blockClass": "home__section-nine"
+      "blockClass": "home__section-nine",
+      "marginBottom": 3
     }
   },
   "flex-layout.col#section__phone--image-ofertas-colchones": {
-    "title": "Sección ofertas cuatro",
+    "title": "Sección ofertas uno",
 
     "children": ["image#section__phone--oferta-colchones"],
     "props": {
@@ -139,6 +151,7 @@
     }
   },
   "flex-layout.row#home__section--phone-ten": {
+    "title": "Phone sección ofertas 5",
     "children": [
       "flex-layout.col#section__phone--image-ofertas-muebles",
       "flex-layout.col#section__phone--image-ofertas-ropa"
@@ -146,11 +159,12 @@
     "props": {
       "colSizing": "auto",
       "blockClass": "home__section-phone-two",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": "true",
+      "marginBottom": 5
     }
   },
   "flex-layout.col#section__phone--image-ofertas-muebles": {
-    "title": "Sección ofertas cinco",
+    "title": "Sección ofertas uno",
     "children": ["image#section__phone--oferta-muebles"]
   },
   "image#section__phone--oferta-muebles": {
@@ -162,7 +176,7 @@
     }
   },
   "flex-layout.col#section__phone--image-ofertas-ropa": {
-    "title": "Sección ofertas seis",
+    "title": "Sección ofertas dos",
     "children": ["image#section__phone--oferta-ropa"]
   },
   "image#section__phone--oferta-ropa": {

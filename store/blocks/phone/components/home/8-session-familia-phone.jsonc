@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#home__section--phone-seventeen": {
+    "title": "Phone  familia",
+    "children": [
+      "flex-layout.col#section__phone--image-familia-bicicleta",
+      "flex-layout.col#section__phone--image-familia-coches"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home__section-phone-electro",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#section__phone--image-familia-bicicleta": {
+    "title": "Sección familia uno",
+    "children": ["image#section__phone--image-familia-bicicleta"]
+  },
+  "image#section__phone--image-familia-bicicleta": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-bicicleta.png",
+      "description": "imagen de oferta nevera",
+      "blockClass": "home__image-nevera",
+      "width": 150
+    }
+  },
+  "flex-layout.col#section__phone--image-familia-coches": {
+    "title": "Sección familia dos",
+    "children": ["image#section__phone--image-familia-coches"]
+  },
+  "image#section__phone--image-familia-coches": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home__hogar-coches.png",
+      "description": "imagen de oferta lavadora",
+      "blockClass": "home__image-lavadora",
+      "width": 150
+    }
+  }
+}
