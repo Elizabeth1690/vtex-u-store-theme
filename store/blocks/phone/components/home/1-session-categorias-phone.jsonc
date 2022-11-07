@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__section--phone-one": {
-    "title": "Phone sección categoría",
+    "title": "Phone sección categoría 1",
     "children": [
       "flex-layout.col#section__phone--one-mercado",
       "flex-layout.col#section__phone--one-moda",
@@ -16,7 +16,10 @@
     "children": [
       "image#section__phone--image-mercado",
       "rich-text#section__phone--texto-mercado"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-mercado": {
     "title": "Imagen",
@@ -30,7 +33,10 @@
   "rich-text#section__phone--texto-mercado": {
     "title": "Texto",
     "props": {
-      "text": "Mercado"
+      "text": "Mercado",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.col#section__phone--one-moda": {
@@ -38,7 +44,10 @@
     "children": [
       "image#section__phone--image-moda",
       "rich-text#section__phone--texto-moda"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-moda": {
     "title": "Imagen",
@@ -50,7 +59,10 @@
   "rich-text#section__phone--texto-moda": {
     "title": "Texto",
     "props": {
-      "text": "Moda"
+      "text": "Moda",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.col#section__phone--one-celulares": {
@@ -58,7 +70,10 @@
     "children": [
       "image#section__phone--image-celulares",
       "rich-text#section__phone--texto-celulares"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-celulares": {
     "title": "Imagen",
@@ -70,11 +85,14 @@
   "rich-text#section__phone--texto-celulares": {
     "title": "Texto",
     "props": {
-      "text": "Celulares"
+      "text": "Celulares",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.row#home__section--phone-two": {
-    "title": "Tablet sección categoría",
+    "title": "Phone sección categoría 2",
     "children": [
       "flex-layout.col#section__phone--two-televisores",
       "flex-layout.col#section__phone--two-computadores",
@@ -86,11 +104,14 @@
     }
   },
   "flex-layout.col#section__phone--two-televisores": {
-    "title": "Sección categoría cuatro",
+    "title": "Sección categoría uno",
     "children": [
       "image#section__phone--image-televisores",
       "rich-text#section__phone--texto-televisores"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-televisores": {
     "title": "Imagen",
@@ -102,15 +123,21 @@
   "rich-text#section__phone--texto-televisores": {
     "title": "Texto",
     "props": {
-      "text": "Televisores"
+      "text": "Televisores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.col#section__phone--two-computadores": {
-    "title": "Sección categoría cinco",
+    "title": "Sección categoría dos",
     "children": [
       "image#section__phone--image-computadores",
       "rich-text#section__phone--texto-computadores"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-computadores": {
     "title": "Imagen",
@@ -122,15 +149,21 @@
   "rich-text#section__phone--texto-computadores": {
     "title": "Texto",
     "props": {
-      "text": "Computadores"
+      "text": "Computadores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.col#section__phone--two-colchones": {
-    "title": "Sección categoría seis",
+    "title": "Sección categoría tres",
     "children": [
       "image#section__phone--image-colchones",
       "rich-text#section__dektop--texto-colchones"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-colchones": {
     "title": "Imagen",
@@ -142,11 +175,14 @@
   "rich-text#section__phone--texto-colchones": {
     "title": "Texto",
     "props": {
-      "text": "Colchones"
+      "text": "Colchones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.row#home__section--phone-three": {
-    "title": "Desktop sección categoría segunda parte",
+    "title": "Phone sección categoría 3",
     "children": [
       "flex-layout.col#section__phone--three-electrodomesticos",
       "flex-layout.col#section__phone--three-cocina",
@@ -158,11 +194,14 @@
     }
   },
   "flex-layout.col#section__phone--three-electrodomesticos": {
-    "title": "Sección categoría siete",
+    "title": "Sección categoría uno",
     "children": [
       "image#section__phone--image-electrodomesticos",
       "rich-text#section__phone--texto-electrodomesticos"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-electrodomesticos": {
     "title": "Imagen",
@@ -174,15 +213,21 @@
   "rich-text#section__phone--texto-electrodomesticos": {
     "title": "Texto",
     "props": {
-      "text": "Electrodomésticos"
+      "text": "Electrodomésticos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.col#section__phone--three-cocina": {
-    "title": "Sección categoría ocho",
+    "title": "Sección categoría dos",
     "children": [
       "image#section__phone--image-cocina",
       "rich-text#section__phone--texto-cocina"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-cocina": {
     "title": "Imagen",
@@ -194,15 +239,21 @@
   "rich-text#section__phone--texto-cocina": {
     "title": "Texto",
     "props": {
-      "text": "Cocina"
+      "text": "Cocina",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.col#section__phone--three-deportes": {
-    "title": "Sección categoría nueve",
+    "title": "Sección categoría tres",
     "children": [
       "image#section__phone--image-deportes",
       "rich-text#section__phone--texto-deportes"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "image#section__phone--image-deportes": {
     "title": "Imagen",
@@ -214,15 +265,29 @@
   "rich-text#section__phone--texto-deportes": {
     "title": "Texto",
     "props": {
-      "text": "Deportes"
+      "text": "Deportes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__text-categoria"
     }
   },
   "flex-layout.row#home__section--phone-four": {
-    "children": ["rich-text#section__phone-title1"]
+    "title": "Phone texto de ver más",
+    "children": ["flex-layout.col#section__phone--ver-mas"]
+  },
+  "flex-layout.col#section__phone--ver-mas": {
+    "title": " Ver más",
+    "children": ["rich-text#section__phone-title1"],
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "home__section--phone-mercar"
+    }
   },
   "rich-text#section__phone-title1": {
+    "title": "Texto",
     "props": {
-      "text": "Ver más"
+      "text": "Ver más",
+      "blockClass": "text-ver-mas"
     }
   }
 }

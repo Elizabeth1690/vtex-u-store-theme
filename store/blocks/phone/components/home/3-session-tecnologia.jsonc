@@ -54,7 +54,7 @@
     }
   },
   "slider-layout#home__slider--list-tecno-uno": {
-    "title": "Slider con lista aliados",
+    "title": "Slider con lista tecnología",
     "props": {
       "itemsPerPage": {
         "desktop": 1,

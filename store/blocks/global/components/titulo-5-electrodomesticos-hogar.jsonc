@@ -6,7 +6,8 @@
       "flex-layout.col#section__dektop-text-electro1"
     ],
     "props": {
-      "blockClass": "home__section-twelve"
+      "blockClass": "section__dektop-title-general",
+      "preserveLayoutOnMobile": "true"
     }
   },
   "flex-layout.col#section__dektop-text-electro": {

@@ -1,9 +1,11 @@
 {
   "flex-layout.row#home__section--tablet-three": {
-    "title": "Tablet información de pagos, entregas y ventas",
-    "children": ["list-context.image-list#home__slider--list-info"]
+    "title": "Tablet slider información de pagos, entregas y ventas",
+    "children": ["list-context.image-list#home__slider--list-info"],
+    "props": {
+      "blockClass": "home__session-slider-pagos"
+    }
   },
-
   "list-context.image-list#home__slider--list-info": {
     "title": "Lista de imágenes",
     "children": ["slider-layout#home__slider--list-info1"],

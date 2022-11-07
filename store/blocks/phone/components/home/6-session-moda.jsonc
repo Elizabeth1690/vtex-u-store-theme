@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__section--phone-fifteen": {
-    "title": "Phone slider  tecnología",
+    "title": "Phone slider  moda",
     "children": ["list-context.image-list#home__slider--list-moda"],
     "props": {
       "marginBottom": 7,
@@ -9,7 +9,7 @@
   },
 
   "list-context.image-list#home__slider--list-moda": {
-    "title": "Lista de imágenes de tecnologías",
+    "title": "Lista de imágenes de moda",
     "children": ["slider-layout#home__slider--list-moda-uno"],
     "props": {
       "preload": true,
@@ -38,7 +38,7 @@
     }
   },
   "slider-layout#home__slider--list-moda-uno": {
-    "title": "Slider con lista aliados",
+    "title": "Slider con lista de moda",
     "props": {
       "itemsPerPage": {
         "desktop": 1,

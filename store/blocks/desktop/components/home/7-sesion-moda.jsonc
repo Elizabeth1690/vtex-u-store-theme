@@ -33,7 +33,8 @@
       "image#section__dektop--image-maletas"
     ],
     "props": {
-      "width": "28%"
+      "width": "28%",
+      "blockClass": "home__session-maletas"
     }
   },
   "image#section__dektop--image-tenis": {
@@ -60,7 +61,8 @@
     ],
     "props": {
       "width": "28%",
-      "marginLeft": 7
+      "marginLeft": 7,
+      "blockClass": "home__session-ropa"
     }
   },
   "image#section__dektop--relojes": {
@@ -84,8 +86,7 @@
     "title": "Desktop slider  marca de ropa",
     "children": ["list-context.image-list#home__slider--list-marca"],
     "props": {
-      "blockClass": "home__section-slider-marca",
-      "marginBottom": 5
+      "blockClass": "home__section-slider-marca"
     }
   },
 

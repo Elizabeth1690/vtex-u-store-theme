@@ -9,7 +9,7 @@
   },
 
   "list-context.image-list#home__slider--list-mercado": {
-    "title": "Lista de imágenes de tecnologías",
+    "title": "Lista de imágenes de mercado",
     "children": ["slider-layout#home__slider--list-mercado-uno"],
     "props": {
       "preload": true,
@@ -26,7 +26,7 @@
     }
   },
   "slider-layout#home__slider--list-mercado-uno": {
-    "title": "Slider con lista aliados",
+    "title": "Slider con lista de mercado",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -34,7 +34,7 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider-tecno",
+      "blockClass": "home__slider-mercado",
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
