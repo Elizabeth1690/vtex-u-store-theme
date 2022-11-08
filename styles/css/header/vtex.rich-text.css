@@ -1,6 +1,35 @@
-.paragraph--header__texto-uno {
-  color: white;
-  height: 8px;
-  font-weight: bold;
+.paragraph--header__texto-inicio {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.paragraph--header__texto-mercado {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.paragraph--header__texto-moda {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.paragraph--header__texto-halloween {
+  color: #fff;
+  font-weight: 700;
   font-size: 16px;
+  line-height: 18px;
+}
+
+.paragraph--header__texto-dos {
+  color: #222;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+.paragraph--header__texto-inicio {
+  color: #222;
+  font-weight: 600;
 }

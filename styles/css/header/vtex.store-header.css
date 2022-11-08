@@ -1,14 +1,9 @@
-.headerRowBackground--header__main,
 .headerRowBackground--header__middle {
   background-color: #ffe800;
 }
 
 .headerRowBackground--header__top {
-  background-color: #532679;
-  color: white;
-  height: auto;
-}
-
-.headerRowContainer--header__top {
-  justify-content: center;
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }

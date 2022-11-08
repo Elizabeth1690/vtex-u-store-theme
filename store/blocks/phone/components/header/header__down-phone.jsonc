@@ -1,0 +1,9 @@
+{
+  "header-row#header__down-mobile": {
+    "title": "Header down",
+    "children": ["search-bar#header__search-mobile"],
+    "props": {
+      "blockClass": "header__down"
+    }
+  }
+}

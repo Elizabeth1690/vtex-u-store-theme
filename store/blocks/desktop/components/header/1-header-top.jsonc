@@ -1,19 +1,102 @@
 {
   "header-row#header__top": {
     "title": "Sección superior del header",
-    "children": ["flex-layout.row#header__top-texto"],
+    "children": [
+      "flex-layout.row#header__top-texto",
+      "flex-layout.row#header__top-texto-btn"
+    ],
     "props": {
       "blockClass": "header__top"
     }
   },
   "flex-layout.row#header__top-texto": {
     "title": "Sección superior uno",
-    "children": ["rich-text#header__top--text"]
-  },
-  "rich-text#header__top--text": {
+    "children": [
+      "flex-layout.col#header__top-text-inicio",
+      "flex-layout.col#header__top-text-mercado",
+      "flex-layout.col#header__top-text-moda"
+    ],
     "props": {
-      "blockClass": "header__texto-uno",
+      "blockClass": "session__header-top-text"
+    }
+  },
+  "flex-layout.col#header__top-text-inicio": {
+    "title": "Sección superior inicio",
+    "children": ["rich-text#header__top--text-inicio"],
+    "props": {
+      "blockClass": "session__header-inicio"
+    }
+  },
+  "rich-text#header__top--text-inicio": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-inicio",
+      "text": "Inicio"
+    }
+  },
+  "flex-layout.col#header__top-text-mercado": {
+    "title": "Sección superior mercado",
+    "children": ["rich-text#header__top--text-mercado"],
+    "props": {
+      "blockClass": "session__header-mercado"
+    }
+  },
+  "rich-text#header__top--text-mercado": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-mercado",
+      "text": "Mercado"
+    }
+  },
+  "flex-layout.col#header__top-text-moda": {
+    "title": "Sección superior moda",
+    "children": ["rich-text#header__top--text-moda"],
+    "props": {
+      "blockClass": "session__header-moda"
+    }
+  },
+  "rich-text#header__top--text-moda": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-moda",
+      "text": "Moda"
+    }
+  },
+  "flex-layout.row#header__top-texto-btn": {
+    "title": "Sección superior dos",
+    "children": [
+      "flex-layout.col#header__top-text-halloween",
+      "flex-layout.col#header__top-btn-compra"
+    ],
+    "props": {
+      "blockClass": "header__top-texto-btn"
+    }
+  },
+  "flex-layout.col#header__top-text-halloween": {
+    "title": "Sección superior halloween",
+    "children": ["rich-text#header__top--text-halloween"],
+    "props": {
+      "blockClass": "session__header-halloween"
+    }
+  },
+  "rich-text#header__top--text-halloween": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-halloween",
       "text": "👻 Vive la magia de Halloween en tu Éxito 🎃"
+    }
+  },
+  "flex-layout.col#header__top-btn-compra": {
+    "title": "Sección superior botón compra",
+    "children": ["rich-text#header__top--btn-compra"],
+    "props": {
+      "blockClass": "session__header-btn"
+    }
+  },
+  "rich-text#header__top--btn-compra": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__btn-compra"
     }
   }
 }

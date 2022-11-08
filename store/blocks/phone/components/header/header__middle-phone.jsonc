@@ -1,9 +1,11 @@
 {
-  "header-row#header__middle-phone": {
+  "header-row#header__middle-mobile": {
     "title": "Header medio",
     "children": [
-      /*"rich-text#test", "rich-text#test"*/ "drawer#header__mobile--menu",
-      "search-bar#header__search"
+      /*"rich-text#test", "rich-text#test"*/ "flex-layout.row#mobile__mega--menu",
+      "logo#header__middle--logo",
+      "login",
+      "minicart.v2"
     ],
     "props": {
       "blockClass": "header__middle"
