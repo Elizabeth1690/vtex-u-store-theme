@@ -5,11 +5,11 @@
 .flexRowContent--session__texto-dos {
   white-space: nowrap;
   flex-wrap: nowrap;
-  padding-left: 23px;
+  padding-left: 28px;
 }
 
 .flexColChild--session__header-inicio {
-  min-width: 160px;
+  min-width: 162px;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@
 }
 
 .flexColChild--session__header-mercado {
-  min-width: 160px;
+  min-width: 162px;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 .flexColChild--session__header-moda {
-  min-width: 160px;
+  min-width: 167px;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -40,21 +40,27 @@
 }
 
 .flexRowContent--header__top-texto-btn {
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px 10px 0 0;
   background-color: #522676;
-  white-space: nowrap;
-  flex-wrap: nowrap;
+  border-radius: 10px 10px 0 0;
 }
 
-.flexColChild--header__texto-halloween {
-  width: 90%;
+.flexRow--header__top-texto-btn {
+  width: 75%;
+  height: 38px;
 }
 
-.flexRow--session__header-top-text {
-  padding: 0;
-  margin: 0;
+.flexColChild--session__header-halloween {
+  margin-right: 20px;
+}
+
+.flexColChild--session__header-icono {
+  margin-top: 5px;
+}
+
+.flexColChild--session__header-icono-mercado {
+  margin-top: 7px;
+}
+
+.flexColChild--session__header-icono-moda {
+  margin-top: 5px;
 }

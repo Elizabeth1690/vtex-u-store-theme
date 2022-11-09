@@ -1,0 +1,25 @@
+.label--header__btn-compra {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.buttonLink--header__btn-compra {
+  background-color: #d9142a;
+  text-decoration: none;
+  border-radius: 30px;
+  width: 120px;
+  min-height: 30px;
+  margin-top: 5px;
+  margin-left: 42px;
+  border-color: #d9142a;
+}
+/*
+.link--header__btn-compra {
+}*/
+
+.buttonLink--header__btn-compra:hover {
+  background-color: #d9142a;
+  border-color: #d9142a;
+}
