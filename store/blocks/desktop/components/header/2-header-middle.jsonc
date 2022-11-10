@@ -10,7 +10,7 @@
       "flex-layout.row#header__middle-texto",
       //"header-spacer",
       "search-bar#header__search-desktop",
-      "login",
+      "flex-layout.row#header-login",
       "flex-layout.row#header-campana-notificaciones",
       //"modal-trigger#header__top--login",
       "minicart.v2" /*"rich-text#test"*/

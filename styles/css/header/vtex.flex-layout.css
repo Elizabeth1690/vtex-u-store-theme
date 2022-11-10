@@ -16,7 +16,6 @@
   align-items: center;
   border-radius: 10px 10px 0 0;
   background-color: #ffe800;
-  padding-right: 5px;
 }
 
 .flexColChild--session__header-mercado {
@@ -29,14 +28,22 @@
   background-color: #676767;
 }
 
+.flexColChild--session__header-mercado:hover {
+  background-color: #999;
+}
+
 .flexColChild--session__header-moda {
-  min-width: 167px;
+  min-width: 162px;
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px 10px 0 0;
   background-color: #9f9f9f;
+}
+
+.flexColChild--session__header-moda:hover {
+  background-color: #999;
 }
 
 .flexRowContent--header__top-texto-btn {
@@ -59,8 +66,34 @@
 
 .flexColChild--session__header-icono-mercado {
   margin-top: 7px;
+  width: 20px;
+  margin-left: 13px;
+}
+
+.flexColChild--session__header-text-mercado {
+  width: 50px;
 }
 
 .flexColChild--session__header-icono-moda {
   margin-top: 5px;
+}
+
+.flexRowContent--session__header-top-text {
+  width: 476px;
+}
+
+.flexColChild--header__texto-login {
+  font-size: 12px;
+  font-weight: 500;
+  color: #222;
+  margin-top: 11px;
+  margin-bottom: -33px;
+}
+
+.flexRow--session__header-login {
+  margin-bottom: 20px;
+}
+
+.flexRowContent--session-icono-ubicacion:hover {
+  background-color: #522676;
 }

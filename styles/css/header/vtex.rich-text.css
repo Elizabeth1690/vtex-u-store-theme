@@ -33,3 +33,10 @@
   color: #222;
   font-weight: 600;
 }
+
+.paragraph--header__texto-login {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}

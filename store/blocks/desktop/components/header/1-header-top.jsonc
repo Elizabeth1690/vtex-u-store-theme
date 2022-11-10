@@ -128,7 +128,7 @@
   "flex-layout.col#header__top-moda-uno": {
     "children": ["rich-text#header__top--text-moda"],
     "props": {
-      "blockClass": "session__header-text-mercado"
+      "blockClass": "session__header-text-moda"
     }
   },
   "rich-text#header__top--text-moda": {

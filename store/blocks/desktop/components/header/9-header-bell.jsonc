@@ -8,7 +8,8 @@
       "blockClass": "icon__campana",
       "viewBox": "0 0 32 32",
       "itemCountMode": "total",
-      "size": 40
+      "quantityDisplay": "always",
+      "size": 32
     }
   }
 }

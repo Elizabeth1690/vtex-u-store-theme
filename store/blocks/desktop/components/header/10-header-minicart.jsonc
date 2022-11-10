@@ -6,7 +6,7 @@
     "props": {
       // "MinicartIcon": "icon#home__orders--icon",
       // "variation": "popup"
-      "itemCountMode": "total"
+      //"itemCountMode": "total"
       // "quantityDisplay": "always"
       // "customPixelEventName": "pageView"
     }
