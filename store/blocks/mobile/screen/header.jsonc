@@ -4,7 +4,8 @@
     "children": [
       "header-row#header__top",
       "header-row#header__middle-mobile",
-      "header-row#header__down-mobile"
+      "header-row#header__down-mobile",
+      "header-row#header__down-bottom-mobile"
     ]
   }
 }

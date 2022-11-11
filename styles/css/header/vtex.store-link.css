@@ -18,11 +18,21 @@
   justify-content: center;
   border: solid 1px #d9142a;
 }
-/*
-.link--header__btn-compra {
-}*/
 
 .buttonLink--header__btn-compra:hover {
   background-color: #d9142a;
   border: solid 1px #d9142a;
+}
+
+/* Diseño de tablet*/
+
+@media screen and (max-width: 768px) {
+  .label--header__btn-compra {
+    font-size: 10px;
+  }
+  .buttonLink--header__btn-compra {
+    width: 80px;
+    min-height: 18px;
+    margin-top: 10px;
+  }
 }

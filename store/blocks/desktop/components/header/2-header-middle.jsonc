@@ -5,7 +5,7 @@
     "children": [
       "flex-layout.row#mega__menu--desktop",
       "flex-layout.row#mega-menu",
-      "logo#header__middle--logo",
+     "flex-layout.row#header__top-logo",
       "flex-layout.row#header-ubicacion",
       "flex-layout.row#header__middle-texto",
       //"header-spacer",
@@ -13,7 +13,7 @@
       "flex-layout.row#header-login",
       "flex-layout.row#header-campana-notificaciones",
       //"modal-trigger#header__top--login",
-      "minicart.v2" /*"rich-text#test"*/
+      "flex-layout.row#header__middle-minicart" /*"rich-text#test"*/
     ],
     "props": {
       "blockClass": "header__middle"

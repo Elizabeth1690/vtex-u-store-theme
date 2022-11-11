@@ -1,0 +1,41 @@
+{
+  "header-row#header__middle-mobile": {
+    "title": "Header medio",
+    "children": ["flex-layout.row#header__middle-mobile-tablet"],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+  "flex-layout.row#header__middle-mobile-tablet": {
+    "children": [
+      "flex-layout.row#mobile__menu-logo",
+      "header-spacer",
+      "flex-layout.row#mobile__icons"
+    ],
+    "props": {
+      "blockClass": "header__middle-tablet"
+    }
+  },
+  "flex-layout.row#mobile__menu-logo": {
+    "children": [
+      "flex-layout.row#mobile__mega--menu",
+      "flex-layout.row#header__top-logo"
+    ],
+    "props": {
+      "blockClass": "header__middle-menu-logo",
+      "preventHorizontalStretch": "true"
+    }
+  },
+  "flex-layout.row#mobile__icons": {
+    "children": [
+      "flex-layout.row#header-login",
+      "flex-layout.row#header-campana-mobile",
+      "flex-layout.row#header__middle-minicart"
+    ],
+    "props": {
+      "blockClass": "header__middle-icons",
+      "preventHorizontalStretch": "true",
+      "horizontalAlign": "right"
+    }
+  }
+}

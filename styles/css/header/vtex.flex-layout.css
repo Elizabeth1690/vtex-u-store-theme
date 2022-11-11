@@ -94,6 +94,69 @@
   margin-bottom: 20px;
 }
 
-.flexRowContent--session-icono-ubicacion:hover {
-  background-color: #522676;
+/* diseño de tablet */
+
+@media screen and (max-width: 768px) {
+  .flexColChild--session__header-inicio {
+    min-width: 102px;
+  }
+
+  .flexColChild--session__header-mercado {
+    min-width: 102px;
+    justify-content: left;
+  }
+
+  .flexColChild--session__header-moda {
+    min-width: 102px;
+  }
+
+  .flexRowContent--session__header-top-text {
+    width: 300px;
+  }
+
+  .flexColChild--session__header-icono-mercado {
+    margin-top: 7px;
+  }
+
+  .flexColChild--session__header-icono-moda {
+    margin-left: 20px;
+  }
+
+  .flexColChild--session__header-text-moda {
+    margin-right: 20px;
+  }
+
+  .flexColChild--session__header-halloween {
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    margin-left: 80px;
+    margin-right: 3px;
+  }
+
+  .flexColChild--header__texto-login {
+    font-size: 12px;
+    font-weight: 500;
+    color: #222;
+    margin-top: 11px;
+    margin-bottom: -33px;
+  }
+
+  .flexRow--header__middle-tablet {
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .flexRowContent--header__top-logo {
+    margin-top: 10px;
+  }
+  .flexRowContent--header__middle-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .flexRow--header__down-search {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

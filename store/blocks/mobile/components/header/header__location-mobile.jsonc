@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#header-location-text": {
+    "children": ["flex-layout.col#header-location-text"],
+    "props": {
+      "blockClass": "session-location-text"
+    }
+  },
+  "flex-layout.col#header-location-text": {
+    "children": ["icon#header-ubicacion", "rich-text#header__middle--text"],
+    "props": {
+      "blockClass": "session-location-icon"
+    }
+  }
+}

@@ -36,7 +36,17 @@
 
 .paragraph--header__texto-login {
   font-size: 12px;
+  color: #222;
   font-weight: 600;
   white-space: nowrap;
   flex-wrap: nowrap;
+}
+
+/* diseño de tablet */
+
+@media screen and (max-width: 768px) {
+  .paragraph--header__texto-halloween {
+    font-size: 13px;
+    line-height: 14px;
+  }
 }
