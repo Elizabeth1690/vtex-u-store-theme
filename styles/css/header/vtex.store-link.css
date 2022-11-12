@@ -1,0 +1,39 @@
+.label--header__btn-compra {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: capitalize;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+.buttonLink--header__btn-compra {
+  background-color: #d9142a;
+  text-decoration: none;
+  border-radius: 30px;
+  width: 120px;
+  min-height: 30px;
+  margin-top: 5px;
+  margin-left: 42px;
+  justify-content: center;
+  border: solid 1px #d9142a;
+}
+
+.buttonLink--header__btn-compra:hover {
+  background-color: #d9142a;
+  border: solid 1px #d9142a;
+}
+
+/* Diseño de tablet*/
+
+@media screen and (max-width: 820px) {
+  .label--header__btn-compra {
+    font-size: 10px;
+  }
+  .buttonLink--header__btn-compra {
+    width: 80px;
+    min-height: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}

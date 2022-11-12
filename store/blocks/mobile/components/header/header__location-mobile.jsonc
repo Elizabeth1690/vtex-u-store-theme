@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#header-location-text": {
+    "children": [
+      "flex-layout.col#header-ubicacion-one",
+      "flex-layout.col#header-ubicacion-text"
+    ],
+    "props": {
+      "blockClass": "session-location-text"
+    }
+  },
+  "flex-layout.col#header-ubicacion-one": {
+    "children": ["flex-layout.row#header-ubicacion"],
+    "props": {
+      "blockClass": "session-location"
+    }
+  },
+  "flex-layout.col#header-ubicacion-text": {
+    "children": ["flex-layout.row#header__middle-texto"],
+    "props": {
+      "blockClass": "session-text"
+    }
+  }
+}

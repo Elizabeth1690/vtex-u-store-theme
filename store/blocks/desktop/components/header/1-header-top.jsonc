@@ -1,19 +1,185 @@
 {
   "header-row#header__top": {
     "title": "Sección superior del header",
-    "children": ["flex-layout.row#header__top-texto"],
+    "children": [
+      "flex-layout.row#header__top-texto",
+      "flex-layout.row#header__top-texto-btn"
+    ],
     "props": {
-      "blockClass": "header__top"
+      "blockClass": "header__top",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#header__top-texto": {
     "title": "Sección superior uno",
-    "children": ["rich-text#header__top--text"]
-  },
-  "rich-text#header__top--text": {
+    "children": [
+      "flex-layout.col#header__top-text-inicio",
+      "flex-layout.col#header__top-text-mercado",
+      "flex-layout.col#header__top-text-moda"
+    ],
     "props": {
-      "blockClass": "header__texto-uno",
+      "blockClass": "session__header-top-text",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#header__top-text-inicio": {
+    "title": "Sección superior inicio",
+    "children": ["flex-layout.row#header__top-inicio-uno"],
+    "props": {
+      "blockClass": "session__header-inicio"
+    }
+  },
+  "flex-layout.row#header__top-inicio-uno": {
+    "children": [
+      "flex-layout.col#header__top-icono",
+      "flex-layout.col#header__top-inicio"
+    ]
+  },
+  "flex-layout.col#header__top-icono": {
+    "children": ["icon#header-portatil"],
+    "props": {
+      "blockClass": "session__header-icono"
+    }
+  },
+  "icon#header-portatil": {
+    "props": {
+      "id": "sti-portatil",
+      "blockClass": "icon__portatil",
+      "viewBox": "0 0 32 32",
+      "size": 25
+    }
+  },
+  "flex-layout.col#header__top-inicio": {
+    "children": ["rich-text#header__top--text-inicio"]
+  },
+  "rich-text#header__top--text-inicio": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-inicio",
+      "text": "Inicio"
+    }
+  },
+  "flex-layout.col#header__top-text-mercado": {
+    "title": "Sección superior mercado",
+    "children": ["flex-layout.row#header__top-mercado"],
+    "props": {
+      "blockClass": "session__header-mercado"
+    }
+  },
+  "flex-layout.row#header__top-mercado": {
+    "children": [
+      "flex-layout.col#header__top-icono-mercado",
+      "flex-layout.col#header__top-mercado-uno"
+    ]
+  },
+  "flex-layout.col#header__top-icono-mercado": {
+    "children": ["icon#header-mercado"],
+    "props": {
+      "blockClass": "session__header-icono-mercado"
+    }
+  },
+  "icon#header-mercado": {
+    "props": {
+      "id": "sti-mercado",
+      "blockClass": "icon__mercado",
+      "viewBox": "0 0 100 100",
+      "size": 23
+    }
+  },
+  "flex-layout.col#header__top-mercado-uno": {
+    "children": ["rich-text#header__top--text-mercado"],
+    "props": {
+      "blockClass": "session__header-text-mercado"
+    }
+  },
+  "rich-text#header__top--text-mercado": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-mercado",
+      "text": "Mercado"
+    }
+  },
+  "flex-layout.col#header__top-text-moda": {
+    "title": "Sección superior mercado",
+    "children": ["flex-layout.row#header__top-moda"],
+    "props": {
+      "blockClass": "session__header-mercado"
+    }
+  },
+  "flex-layout.row#header__top-moda": {
+    "children": [
+      "flex-layout.col#header__top-icono-moda",
+      "flex-layout.col#header__top-moda-uno"
+    ]
+  },
+  "flex-layout.col#header__top-icono-moda": {
+    "children": ["icon#header-moda"],
+    "props": {
+      "blockClass": "session__header-icono-moda"
+    }
+  },
+
+  "icon#header-moda": {
+    "props": {
+      "id": "sti-moda",
+      "blockClass": "icon__moda",
+      "viewBox": "0 0 30 30",
+      "size": 22
+    }
+  },
+  "flex-layout.col#header__top-moda-uno": {
+    "children": ["rich-text#header__top--text-moda"],
+    "props": {
+      "blockClass": "session__header-text-moda"
+    }
+  },
+  "rich-text#header__top--text-moda": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-moda",
+      "text": "Moda"
+    }
+  },
+  "flex-layout.row#header__top-texto-btn": {
+    "title": "Sección superior dos",
+    "children": [
+      "flex-layout.col#header__top-text-halloween",
+      "flex-layout.col#header__top-btn-compra"
+    ],
+    "props": {
+      "blockClass": "header__top-texto-btn"
+    }
+  },
+  "flex-layout.col#header__top-text-halloween": {
+    "title": "Sección superior halloween",
+    "children": ["rich-text#header__top--text-halloween"],
+    "props": {
+      "blockClass": "session__header-halloween",
+      "width": "65%",
+      "horizontalAlign": "right"
+    }
+  },
+  "rich-text#header__top--text-halloween": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__texto-halloween",
       "text": "👻 Vive la magia de Halloween en tu Éxito 🎃"
+    }
+  },
+  "flex-layout.col#header__top-btn-compra": {
+    "title": "Sección superior botón compra",
+    "children": ["link#header__top--btn-compra"],
+    "props": {
+      "blockClass": "session__header-btn",
+      "width": "35%"
+    }
+  },
+  "link#header__top--btn-compra": {
+    "title": "texto",
+    "props": {
+      "blockClass": "header__btn-compra",
+      "displayMode": "button",
+      "label": " ¡Compra Ya!"
     }
   }
 }

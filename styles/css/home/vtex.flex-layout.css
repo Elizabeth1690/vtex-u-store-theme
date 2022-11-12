@@ -78,6 +78,16 @@
   .flexRowContent--home__session-slider-pagos {
     margin-bottom: 40px;
   }
+  .flexRowContent--section__tablet-main {
+    overflow: hidden;
+  }
+
+  .headerStickyRow--header__middle {
+    background-color: red;
+  }
+  .flexColChild--session__header-halloween {
+    margin-left: 0;
+  }
 }
 
 /* Estilos de Phone*/

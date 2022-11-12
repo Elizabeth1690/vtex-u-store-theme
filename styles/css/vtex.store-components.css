@@ -75,6 +75,10 @@
   .imageElement--image-clorox {
     width: 100% !important;
   }
+
+  .imageElement--home__image-moda {
+    margin-right: 0;
+  }
 }
 
 /* Diseño de phone */
