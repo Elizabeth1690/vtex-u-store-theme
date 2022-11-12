@@ -50,3 +50,11 @@
     line-height: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .paragraph--header__texto-inicio,
+  .paragraph--header__texto-mercado,
+  .paragraph--header__texto-moda {
+    margin: 0;
+  }
+}

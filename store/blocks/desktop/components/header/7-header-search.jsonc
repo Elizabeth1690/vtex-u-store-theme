@@ -2,7 +2,7 @@
   "search-bar#header__search-desktop": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true,
+      /*  "openAutocompleteOnFocus": true,*/
       "placeholder": "Buscar en exito.com",
       "blockClass": "header-search"
     }

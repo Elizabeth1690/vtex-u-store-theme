@@ -6,7 +6,8 @@
       "flex-layout.row#header__top-texto-btn"
     ],
     "props": {
-      "blockClass": "header__top"
+      "blockClass": "header__top",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#header__top-texto": {
@@ -17,7 +18,8 @@
       "flex-layout.col#header__top-text-moda"
     ],
     "props": {
-      "blockClass": "session__header-top-text"
+      "blockClass": "session__header-top-text",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#header__top-text-inicio": {

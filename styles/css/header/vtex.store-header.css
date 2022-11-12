@@ -1,7 +1,17 @@
-.headerRowBackground--header__middle {
+.headerRowBackground--header__middle,
+.headerRowBackground--header__down,
+.headerRowBackground--header__down-one {
   background-color: #ffe800;
 }
 
 .headerRowBackground--header__top {
   height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .headerRowContainer--header__down {
+    height: 24px;
+  }
+}
+
+

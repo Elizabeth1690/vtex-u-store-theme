@@ -9,11 +9,11 @@
   "flex-layout.row#header__middle-mobile-tablet": {
     "children": [
       "flex-layout.row#mobile__menu-logo",
-      "header-spacer",
       "flex-layout.row#mobile__icons"
     ],
     "props": {
-      "blockClass": "header__middle-tablet"
+      "blockClass": "header__middle-tablet",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#mobile__menu-logo": {

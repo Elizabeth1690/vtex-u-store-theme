@@ -4,7 +4,10 @@
     "children": ["flex-layout.row#home__section--tablet-principal"]
   },
   "flex-layout.row#home__section--tablet-principal": {
-    "children": ["flex-layout.col#home__section--tablet-secundaria"]
+    "children": ["flex-layout.col#home__section--tablet-secundaria"],
+    "props": {
+      "blockClass": "section__tablet-main"
+    }
   },
   "flex-layout.col#home__section--tablet-secundaria": {
     "children": [

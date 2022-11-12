@@ -42,3 +42,6 @@
     border: none;
   }
 }
+
+@media (max-width: 480px) {
+}
