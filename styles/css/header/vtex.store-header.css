@@ -1,14 +1,17 @@
-.headerRowBackground--header__main,
-.headerRowBackground--header__middle {
+.headerRowBackground--header__middle,
+.headerRowBackground--header__down,
+.headerRowBackground--header__down-one {
   background-color: #ffe800;
 }
 
 .headerRowBackground--header__top {
-  background-color: #532679;
-  color: white;
-  height: auto;
+  height: 100%;
 }
 
-.headerRowContainer--header__top {
-  justify-content: center;
+@media screen and (max-width: 768px) {
+  .headerRowContainer--header__down {
+    height: 24px;
+  }
 }
+
+

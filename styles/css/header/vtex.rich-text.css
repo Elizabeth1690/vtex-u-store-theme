@@ -1,6 +1,60 @@
-.paragraph--header__texto-uno {
-  color: white;
-  height: 8px;
-  font-weight: bold;
-  font-size: 16px;
+.paragraph--header__texto-inicio {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.paragraph--header__texto-mercado {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.paragraph--header__texto-moda {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.paragraph--header__texto-halloween {
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.paragraph--header__texto-dos {
+  color: #222;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+.paragraph--header__texto-inicio {
+  color: #222;
+  font-weight: 600;
+}
+
+.paragraph--header__texto-login {
+  font-size: 12px;
+  color: #222;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+/* diseño de tablet */
+
+@media screen and (max-width: 768px) {
+  .paragraph--header__texto-halloween {
+    font-size: 13px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .paragraph--header__texto-inicio,
+  .paragraph--header__texto-mercado,
+  .paragraph--header__texto-moda {
+    margin: 0;
+  }
 }

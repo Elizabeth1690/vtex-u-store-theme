@@ -1,0 +1,15 @@
+{
+  "header-row#header__down-bottom-mobile": {
+    "title": "Header down",
+    "children": ["flex-layout.row#header-location"],
+    "props": {
+      "blockClass": "header__down-one"
+    }
+  },
+  "flex-layout.row#header-location": {
+    "children": ["flex-layout.row#header-location-text"],
+    "props": {
+      "blockClass": "header__down-location"
+    }
+  }
+}
