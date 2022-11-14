@@ -27,6 +27,7 @@
       "flex-layout.row#home__section--phone-ten",
       "flex-layout.row#home__section--dektop-ten",
       "flex-layout.row#home__section--phone-eleven",
+      "search-result-layout.customQuery#home__search",
       "flex-layout.row#home__section--dektop-fourteen",
       "flex-layout.row#home__section--phone-twelve",
       "flex-layout.row#home__section--phone-thirteen",
