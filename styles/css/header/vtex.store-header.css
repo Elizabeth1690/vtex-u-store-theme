@@ -8,6 +8,8 @@
   height: 100%;
 }
 
+/* Diseño de tablet */
+
 @media screen and (max-width: 768px) {
   .headerRowContainer--header__down {
     height: 24px;

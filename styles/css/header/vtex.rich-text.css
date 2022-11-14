@@ -42,7 +42,7 @@
   flex-wrap: nowrap;
 }
 
-/* diseño de tablet */
+/* Diseño de tablet */
 
 @media screen and (max-width: 768px) {
   .paragraph--header__texto-halloween {
@@ -50,6 +50,8 @@
     line-height: 14px;
   }
 }
+
+/*Diseño de phone*/
 
 @media (max-width: 480px) {
   .paragraph--header__texto-inicio,

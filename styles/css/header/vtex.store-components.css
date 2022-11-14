@@ -21,7 +21,7 @@
   font-weight: 700;
 }
 
-/* diseño de tablet*/
+/* Diseño de tablet*/
 
 @media screen and (max-width: 768px) {
   .logoImage--image-logo {
@@ -41,7 +41,4 @@
     border-radius: 50px !important;
     border: none;
   }
-}
-
-@media (max-width: 480px) {
 }
