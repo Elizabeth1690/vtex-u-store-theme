@@ -30,18 +30,21 @@
     }
   },
   "flex-layout.row#header__top-inicio-uno": {
+    "title": "Sección superior dos",
     "children": [
       "flex-layout.col#header__top-icono",
       "flex-layout.col#header__top-inicio"
     ]
   },
   "flex-layout.col#header__top-icono": {
+    "title": "Sección superior icono de inicio",
     "children": ["icon#header-portatil"],
     "props": {
       "blockClass": "session__header-icono"
     }
   },
   "icon#header-portatil": {
+    "title": "Icono de inicio",
     "props": {
       "id": "sti-portatil",
       "blockClass": "icon__portatil",
@@ -50,10 +53,11 @@
     }
   },
   "flex-layout.col#header__top-inicio": {
+    "title": "Sección superior texto inicio",
     "children": ["rich-text#header__top--text-inicio"]
   },
   "rich-text#header__top--text-inicio": {
-    "title": "texto",
+    "title": "texto Inicio",
     "props": {
       "blockClass": "header__texto-inicio",
       "text": "Inicio"
@@ -67,18 +71,21 @@
     }
   },
   "flex-layout.row#header__top-mercado": {
+    "title": "Sección superior tres",
     "children": [
       "flex-layout.col#header__top-icono-mercado",
       "flex-layout.col#header__top-mercado-uno"
     ]
   },
   "flex-layout.col#header__top-icono-mercado": {
+    "title": "Sección superior icono mercado",
     "children": ["icon#header-mercado"],
     "props": {
       "blockClass": "session__header-icono-mercado"
     }
   },
   "icon#header-mercado": {
+    "title": "Icono mercado",
     "props": {
       "id": "sti-mercado",
       "blockClass": "icon__mercado",
@@ -87,13 +94,14 @@
     }
   },
   "flex-layout.col#header__top-mercado-uno": {
+    "title": "Sección superior texto mercado",
     "children": ["rich-text#header__top--text-mercado"],
     "props": {
       "blockClass": "session__header-text-mercado"
     }
   },
   "rich-text#header__top--text-mercado": {
-    "title": "texto",
+    "title": "texto mercado",
     "props": {
       "blockClass": "header__texto-mercado",
       "text": "Mercado"
@@ -107,12 +115,14 @@
     }
   },
   "flex-layout.row#header__top-moda": {
+    "title": "Sección superior cuatro",
     "children": [
       "flex-layout.col#header__top-icono-moda",
       "flex-layout.col#header__top-moda-uno"
     ]
   },
   "flex-layout.col#header__top-icono-moda": {
+    "title": "Sección superior icono moda",
     "children": ["icon#header-moda"],
     "props": {
       "blockClass": "session__header-icono-moda"
@@ -120,6 +130,7 @@
   },
 
   "icon#header-moda": {
+    "title": "Icono moda",
     "props": {
       "id": "sti-moda",
       "blockClass": "icon__moda",
@@ -128,20 +139,21 @@
     }
   },
   "flex-layout.col#header__top-moda-uno": {
+    "title": "Sección superior texto moda",
     "children": ["rich-text#header__top--text-moda"],
     "props": {
       "blockClass": "session__header-text-moda"
     }
   },
   "rich-text#header__top--text-moda": {
-    "title": "texto",
+    "title": "texto moda",
     "props": {
       "blockClass": "header__texto-moda",
       "text": "Moda"
     }
   },
   "flex-layout.row#header__top-texto-btn": {
-    "title": "Sección superior dos",
+    "title": "Sección superior texto de halloween y botón",
     "children": [
       "flex-layout.col#header__top-text-halloween",
       "flex-layout.col#header__top-btn-compra"
@@ -160,7 +172,7 @@
     }
   },
   "rich-text#header__top--text-halloween": {
-    "title": "texto",
+    "title": "texto halloween",
     "props": {
       "blockClass": "header__texto-halloween",
       "text": "👻 Vive la magia de Halloween en tu Éxito 🎃"
@@ -175,7 +187,7 @@
     }
   },
   "link#header__top--btn-compra": {
-    "title": "texto",
+    "title": "texto compra",
     "props": {
       "blockClass": "header__btn-compra",
       "displayMode": "button",
