@@ -1,12 +1,13 @@
 {
   "header-row#header__down-bottom-mobile": {
-    "title": "Header down",
+    "title": "Sesión de cabecera inferior",
     "children": ["flex-layout.row#header-location"],
     "props": {
       "blockClass": "header__down-one"
     }
   },
   "flex-layout.row#header-location": {
+    "title": " Sesión de cabecera inferior uno",
     "children": ["flex-layout.row#header-location-text"],
     "props": {
       "blockClass": "header__down-location"

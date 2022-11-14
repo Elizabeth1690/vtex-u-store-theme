@@ -1,13 +1,16 @@
 {
   "flex-layout.row#mobile__mega--menu": {
+    "title": " Sesión de cabecera logo",
     "children": ["flex-layout.col#trigger-mega-menu"],
     "props": {}
   },
   "drawer": {
+    "title": "Menú",
     "children": ["mega-menu#mobile"],
     "blocks": ["drawer-header#my-drawer"]
   },
   "mega-menu#mobile": {
+    "title": "Mega menú",
     "props": {
       "defaultDepartmentActive": "...",
       "orientation": "vertical",
@@ -15,9 +18,11 @@
     }
   },
   "drawer-header#my-drawer": {
+    "title": " Cabecera menú",
     "children": ["flex-layout.row#drawer-header"]
   },
   "flex-layout.row#drawer-header": {
+    "title": " Sesión de cabecera menú",
     "children": [
       "flex-layout.col#mega-menu-go-back-btn",
       //"flex-layout.col#spacer",
@@ -32,6 +37,7 @@
     }
   },
   "flex-layout.col#drawer-close-button": {
+    "title": " Sesión de cabecera ibotón cerrar",
     "children": ["drawer-close-button"],
     "props": {
       "verticalAlign": "middle",
@@ -39,6 +45,7 @@
     }
   },
   "flex-layout.col#mega-menu-go-back-btn": {
+    "title": " Sesión de cabecera mega menú",
     "children": ["mega-menu-go-back-btn"],
     "props": {
       "verticalAlign": "middle",

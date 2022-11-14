@@ -1,5 +1,6 @@
 {
   "search-bar#header__search-mobile": {
+    "title": "Barra de busquedad",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       /*"openAutocompleteOnFocus": true,*/

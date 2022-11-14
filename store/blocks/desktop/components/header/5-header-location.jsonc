@@ -1,11 +1,13 @@
 {
   "flex-layout.row#header-ubicacion": {
+    "title": "Sesión cabecera icono de ubicación",
     "children": ["icon#header-ubicacion"],
     "props": {
       "blockClass": "session-icono-ubicacion"
     }
   },
   "icon#header-ubicacion": {
+    "title": "Icono de ubicación",
     "props": {
       "id": "sti-ubicacion",
       "blockClass": "icon__ubicacion",
