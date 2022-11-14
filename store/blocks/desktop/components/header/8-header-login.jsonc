@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#header-login": {
+    "children": ["flex-layout.col#header__login-icon-text"],
+    "props": {
+      "blockClass": "session__header-login",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#header__login-icon-text": {
+    "children": ["login", "rich-text#header-text-login"],
+    "props": {
+      "blockClass": "header__texto-login"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+  "rich-text#header-text-login": {
+    "title": "texto mi cuenta",
+    "props": {
+      "blockClass": "header__texto-login",
+      "text": " Mi cuenta"
+    }
+  }
+}

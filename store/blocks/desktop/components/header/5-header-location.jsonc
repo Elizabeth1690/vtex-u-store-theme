@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#header-ubicacion": {
+    "children": ["icon#header-ubicacion"],
+    "props": {
+      "blockClass": "session-icono-ubicacion"
+    }
+  },
+  "icon#header-ubicacion": {
+    "props": {
+      "id": "sti-ubicacion",
+      "blockClass": "icon__ubicacion",
+      "viewBox": "0 0 12 16",
+      "size": 18
+    }
+  }
+}

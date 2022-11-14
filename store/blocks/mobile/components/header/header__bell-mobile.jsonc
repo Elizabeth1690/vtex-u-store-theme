@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#header-campana-mobile": {
+    "children": ["icon#header-campana-uno"],
+    "props": {
+      "blockClass": "session__bell"
+    }
+  },
+  "icon#header-campana-uno": {
+    "props": {
+      "id": "sti-campana-uno",
+      "blockClass": "icon__campana-uno",
+      "viewBox": "0 0 32 32",
+      "quantityDisplay": "always",
+      "size": 20
+    }
+  }
+}

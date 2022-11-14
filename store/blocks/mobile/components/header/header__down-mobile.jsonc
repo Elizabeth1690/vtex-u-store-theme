@@ -1,0 +1,17 @@
+{
+  "header-row#header__down-mobile": {
+    "title": "Header down",
+    "children": [
+      "flex-layout.row#header-search-bar"
+    ],
+    "props": {
+      "blockClass": "header__down"
+    }
+  },
+  "flex-layout.row#header-search-bar": {
+    "children": ["search-bar#header__search-mobile"],
+    "props": {
+      "blockClass": "header__down-search"
+    }
+}
+}

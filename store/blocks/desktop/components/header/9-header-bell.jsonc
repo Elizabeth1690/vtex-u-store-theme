@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#header-campana-notificaciones": {
+    "children": ["icon#header-campana"],
+    "props": {
+      "blockClass": "session__bell"
+    }
+  },
+  "icon#header-campana": {
+    "props": {
+      "id": "sti-campana",
+      "blockClass": "icon__campana",
+      "viewBox": "0 0 32 32",
+      "quantityDisplay": "always",
+      "size": 28
+    }
+  }
+}

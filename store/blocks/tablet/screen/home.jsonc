@@ -4,7 +4,10 @@
     "children": ["flex-layout.row#home__section--tablet-principal"]
   },
   "flex-layout.row#home__section--tablet-principal": {
-    "children": ["flex-layout.col#home__section--tablet-secundaria"]
+    "children": ["flex-layout.col#home__section--tablet-secundaria"],
+    "props": {
+      "blockClass": "section__tablet-main"
+    }
   },
   "flex-layout.col#home__section--tablet-secundaria": {
     "children": [
@@ -23,6 +26,7 @@
       "flex-layout.row#home__section--dektop-eleven",
       "flex-layout.row#home__section--dektop-twelve",
       "flex-layout.row#home__section--dektop-thirteen",
+      "search-result-layout.customQuery#home__search",
       "flex-layout.row#home__section--dektop-fourteen",
       "flex-layout.row#home__section--dektop-fifteen",
       "flex-layout.row#home__section--dektop-sixteen",

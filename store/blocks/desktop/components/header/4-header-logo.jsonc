@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#header__top-logo": {
+    "title": "Sección superior uno",
+    "children": ["logo#header__middle--logo"],
+    "props": {
+      "blockClass": "header__top-logo"
+    }
+  },
+  "logo#header__middle--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo-exito.png",
+      "width": 85,
+      "href": "/",
+      "blockClass": "image-logo"
+    }
+  }
+}

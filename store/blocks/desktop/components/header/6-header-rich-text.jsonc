@@ -1,0 +1,20 @@
+{
+  "rich-text#header__middle--login": {
+    "props": {
+      "text": "login"
+    }
+  },
+  "flex-layout.row#header__middle-texto": {
+    "title": "Sección recibir pedido",
+    "children": ["rich-text#header__middle--text"],
+    "props": {
+      "blockClass": "session__texto-dos"
+    }
+  },
+  "rich-text#header__middle--text": {
+    "props": {
+      "blockClass": "header__texto-dos",
+      "text": " ¿ Cómo quieres recibir tu pedido? >"
+    }
+  }
+}
