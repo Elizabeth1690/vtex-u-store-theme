@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header-location-text": {
+    "title": " Sesión de cabecera icono de ubicación y texto",
     "children": [
       "flex-layout.col#header-ubicacion-one",
       "flex-layout.col#header-ubicacion-text"
@@ -9,12 +10,14 @@
     }
   },
   "flex-layout.col#header-ubicacion-one": {
+    "title": " Sesión de cabecera icono de ubicación uno",
     "children": ["flex-layout.row#header-ubicacion"],
     "props": {
       "blockClass": "session-location"
     }
   },
   "flex-layout.col#header-ubicacion-text": {
+    "title": " Sesión de cabecera texto",
     "children": ["flex-layout.row#header__middle-texto"],
     "props": {
       "blockClass": "session-text"

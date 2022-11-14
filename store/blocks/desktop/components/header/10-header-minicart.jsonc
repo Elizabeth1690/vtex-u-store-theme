@@ -49,8 +49,8 @@
     "children": [
       "minicart-summary",
       "rich-text#promo",
-      "minicart-checkout-button"
-      //"drawer-close-button"
+      "minicart-checkout-button",
+      "drawer-close-button"
     ]
   },
   "rich-text#promo": {
