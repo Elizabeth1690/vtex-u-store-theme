@@ -1,9 +1,9 @@
 {
-  /* "rich-text#header__middle--login": {
+  "rich-text#header__middle--login": {
     "props": {
       "text": "login"
     }
-  },*/
+  },
   "flex-layout.row#header__middle-texto": {
     "title": "Sección recibir pedido",
     "children": ["rich-text#header__middle--text"],
