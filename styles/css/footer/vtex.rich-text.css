@@ -1,0 +1,7 @@
+.paragraph--text-footer-main {
+  color: #373737;
+  font-size: 14px;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  align-items: center;
+}

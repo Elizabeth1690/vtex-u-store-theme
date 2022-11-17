@@ -14,7 +14,8 @@
     "title": "Sección slider",
     "children": ["slider-layout#home__slider--children"],
     "props": {
-      "width": "70%"
+      "width": "70%",
+      "blockClass": "session_slider-tablet"
     }
   },
   "slider-layout#home__slider--children": {

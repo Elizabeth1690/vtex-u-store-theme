@@ -1,5 +1,5 @@
 {
-  "store.search": {
+  /*"store.search": {
     "blocks": ["search-result-layout"]
   },
   "store.search#category": {
@@ -33,5 +33,5 @@
     "props": {
       "text": "#Mobile search"
     }
-  }
+  }*/
 }

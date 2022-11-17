@@ -3,20 +3,17 @@
     "title": "footer",
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": {
-    "children": [
-      "flex-layout.row#footer__container-main",
-      "flex-layout.row#footer__container"
-    ]
-  },
-  "flex-layout.row#footer__container-main": {
+  "flex-layout.row#footer__container-one": {
     "children": [
       "flex-layout.col#footer__container-eccomerce",
       "flex-layout.col#footer__container-products",
       "flex-layout.col#footer__container-shopping",
       "flex-layout.col#footer__container-points",
       "flex-layout.col#footer__container-payment"
-    ]
+    ],
+    "props": {
+      "blockClass": "session-container-main"
+    }
   },
   "flex-layout.col#footer__container-eccomerce": {
     "children": ["flex-layout.row#footer__container-icon-text"]
@@ -25,20 +22,26 @@
     "children": [
       "image#section__dektop--image-eccomerce",
       "rich-text#section__dektop--text-eccommerce"
-    ]
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
   },
   "image#section__dektop--image-eccomerce": {
     "title": "Imagen eccomerce",
     "props": {
       "src": "assets/img/home__footer-medal.png",
-      "description": "imagen de medalla"
+      "description": "imagen de medalla",
+      "width": 60,
+      "height": 33,
+      "blockClass": "home__image-main"
     }
   },
   "rich-text#section__dektop--text-eccommerce": {
     "title": "Texto ecommerce",
     "props": {
       "text": "Retail eCommerce Award 2022",
-      "blockClass": "text-eccomerce"
+      "blockClass": "text-footer-main"
     }
   },
 
@@ -49,23 +52,28 @@
     "children": [
       "image#section__dektop--image-products",
       "rich-text#section__dektop--text-products"
-    ]
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
   },
   "image#section__dektop--image-products": {
     "title": "Imagen productos",
     "props": {
-      "src": "assets/img/home__footer-medal.png",
-      "description": "imagen de medalla"
+      "src": "assets/img/home__footer-gif.png",
+      "description": "imagen de medalla",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
     }
   },
   "rich-text#section__dektop--text-products": {
     "title": "Texto productos",
     "props": {
       "text": "Más de 400 mil productos",
-      "blockClass": "text-productos"
+      "blockClass": "text-footer-main"
     }
   },
-
   "flex-layout.col#footer__container-shopping": {
     "children": ["flex-layout.row#footer__container-shopping"]
   },
@@ -73,23 +81,28 @@
     "children": [
       "image#section__dektop--image-shopping",
       "rich-text#section__dektop--text-shopping"
-    ]
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
   },
   "image#section__dektop--image-shopping": {
     "title": "Imagen compra",
     "props": {
-      "src": "assets/img/home__footer-medal.png",
-      "description": "imagen de medalla"
+      "src": "assets/img/home__footer-padlock.png",
+      "description": "imagen de medalla",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
     }
   },
   "rich-text#section__dektop--text-shopping": {
     "title": "Texto compra",
     "props": {
       "text": "Compras seguras",
-      "blockClass": "text-compra"
+      "blockClass": "text-footer-main"
     }
   },
-
   "flex-layout.col#footer__container-points": {
     "children": ["flex-layout.row#footer__container-points"]
   },
@@ -97,23 +110,28 @@
     "children": [
       "image#section__dektop--image-points",
       "rich-text#section__dektop--text-points"
-    ]
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
   },
   "image#section__dektop--image-points": {
     "title": "Imagen puntos",
     "props": {
-      "src": "assets/img/home__footer-medal.png",
-      "description": "imagen de puntos"
+      "src": "assets/img/home__footer-points.png",
+      "description": "imagen de puntos",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
     }
   },
   "rich-text#section__dektop--text-points": {
     "title": "Texto puntos",
     "props": {
       "text": "Acumulas puntos",
-      "blockClass": "text-compra"
+      "blockClass": "text-footer-main"
     }
   },
-
   "flex-layout.col#footer__container-payment": {
     "children": ["flex-layout.row#footer__container-payment"]
   },
@@ -121,23 +139,169 @@
     "children": [
       "image#section__dektop--image-payment",
       "rich-text#section__dektop--text-payment"
-    ]
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
   },
   "image#section__dektop--image-payment": {
     "title": "Imagen paga en línea",
     "props": {
-      "src": "assets/img/home__footer-medal.png",
-      "description": "imagen de paga en línea"
+      "src": "assets/img/home__footer-arrows.png",
+      "description": "imagen de paga en línea",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
     }
   },
   "rich-text#section__dektop--text-payment": {
     "title": "Texto paga en línea",
     "props": {
       "text": "Paga en línea o en efectivo",
-      "blockClass": "text-paga"
+      "blockClass": "text-footer-main"
+    }
+  },
+  "flex-layout.row#footer__container-two": {
+    "children": [
+      "flex-layout.col#footer__container-contacts",
+      "flex-layout.col#footer__container-subscribe"
+      // "flex-layout.col#footer__container-download"
+    ],
+    "props": {
+      "blockClass": "session-container-main"
+    }
+  },
+  "flex-layout.col#footer__container-contacts": {
+    "children": [
+      "flex-layout.row#footer__container-contacts",
+      "flex-layout.row#footer__container-info"
+    ]
+  },
+  "flex-layout.row#footer__container-contacts": {
+    "children": ["rich-text#section__dektop--text-contacts"]
+  },
+  "rich-text#section__dektop--text-contacts": {
+    "title": "Texto contactos",
+    "props": {
+      "text": "Contáctanos",
+      "blockClass": "text-footer-contacts"
+    }
+  },
+  "flex-layout.row#footer__container-info": {
+    "children": [
+      "rich-text#section__dektop--text-telephone",
+      "rich-text#section__dektop--text-Whatsapp",
+      "rich-text#section__dektop--text-client",
+      "rich-text#section__dektop--text-line",
+      "rich-text#section__dektop--text-telephone-medellin",
+      "rich-text#section__dektop--text-telephone-cities"
+    ]
+  },
+  "rich-text#section__dektop--text-telephone": {
+    "title": "Ventas telefónicas",
+    "props": {
+      "text": "Ventas telefónicas.: [(601) 4242400](/)",
+      "blockClass": "text-footer-contacts"
     }
   },
 
+  "rich-text#section__dektop--text-Whatsapp": {
+    "title": "Ventas Whatsapp",
+    "props": {
+      "text": "Ventas telefónicas.[(+57) 305 482 90 46](/)",
+      "blockClass": "text-footer-whatsapp"
+    }
+  },
+
+  "rich-text#section__dektop--text-client": {
+    "title": "Servicio al cliente Whatsapp",
+    "props": {
+      "text": "Servicio al cliente Whatsapp.[(+57) 305 261 54 42](/)",
+      "blockClass": "text-footer-client"
+    }
+  },
+
+  "rich-text#section__dektop--text-line": {
+    "title": "Ventas telefónicas.",
+    "props": {
+      "text": "Línea de servicio al cliente nacional:[(601) 4242400](/)",
+      "blockClass": "text-footer-line"
+    }
+  },
+
+  "rich-text#section__dektop--text-telephone-medellin": {
+    "title": "Ventas telefónicas",
+    "props": {
+      "text": "Medellín: [(4) 604 19 19](/)",
+      "blockClass": "text-footer-medellin"
+    }
+  },
+
+  "rich-text#section__dektop--text-telephone-cities": {
+    "title": "Ventas telefónicas",
+    "props": {
+      "text": "[Resto de ciudades](/)",
+      "blockClass": "text-footer-cities"
+    }
+  },
+  "flex-layout.col#footer__container-subscribe": {
+    "children": [
+      "flex-layout.row#footer__container-subscribe",
+      "flex-layout.row#footer__container-info",
+      "flex-layout.row#footer__container-input-btn"
+      //  "flex-layout.row#footer__container-terms"
+    ]
+  },
+  "flex-layout.row#footer__container-subscribe": {
+    "children": [
+      "rich-text#section__dektop--text-subscribe",
+      "rich-text#section__dektop--text-offers"
+    ]
+  },
+  "rich-text#section__dektop--text-subscribe": {
+    "title": "Suscripciones",
+    "props": {
+      "text": "Suscríbete a nuestro newsletter",
+      "blockClass": "text-footer-subscribe"
+    }
+  },
+  "rich-text#section__dektop--text-offers": {
+    "title": "Ofertas y Lanzamientos",
+    "props": {
+      "text": "Entérate de nuestras ofertas y lanzamientos exclusivos",
+      "blockClass": "text-footer-offers"
+    }
+  },
+  "flex-layout.row#footer__container-input-btn": {
+    "children": ["link#footer__btn-subscribe"]
+  },
+  "link#footer__btn-subscribe": {
+    "title": "botón suscribe",
+    "props": {
+      "blockClass": "footer__btn-suscribe",
+      "displayMode": "button",
+      "label": "Suscríbete"
+    }
+  },
+  /* "flex-layout.row#footer__container-terms": {
+    "children": [
+      "flex-layout.col#footer__container-Checkbox",
+      "flex-layout.col#footer__container-terms"
+    ]
+  },
+  "flex-layout.col#footer__container-terms": {
+    "children": [
+      "rich-text#section__dektop--text-terms",
+      "rich-text#section__dektop--text-marketplace "
+    ]
+  },
+  "rich-text#section__dektop--text-terms": {
+    "title": "Terminos y condiciones",
+    "props": {
+      "text": "Acepto: [Términos y condiciones,](/terminos-condiciones)",
+      "blockClass": "text-footer-offers"
+    }
+  },*/
   "flex-layout.row#footer__container": {
     "children": [
       "flex-layout.col#footer__container--col-one",
