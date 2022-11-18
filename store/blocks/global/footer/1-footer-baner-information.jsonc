@@ -1,0 +1,160 @@
+{
+  "flex-layout.row#footer__container-one": {
+    "children": [
+      "flex-layout.col#footer__container-eccomerce",
+      "flex-layout.col#footer__container-products",
+      "flex-layout.col#footer__container-shopping",
+      "flex-layout.col#footer__container-points",
+      "flex-layout.col#footer__container-payment"
+    ],
+    "props": {
+      "blockClass": "session-container-main"
+    }
+  },
+  "flex-layout.col#footer__container-eccomerce": {
+    "children": ["flex-layout.row#footer__container-icon-text"]
+  },
+  "flex-layout.row#footer__container-icon-text": {
+    "children": [
+      "image#section__dektop--image-eccomerce",
+      "rich-text#section__dektop--text-eccommerce"
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
+  },
+  "image#section__dektop--image-eccomerce": {
+    "title": "Imagen eccomerce",
+    "props": {
+      "src": "assets/img/home__footer-medal.png",
+      "description": "imagen de medalla",
+      "width": 60,
+      "height": 33,
+      "blockClass": "home__image-main"
+    }
+  },
+  "rich-text#section__dektop--text-eccommerce": {
+    "title": "Texto ecommerce",
+    "props": {
+      "text": "Retail eCommerce Award 2022",
+      "blockClass": "text-footer-main"
+    }
+  },
+
+  "flex-layout.col#footer__container-products": {
+    "children": ["flex-layout.row#footer__container-products"]
+  },
+  "flex-layout.row#footer__container-products": {
+    "children": [
+      "image#section__dektop--image-products",
+      "rich-text#section__dektop--text-products"
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
+  },
+  "image#section__dektop--image-products": {
+    "title": "Imagen productos",
+    "props": {
+      "src": "assets/img/home__footer-gif.png",
+      "description": "imagen de medalla",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
+    }
+  },
+  "rich-text#section__dektop--text-products": {
+    "title": "Texto productos",
+    "props": {
+      "text": "Más de 400 mil productos",
+      "blockClass": "text-footer-main"
+    }
+  },
+  "flex-layout.col#footer__container-shopping": {
+    "children": ["flex-layout.row#footer__container-shopping"]
+  },
+  "flex-layout.row#footer__container-shopping": {
+    "children": [
+      "image#section__dektop--image-shopping",
+      "rich-text#section__dektop--text-shopping"
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
+  },
+  "image#section__dektop--image-shopping": {
+    "title": "Imagen compra",
+    "props": {
+      "src": "assets/img/home__footer-padlock.png",
+      "description": "imagen de medalla",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
+    }
+  },
+  "rich-text#section__dektop--text-shopping": {
+    "title": "Texto compra",
+    "props": {
+      "text": "Compras seguras",
+      "blockClass": "text-footer-main"
+    }
+  },
+  "flex-layout.col#footer__container-points": {
+    "children": ["flex-layout.row#footer__container-points"]
+  },
+  "flex-layout.row#footer__container-points": {
+    "children": [
+      "image#section__dektop--image-points",
+      "rich-text#section__dektop--text-points"
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
+  },
+  "image#section__dektop--image-points": {
+    "title": "Imagen puntos",
+    "props": {
+      "src": "assets/img/home__footer-points.png",
+      "description": "imagen de puntos",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
+    }
+  },
+  "rich-text#section__dektop--text-points": {
+    "title": "Texto puntos",
+    "props": {
+      "text": "Acumulas puntos",
+      "blockClass": "text-footer-main"
+    }
+  },
+  "flex-layout.col#footer__container-payment": {
+    "children": ["flex-layout.row#footer__container-payment"]
+  },
+  "flex-layout.row#footer__container-payment": {
+    "children": [
+      "image#section__dektop--image-payment",
+      "rich-text#section__dektop--text-payment"
+    ],
+    "props": {
+      "blockClass": "session-image-text"
+    }
+  },
+  "image#section__dektop--image-payment": {
+    "title": "Imagen paga en línea",
+    "props": {
+      "src": "assets/img/home__footer-arrows.png",
+      "description": "imagen de paga en línea",
+      "width": 40,
+      "height": 33,
+      "blockClass": "home__image-main"
+    }
+  },
+  "rich-text#section__dektop--text-payment": {
+    "title": "Texto paga en línea",
+    "props": {
+      "text": "Paga en línea o en efectivo",
+      "blockClass": "text-footer-main"
+    }
+  }
+}
