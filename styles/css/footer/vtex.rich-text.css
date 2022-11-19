@@ -5,3 +5,62 @@
   flex-wrap: nowrap;
   align-items: center;
 }
+
+.paragraph--text-footer-title {
+  color: #222;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.paragraph--text-footer-group {
+  color: #414141;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.link--text-footer-group {
+  font-size: 13px;
+  color: #414141;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.link--text-footer-cities {
+  color: #414141;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.paragraph--text-footer-offers {
+  color: #363636;
+  font-size: 13px;
+}
+
+.paragraph--text-footer-app {
+  padding-top: 14px;
+  border-left: 2px solid #d3d3d3;
+  color: #222;
+  font-size: 23px;
+  font-weight: 800;
+  margin: 0 0 0 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.paragraph--text-footer-title {
+  color: #222;
+  font-size: 15px;
+}
+
+.paragraph--text-footer-followus {
+  color: #222;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.paragraph--text-footer-safe {
+  font-size: 15px;
+  color: #222;
+  margin-top: 25px;
+  padding-left: 15px;
+}

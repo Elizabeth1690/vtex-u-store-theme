@@ -8,7 +8,7 @@
       "flex-layout.col#footer__container-payment"
     ],
     "props": {
-      "blockClass": "session-container-main"
+      "blockClass": "session-container-one"
     }
   },
   "flex-layout.col#footer__container-eccomerce": {

@@ -1,0 +1,10 @@
+.newsletterForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.confirmationCheckboxContainer {
+  grid-row: 2/3;
+  grid-column: 1/3;
+}

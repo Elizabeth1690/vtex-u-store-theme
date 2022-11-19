@@ -6,7 +6,7 @@
       "flex-layout.col#footer__container-download"
     ],
     "props": {
-      "blockClass": "session-container-main"
+      "blockClass": "session-container-two"
     }
   },
   "flex-layout.col#footer__container-contacts": {
@@ -18,7 +18,11 @@
       "flex-layout.row#footer__container-line",
       "flex-layout.row#footer__container-telephone-medellin",
       "flex-layout.row#footer__container-telephone-cities"
-    ]
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "session-container-contacts"
+    }
   },
   "flex-layout.row#footer__container-contacts": {
     "children": ["rich-text#section__dektop--text-contacts"]
@@ -27,61 +31,79 @@
     "title": "Texto contactos",
     "props": {
       "text": "Contáctanos",
-      "blockClass": "text-footer-contacts"
+      "blockClass": "text-footer-title"
     }
   },
   "flex-layout.row#footer__container-telephone": {
-    "children": ["rich-text#section__dektop--text-telephone"]
+    "children": ["rich-text#section__dektop--text-telephone"],
+    "props": {
+      "blockClass": "session-container-group"
+    }
   },
   "rich-text#section__dektop--text-telephone": {
     "title": "Ventas telefónicas",
     "props": {
       "text": "Ventas telefónicas.[(601) 4242400](/)",
-      "blockClass": "text-footer-contacts"
+      "blockClass": "text-footer-group"
     }
   },
   "flex-layout.row#footer__container-Whatsapp": {
-    "children": ["rich-text#section__dektop--text-Whatsapp"]
+    "children": ["rich-text#section__dektop--text-Whatsapp"],
+    "props": {
+      "blockClass": "session-container-group"
+    }
   },
   "rich-text#section__dektop--text-Whatsapp": {
     "title": "Ventas Whatsapp",
     "props": {
       "text": "Ventas whatsapp.[(+57) 305 482 90 46](/)",
-      "blockClass": "text-footer-whatsapp"
+      "blockClass": "text-footer-group"
     }
   },
   "flex-layout.row#footer__container-client": {
-    "children": ["rich-text#section__dektop--text-client"]
+    "children": ["rich-text#section__dektop--text-client"],
+    "props": {
+      "blockClass": "session-container-group"
+    }
   },
   "rich-text#section__dektop--text-client": {
     "title": "Servicio al cliente Whatsapp",
     "props": {
       "text": "Servicio al cliente Whatsapp.[(+57) 305 261 54 42](/)",
-      "blockClass": "text-footer-client"
+      "blockClass": "text-footer-group"
     }
   },
   "flex-layout.row#footer__container-line": {
-    "children": ["rich-text#section__dektop--text-line"]
+    "children": ["rich-text#section__dektop--text-line"],
+    "props": {
+      "blockClass": "session-container-group"
+    }
   },
   "rich-text#section__dektop--text-line": {
     "title": "Ventas telefónicas.",
     "props": {
       "text": "Línea de servicio al cliente nacional:[01 8000 428 800](/)",
-      "blockClass": "text-footer-line"
+      "blockClass": "text-footer-group"
     }
   },
   "flex-layout.row#footer__container-telephone-medellin": {
-    "children": ["rich-text#section__dektop--text-telephone-medellin"]
+    "children": ["rich-text#section__dektop--text-telephone-medellin"],
+    "props": {
+      "blockClass": "session-container-group"
+    }
   },
   "rich-text#section__dektop--text-telephone-medellin": {
     "title": "Ventas telefónicas",
     "props": {
       "text": "Medellín: [(4) 604 19 19](/)",
-      "blockClass": "text-footer-medellin"
+      "blockClass": "text-footer-group"
     }
   },
   "flex-layout.row#footer__container-telephone-cities": {
-    "children": ["rich-text#section__dektop--text-telephone-cities"]
+    "children": ["rich-text#section__dektop--text-telephone-cities"],
+    "props": {
+      "blockClass": "session-container-group"
+    }
   },
   "rich-text#section__dektop--text-telephone-cities": {
     "title": "Ventas telefónicas",
@@ -95,20 +117,31 @@
       "flex-layout.row#footer__container-subscribe",
       "flex-layout.row#footer__container-offerts",
       "flex-layout.row#footer__container-form"
-    ]
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "session-container-subscribe"
+    }
   },
   "flex-layout.row#footer__container-subscribe": {
-    "children": ["rich-text#section__dektop--text-subscribe"]
+    "children": ["rich-text#section__dektop--text-subscribe"],
+    "title": "Suscripciones",
+    "props": {
+      "blockClass": "session-container-subscribe-offerts"
+    }
   },
   "rich-text#section__dektop--text-subscribe": {
     "title": "Suscripciones",
     "props": {
       "text": "Suscríbete a nuestro newsletter",
-      "blockClass": "text-footer-subscribe"
+      "blockClass": "text-footer-title"
     }
   },
   "flex-layout.row#footer__container-offerts": {
-    "children": ["rich-text#section__dektop--text-offers"]
+    "children": ["rich-text#section__dektop--text-offers"],
+    "props": {
+      "blockClass": "session-container-subscribe-offerts"
+    }
   },
   "rich-text#section__dektop--text-offers": {
     "title": "Ofertas y Lanzamientos",
@@ -118,14 +151,34 @@
     }
   },
   "flex-layout.row#footer__container-form": {
-    "children": ["newsletter-form"]
+    "children": ["newsletter-form"],
+    "props": {
+      "text": "Entérate de nuestras ofertas y lanzamientos exclusivos",
+      "blockClass": "session-container-forms"
+    }
   },
   "newsletter-form": {
     "children": [
       "newsletter-input-email",
       "newsletter-submit",
       "newsletter-checkbox-confirmation"
-    ]
+    ],
+    "props": {
+      "blocks": ["ErrorState", "SuccessState", "LoadingState"]
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "footer-input",
+      "placeholderText": "Ingresa tu correo",
+      "errorMessage": "Debes ingresar un correo válido"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Suscríbete",
+      "blockClass": "footer-input"
+    }
   },
   "newsletter-checkbox-confirmation": {
     "props": {
@@ -137,7 +190,8 @@
       "secondLabelLink": {
         "text": " tratamiento de mis datos personales con las siguientes condiciones.",
         "url": "/"
-      }
+      },
+      "blockClass": "-footer-check-box"
     }
   },
   "flex-layout.col#footer__container-download": {
@@ -148,7 +202,11 @@
       "flex-layout.row#footer__social-networks",
       "flex-layout.row#footer__image-safe-shopping",
       "flex-layout.row#footer__image-pay"
-    ]
+    ],
+    "props": {
+      "width": "33%",
+      "blockClass": "session-container-download"
+    }
   },
   "flex-layout.row#footer__container-download": {
     "children": ["rich-text#section__dektop--text-download"]
@@ -157,7 +215,7 @@
     "title": "Descarga gratis la app",
     "props": {
       "text": "¡Descarga gratis la app!",
-      "blockClass": "text-footer-download"
+      "blockClass": "text-footer-title"
     }
   },
   "flex-layout.row#footer__container-image-code": {
@@ -165,13 +223,17 @@
       "image#section__dektop--image-code",
       "rich-text#section__dektop--text-app",
       "image#section__dektop--image-success"
-    ]
+    ],
+    "props": {
+      "blockClass": "session-container-image-code"
+    }
   },
   "image#section__dektop--image-code": {
     "title": "Imagen código de barra",
     "props": {
       "src": "assets/img/home__footer-code.png",
-      "description": "imagen de código de barra del éxito"
+      "description": "imagen de código de barra del éxito",
+      "width": 200
     }
   },
   "rich-text#section__dektop--text-app": {
@@ -185,7 +247,10 @@
     "title": "Imagen signo de admiración del éxito",
     "props": {
       "src": "assets/img/home__footer-succes.png",
-      "description": "imagen de signo de admiración el éxito"
+      "description": "imagen de signo de admiración el éxito",
+      "width": 41,
+      "height": 41,
+      "blockClass": "image-success"
     }
   },
   "flex-layout.row#footer__container-followus": {
@@ -199,7 +264,11 @@
     }
   },
   "flex-layout.row#footer__social-networks": {
-    "children": ["social-networks"]
+    "children": ["social-networks"],
+    "props": {
+      "text": "Síguenos en:",
+      "blockClass": "session-container-social-networks"
+    }
   },
   "social-networks": {
     "props": {
@@ -211,6 +280,10 @@
         {
           "url": "https://twitter.com/exito",
           "name": "Twitter"
+        },
+        {
+          "url": "https://instagram.com/exito",
+          "name": "Instagram"
         },
         {
           "url": "https://youtube.com/exito",
@@ -233,7 +306,10 @@
     "children": [
       "image#section__dektop--image-pay",
       "image#section__dektop--image-pay-one"
-    ]
+    ],
+    "props": {
+      "blockClass": "session_container-imagens-pay"
+    }
   },
   "image#section__dektop--image-pay": {
     "title": "Imagen global pay",
