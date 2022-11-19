@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header-login": {
+    "title": "Sesión cabecera login",
     "children": ["flex-layout.col#header__login-icon-text"],
     "props": {
       "blockClass": "session__header-login",
@@ -7,12 +8,14 @@
     }
   },
   "flex-layout.col#header__login-icon-text": {
+    "title": "Sesión cabecera login uno",
     "children": ["login", "rich-text#header-text-login"],
     "props": {
       "blockClass": "header__texto-login"
     }
   },
   "login": {
+    "title": "login",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",

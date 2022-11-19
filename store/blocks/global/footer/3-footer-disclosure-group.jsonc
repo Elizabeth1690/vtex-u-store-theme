@@ -1,0 +1,620 @@
+{
+  "flex-layout.row#footer__container-three": {
+    "children": ["flex-layout.col#footer__container--col-one"]
+  },
+  "flex-layout.col#footer__container--col-one": {
+    "children": ["disclosure-layout-group#footer__menu--group"]
+  },
+  "disclosure-layout-group#footer__menu--group": {
+    "children": ["disclosure-layout#footer__information-general"],
+    "props": {
+      "blockClass": "container-content-disclosure-general",
+      "maxVisible": "many"
+    }
+  },
+  "disclosure-layout#footer__information-general": {
+    "children": [
+      "disclosure-trigger#item-information-general",
+      "disclosure-content#item-information-general"
+    ],
+    "props": {
+      "blockClass": "container-items-disclosure-general",
+      "initialVisibility": "visible"
+    }
+  },
+  "disclosure-trigger#item-information-general": {
+    "children": ["rich-text#information-general"]
+  },
+  "rich-text#information-general": {
+    "title": "Menú Principal",
+    "props": {
+      "text": "Más Información",
+      "blockClass": "text-disclosure-principal"
+    }
+  },
+  "disclosure-content#item-information-general": {
+    "children": ["flex-layout.row#disclosure__footer-information-sessions"]
+  },
+  "flex-layout.row#disclosure__footer-information-sessions": {
+    "children": [
+      "flex-layout.row#disclosure__footer-information-sessions-general"
+    ]
+  },
+  "flex-layout.row#disclosure__footer-information-sessions-general": {
+    "children": ["disclosure-layout-group#footer__sessions--group"]
+  },
+  "disclosure-layout-group#footer__sessions--group": {
+    "children": [
+      "flex-layout.col#disclosure__footer-item-help",
+      "flex-layout.col#disclosure__footer-item-interest-success",
+      "flex-layout.col#disclosure__footer-item-our-company",
+      "flex-layout.col#disclosure__footer-item-communities",
+      "flex-layout.col#disclosure__footer-item-legal-information"
+    ],
+    "props": {
+      "maxVisible": "many"
+    }
+  },
+  "flex-layout.col#disclosure__footer-item-help": {
+    "children": ["disclosure-layout#footer__item-help"]
+  },
+  "disclosure-layout#footer__item-help": {
+    "children": ["disclosure-trigger#item-help", "disclosure-content#item-help"]
+  },
+  "disclosure-trigger#item-help": {
+    "children": ["rich-text#text-item-help"],
+    "props": { "blockClass": "container-title-item-help" }
+  },
+  "rich-text#text-item-help": {
+    "title": "titulo menu desplegable centro de ayuda",
+    "props": {
+      "text": "Centro de ayuda",
+      "blockClass": "title-disclosure-help"
+    }
+  },
+  "disclosure-content#item-help": {
+    "children": ["menu#item-help"],
+    "props": {
+      "blockClass": "container-menu-content-item-help"
+    }
+  },
+  "menu#item-help": {
+    "children": [
+      "menu-item#frequent-questions",
+      "menu-item#exchange-policies",
+      "menu-item#warranty-policy",
+      "menu-item#Contact",
+      "menu-item#change-product",
+      "menu-item#warehouses",
+      "menu-item#write-to-us",
+      "menu-item#manage-order",
+      "menu-item#update-data"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#frequent-questions": {
+    "props": {
+      "id": "menu-preguntas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#exchange-policies": {
+    "props": {
+      "id": "menu-politicas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Políticas de Cambios y Devoluciones",
+        "text": "Políticas de Cambios y Devoluciones"
+      }
+    }
+  },
+  "menu-item#warranty-policy": {
+    "props": {
+      "id": "menu-politicas-garantia",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Política de garantías",
+        "text": "Política de garantías"
+      }
+    }
+  },
+  "menu-item#Contact": {
+    "props": {
+      "id": "menu-politicas-garantia",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      }
+    }
+  },
+  "menu-item#warehouses": {
+    "props": {
+      "id": "menu-producto",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Almacenes",
+        "text": "Almacenes"
+      }
+    }
+  },
+  "menu-item#change-product": {
+    "props": {
+      "id": "menu-producto",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Cambia tu producto fácil",
+        "text": "Cambia tu producto fácil"
+      }
+    }
+  },
+  "menu-item#write-to-us": {
+    "props": {
+      "id": "menu-pqrs",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Escribenos (PQRS)",
+        "text": "Escribenos (PQRS)"
+      }
+    }
+  },
+  "menu-item#manage-order": {
+    "props": {
+      "id": "menu-pedido",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "¿Cómo gestionar mi pedido?",
+        "text": "¿Cómo gestionar mi pedido?"
+      }
+    }
+  },
+  "menu-item#update-data": {
+    "props": {
+      "id": "menu-pedido",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Actualiza tus datos",
+        "text": "Actualiza tus datos"
+      }
+    }
+  },
+  "flex-layout.col#disclosure__footer-item-interest-success": {
+    "children": ["disclosure-layout#footer__item-success"]
+  },
+  "disclosure-layout#footer__item-success": {
+    "children": [
+      "disclosure-trigger#item-success",
+      "disclosure-content#item-success"
+    ]
+  },
+  "disclosure-trigger#item-success": {
+    "children": ["rich-text#text-item-success"],
+    "props": { "blockClass": "container-title-item-success" }
+  },
+  "rich-text#text-item-success": {
+    "title": "titulo menu desplegable centro de ayuda",
+    "props": {
+      "text": "exito.com",
+      "blockClass": "title-disclosure-help"
+    }
+  },
+  "disclosure-content#item-success": {
+    "children": ["menu#item-success"],
+    "props": {
+      "blockClass": "container-menu-content-item-help"
+    }
+  },
+  "menu#item-success": {
+    "children": [
+      "menu-item#buy-pick-up",
+      "menu-item#telephone-address",
+      "menu-item#sells",
+      "menu-item#us",
+      "menu-item#affiliates",
+      "menu-item#virtual-magazine"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#buy-pick-up": {
+    "props": {
+      "id": "menu-compra",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Compra y recoge",
+        "text": "Compra y recoge"
+      }
+    }
+  },
+  "menu-item#telephone-address": {
+    "props": {
+      "id": "menu-domicilio",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Domicilio telefónico",
+        "text": "Domicilio telefónico"
+      }
+    }
+  },
+  "menu-item#sells": {
+    "props": {
+      "id": "menu-exito",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Vende en exito.com",
+        "text": "Vende en exito.com"
+      }
+    }
+  },
+  "menu-item#us": {
+    "props": {
+      "id": "menu-nosotros",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Paute con nosotros",
+        "text": "Paute con nosotros"
+      }
+    }
+  },
+  "menu-item#affiliates": {
+    "props": {
+      "id": "menu-afiliados",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Afiliados Clickam",
+        "text": "Afiliados Clickam"
+      }
+    }
+  },
+  "menu-item#virtual-magazine": {
+    "props": {
+      "id": "menu-revista",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Revista virtual",
+        "text": "Revista virtual"
+      }
+    }
+  },
+  "flex-layout.col#disclosure__footer-item-our-company": {
+    "children": ["disclosure-layout#footer__item-company"]
+  },
+  "disclosure-layout#footer__item-company": {
+    "children": [
+      "disclosure-trigger#item-company",
+      "disclosure-content#item-company"
+    ]
+  },
+  "disclosure-trigger#item-company": {
+    "children": ["rich-text#text-item-company"],
+    "props": { "blockClass": "container-title-item-company" }
+  },
+  "rich-text#text-item-company": {
+    "title": "titulo menu desplegable centro de ayuda",
+    "props": {
+      "text": "Nuestra compañia",
+      "blockClass": "title-disclosure-help"
+    }
+  },
+  "disclosure-content#item-company": {
+    "children": ["menu#item-company"],
+    "props": {
+      "blockClass": "container-menu-content-item-help"
+    }
+  },
+  "menu#item-company": {
+    "children": [
+      "menu-item#success-group",
+      "menu-item#success-foundation",
+      "menu-item#donate-goths",
+      "menu-item#Investors",
+      "menu-item#business-sales",
+      "menu-item#Employment-opportunities"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#success-group": {
+    "props": {
+      "id": "menu-grupo-exito",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Grupo éxito",
+        "text": "Grupo éxito"
+      }
+    }
+  },
+  "menu-item#success-foundation": {
+    "props": {
+      "id": "menu-fundacion",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Fundación éxito",
+        "text": "Fundación éxito"
+      }
+    }
+  },
+  "menu-item#donate-goths": {
+    "props": {
+      "id": "menu-donar",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Donar goticas",
+        "text": "Donar goticas"
+      }
+    }
+  },
+  "menu-item#Investors": {
+    "props": {
+      "id": "menu-inversionistas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Inversionistas",
+        "text": "Inversionistas"
+      }
+    }
+  },
+  "menu-item#business-sales": {
+    "props": {
+      "id": "menu-empresariales",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Ventas empresariales",
+        "text": "Ventas empresariales"
+      }
+    }
+  },
+  "menu-item#Employment-opportunities": {
+    "props": {
+      "id": "menu-oportunidades",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Oportunidades de empleo",
+        "text": "Oportunidades de empleo"
+      }
+    }
+  },
+  "flex-layout.col#disclosure__footer-item-communities": {
+    "children": ["disclosure-layout#footer__item-communities"]
+  },
+  "disclosure-layout#footer__item-communities": {
+    "children": [
+      "disclosure-trigger#item-communities",
+      "disclosure-content#item-communities"
+    ]
+  },
+  "disclosure-trigger#item-communities": {
+    "children": ["rich-text#text-item-communities"],
+    "props": { "blockClass": "container-title-item-company" }
+  },
+  "rich-text#text-item-communities": {
+    "title": "titulo menu desplegable centro de ayuda",
+    "props": {
+      "text": "Comunidades",
+      "blockClass": "title-disclosure-help"
+    }
+  },
+  "disclosure-content#item-communities": {
+    "children": ["menu#item-communities"],
+    "props": {
+      "blockClass": "container-menu-content-item-help"
+    }
+  },
+  "menu#item-communities": {
+    "children": ["menu-item#Vivevinos", "menu-item#successful-scouts"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#Vivevinos": {
+    "props": {
+      "id": "menu-Vivevinos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Vivevinos",
+        "text": "Vivevinos"
+      }
+    }
+  },
+  "menu-item#successful-scouts": {
+    "props": {
+      "id": "menu-Exploradores-éxito",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Exploradores éxito",
+        "text": "Exploradores éxito"
+      }
+    }
+  },
+  "flex-layout.col#disclosure__footer-item-legal-information": {
+    "children": ["disclosure-layout#footer__item-information"]
+  },
+  "disclosure-layout#footer__item-information": {
+    "children": [
+      "disclosure-trigger#item-information",
+      "disclosure-content#item-information"
+    ]
+  },
+  "disclosure-trigger#item-information": {
+    "children": ["rich-text#text-item-information"],
+    "props": { "blockClass": "container-title-item-company" }
+  },
+  "rich-text#text-item-information": {
+    "title": "titulo menu desplegable centro de ayuda",
+    "props": {
+      "text": "Información Legal",
+      "blockClass": "title-disclosure-help"
+    }
+  },
+  "disclosure-content#item-information": {
+    "children": ["menu#item-information"],
+    "props": {
+      "blockClass": "container-menu-content-item-help"
+    }
+  },
+  "menu#item-information": {
+    "children": [
+      "menu-item#legal",
+      "menu-item#Terms-conditions",
+      "menu-item#Marketplace-Terms",
+      "menu-item#Privacy-policies",
+      "menu-item#Data-processing-authorization",
+      "menu-item#sic",
+      "menu-item#right-withdrawal",
+      "menu-item#Request-reversals"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#legal": {
+    "props": {
+      "id": "menu-legales",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Legales del día",
+        "text": "Legales del día"
+      }
+    }
+  },
+  "menu-item#Terms-conditions": {
+    "props": {
+      "id": "menu-terminos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#Marketplace-Terms": {
+    "props": {
+      "id": "menu-legales",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Términos de la Marketplace",
+        "text": "Términos de la Marketplace"
+      }
+    }
+  },
+  "menu-item#Privacy-policies": {
+    "props": {
+      "id": "menu-privacidad",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Políticas de privacidad",
+        "text": "Políticas de privacidad"
+      }
+    }
+  },
+  "menu-item#Data-processing-authorization": {
+    "props": {
+      "id": "menu-datos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Autorización tratamiento de datos",
+        "text": "Autorización tratamiento de datos"
+      }
+    }
+  },
+  "menu-item#sic": {
+    "props": {
+      "id": "menu-sic",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Superintendencia de Industria y Comercio-SIC",
+        "text": "Superintendencia de Industria y Comercio-SIC"
+      }
+    }
+  },
+  "menu-item#right-withdrawal": {
+    "props": {
+      "id": "menu-derecho",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Derecho de retracto",
+        "text": "Derecho de retracto"
+      }
+    }
+  },
+  "menu-item#Request-reversals": {
+    "props": {
+      "id": "menu-solicitud",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "Solicitud de reversiones",
+        "text": "Solicitud de reversiones"
+      }
+    }
+  }
+}

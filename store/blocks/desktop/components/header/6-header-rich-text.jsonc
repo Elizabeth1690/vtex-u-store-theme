@@ -12,6 +12,7 @@
     }
   },
   "rich-text#header__middle--text": {
+    "title": "Texto recibir pedido",
     "props": {
       "blockClass": "header__texto-dos",
       "text": " ¿ Cómo quieres recibir tu pedido? >"

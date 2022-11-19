@@ -1,0 +1,7 @@
+/*.summaryitemcontainer:first-child {
+  display: none;
+}*/
+
+.summaryitemcontainer:nth-child(2n) {
+  display: none;
+}

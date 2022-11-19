@@ -1,12 +1,13 @@
 {
   "header-row#header__middle-mobile": {
-    "title": "Header medio",
+    "title": " Sesión de cabecera principal",
     "children": ["flex-layout.row#header__middle-mobile-tablet"],
     "props": {
       "blockClass": "header__middle"
     }
   },
   "flex-layout.row#header__middle-mobile-tablet": {
+    "title": " Sesión de cabecera principal menú",
     "children": [
       "flex-layout.row#mobile__menu-logo",
       "flex-layout.row#mobile__icons"
@@ -17,6 +18,7 @@
     }
   },
   "flex-layout.row#mobile__menu-logo": {
+    "title": " Sesión de cabecera principal logo",
     "children": [
       "flex-layout.row#mobile__mega--menu",
       "flex-layout.row#header__top-logo"
@@ -27,6 +29,7 @@
     }
   },
   "flex-layout.row#mobile__icons": {
+    "title": " Sesión de cabecera principal grupo de iconos",
     "children": [
       "flex-layout.row#header-login",
       "flex-layout.row#header-campana-mobile",

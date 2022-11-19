@@ -26,6 +26,7 @@
       "flex-layout.row#home__section--dektop-eleven",
       "flex-layout.row#home__section--dektop-twelve",
       "flex-layout.row#home__section--dektop-thirteen",
+      "search-result-layout.customQuery#home__search",
       "flex-layout.row#home__section--dektop-fourteen",
       "flex-layout.row#home__section--dektop-fifteen",
       "flex-layout.row#home__section--dektop-sixteen",

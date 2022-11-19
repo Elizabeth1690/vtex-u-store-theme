@@ -1,0 +1,9 @@
+.imageElement--home__image-main {
+  margin-top: 5px;
+}
+
+.imageElement--image-success {
+  padding-top: 14px;
+  aspect-ratio: 41/41;
+  padding-left: 30px;
+}

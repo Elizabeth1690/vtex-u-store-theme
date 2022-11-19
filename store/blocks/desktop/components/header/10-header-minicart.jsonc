@@ -1,25 +1,115 @@
 {
   "flex-layout.row#header__middle-minicart": {
+    "title": "Sesión cabecera carrito de compra",
     "children": ["flex-layout.col#header__middle-minicart-one"],
     "props": {
       "blockClass": "session__minicart"
     }
   },
   "flex-layout.col#header__middle-minicart-one": {
+    "title": "Sesión cabecera carrito de compra uno",
     "children": ["minicart.v2"],
     "props": {
       "blockClass": "session__minicart-one"
     }
   },
   "autocomplete-result-list.v2": {
+    "title": "Sesión cabecera resumen del producto",
     "blocks": ["product-summary"]
   },
   "minicart.v2": {
+    "title": "carrito de compra",
     "props": {
-      //"variation": "popup",
-      // "itemCountMode": "total",
-      //"quantityDisplay": "always",
-      "customPixelEventName": "pageView"
+      //  "variation": "popup",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+      //"customPixelEventName": "pageView"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart__footer"]
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#minicart__empty"]
+  },
+  "flex-layout.row#minicart__empty": {
+    "title": "Sesión cabecera carrito de compra dos",
+    "children": ["flex-layout.col#minicart__empty"]
+  },
+  "flex-layout.col#minicart__empty": {
+    "title": "Sesión cabecera icono y texto",
+    "children": [
+      "icon-cart#minicart__empty--icon",
+      "rich-text#minicart__empty--text",
+      "drawer-close-button"
+    ]
+  },
+  "icon-cart#minicart__empty--icon": {
+    "title": "icono carrito de compra",
+    "props": {
+      "size": 100
     }
+  },
+  "rich-text#promo": {
+    "title": "Texto promociones",
+    "props": {
+      "text": "No olvides participar en las promociones de día sin IVA"
+    }
+  },
+  "rich-text#minicart__empty--text": {
+    "title": "texto carrito vacío",
+    "props": {
+      "text": "Hola, el carrito se encuentra vacío, te invitamos a llenarlo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "product-list-content-mobile": {
+    "children": ["flex-layout.row#minicart__row--mobile"]
+  },
+  "flex-layout.row#minicart__row--mobile": {
+    "children": [
+      "flex-layout.col#minicart__col--image",
+      "flex-layout.col#minicart__col--info",
+      "flex-layout.col#minicart__col--remove"
+    ]
+  },
+  "flex-layout.col#minicart__col--image": {
+    "children": ["product-list-image"]
+  },
+  "flex-layout.col#minicart__col--info": {
+    "children": [
+      "vtex.product-list@0.x:product-name",
+      "price",
+      "quantity-selector#minicart"
+    ]
+  },
+  "quantity-selector#minicart": {
+    "props": {
+      "mode": "stepper"
+    }
+  },
+  "flex-layout.col#minicart__col--remove": {
+    "children": ["remove-button"]
+  },
+  "flex-layout.row#minicart__footer": {
+    "title": "Sesión carrito de compra inferior",
+    "children": ["flex-layout.col#minicart__footer"]
+  },
+  "flex-layout.col#minicart__footer": {
+    "children": [
+      "minicart-summary",
+      "rich-text#promo",
+      "minicart-checkout-button",
+      "drawer-close-button"
+    ]
   }
 }

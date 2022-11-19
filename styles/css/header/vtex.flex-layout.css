@@ -94,7 +94,7 @@
   margin-bottom: 20px;
 }
 
-/* diseño de tablet */
+/* Diseño de tablet */
 
 @media screen and (max-width: 768px) {
   .flexColChild--session__header-inicio {
@@ -173,6 +173,8 @@
     align-items: center;
   }
 }
+
+/* Diseño de phone*/
 
 @media (max-width: 480px) {
   .flexRowContent--session__header-top-text {

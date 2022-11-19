@@ -21,6 +21,7 @@
   },
 
   "modal-trigger#header__middle--login": {
+    "title": "Modal login",
     "children": [
       "rich-text#header__middle--login",
       "modal-layout#header__middle--login"
@@ -28,6 +29,7 @@
   },
 
   "modal-layout#header__middle--login": {
+    "title": "Modal login uno",
     "children": ["login-content"]
   }
 }

@@ -1,5 +1,6 @@
 {
   "search-bar#header__search-desktop": {
+    "title": "Sesión bara de búsqueda",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       /*  "openAutocompleteOnFocus": true,*/
