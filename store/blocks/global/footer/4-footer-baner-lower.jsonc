@@ -1,0 +1,119 @@
+{
+  "flex-layout.row#footer__container-four": {
+    "title": "Contenedor imagenes y derechos de autor",
+    "children": [
+      "flex-layout.col#footer_banner-images",
+      "flex-layout.col#footer_banner-copyright"
+    ],
+    "props": {
+      "blockClass": "container-image-copyright"
+    }
+  },
+
+  "flex-layout.col#footer_banner-images": {
+    "title": "contenedor imagenes de supermercados",
+    "children": ["flex-layout.row#footer_banner-images"],
+    "props": { "blockClass": "container-baner-images" }
+  },
+
+  "flex-layout.row#footer_banner-images": {
+    "title": "contenedor que contiene todas las imagenes de supermercado",
+    "children": [
+      "flex-layout.col#footer_text-visit-too",
+      "flex-layout.col#footer_images-supermarkets"
+    ],
+    "props": {
+      "blockClass": "container-list-images"
+    }
+  },
+
+  "flex-layout.col#footer_text-visit-too": {
+    "title": "contenedor texto visita tambien",
+    "children": ["rich-text#footer_text-visit-too"],
+    "props": {
+      "blockClass": "container-text-visit",
+      "width": "25%"
+    }
+  },
+  "rich-text#footer_text-visit-too": {
+    "title": "texto visita otras tiendas pie de página",
+    "props": {
+      "text": "Visita también:",
+      "blockClass": "text-visit"
+    }
+  },
+  "flex-layout.col#footer_images-supermarkets": {
+    "title": "contenedor imagenes visita otras tiendas",
+    "children": [
+      "image#footer_carulla",
+      "image#footer_vivaexito",
+      "image#footer_superinter",
+      "image#footer_surtimax"
+    ],
+    "props": {
+      "blockClass": "container-images-supermarkets",
+      "width": "50%"
+    }
+  },
+  "image#footer_carulla": {
+    "title": "imagen carulla",
+    "props": {
+      "src": "assets/img/home__footer-carulla.png",
+      "title": "image-logo-carulla",
+      "blockClass": "image-logo-carulla",
+      "link": {
+        "url": "https://www.carulla.com/"
+      }
+    }
+  },
+
+  "image#footer_vivaexito": {
+    "title": "imagen viva exito",
+    "props": {
+      "src": "assets/img/home__footer-viva.png",
+      "title": "image-logo-vivaexito",
+      "blockClass": "image-logo-vivaexito",
+      "link": {
+        "url": "https://www.vivaonline.com.co/"
+      }
+    }
+  },
+  "image#footer_superinter": {
+    "title": "imagen super inter",
+    "props": {
+      "src": "assets/img/home__footer-superinter.png",
+      "title": "image-logo-superinter",
+      "blockClass": "image-logo-superinter",
+      "link": {
+        "url": "https://www.superinter.com.co/"
+      }
+    }
+  },
+  "image#footer_surtimax": {
+    "title": "imagen surtimax",
+    "props": {
+      "src": "assets/img/home__footer-surtimax.png",
+      "title": "image-logo-surtimax",
+      "blockClass": "image-logo-surtimax",
+      "link": {
+        "url": "https://www.surtimax.com.co/"
+      }
+    }
+  },
+
+  "flex-layout.col#footer_banner-copyright": {
+    "title": "contenedor texto copyright",
+    "children": ["rich-text#footer_copyright"],
+    "props": {
+      "blockClass": "container-text-copyright"
+    }
+  },
+
+  "rich-text#footer_copyright": {
+    "title": "texto derechos autor pie de página",
+    "props": {
+      "text": "2022 Éxito ®NIT 890900608-9. Todos los derechos reservados.",
+      "blockClass": "text-copyright"
+    }
+  }
+}
