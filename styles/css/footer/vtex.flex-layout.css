@@ -21,7 +21,7 @@
   justify-content: center;
   margin: 0px auto;
   padding-bottom: 70px;
-  gap: 50px;
+  gap: 90px;
 }
 
 .flexCol--session-container-contacts {
@@ -57,7 +57,7 @@
   align-items: center;
   padding: 20px 20px;
   text-decoration: none;
-  width: 55%;
+  width: 65%;
   height: 85%;
   pointer-events: none;
 }
@@ -70,6 +70,54 @@
 
 .flexRow--session-container-social-networks {
   display: flex;
-  justify-content: space-between !important;
-  width: 90%;
+  width: 78%;
+}
+
+.flexRow--container-content-disclosure-group {
+  background-color: #f7f7f7;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  min-height: 67px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.flexColChild--disclosure-column-group {
+  display: flex;
+  flex-direction: column;
+  line-height: 15px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+
+.flexCol--container-images-supermarkets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.flexCol--container-text-copyright {
+  align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+  .flexRow--session-container-one {
+    max-height: 500px;
+    padding-top: 20px;
+  }
+  .flexRow--session-container-social-networks {
+    display: flex;
+    width: 50%;
+  }
+  .flexRowContent--session_container-imagens-pay {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
 }

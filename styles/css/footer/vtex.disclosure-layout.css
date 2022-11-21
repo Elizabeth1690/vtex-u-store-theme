@@ -1,0 +1,32 @@
+.trigger--container-title-disclosure-main--hidden,
+.trigger--container-title-disclosure-main--visible,
+.trigger--hidden,
+.trigger--visible {
+  border: none;
+  background-color: #f7f7f7;
+}
+
+.content--visible {
+  margin: 0px auto;
+}
+
+.trigger--container-title-disclosure-main--hidden,
+.trigger--container-title-disclosure-main--visible {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px auto;
+  padding: 5px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content--container-menu-content-item-help--visible
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  color: #4d5766;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+}

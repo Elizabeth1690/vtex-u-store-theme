@@ -254,7 +254,10 @@
     }
   },
   "flex-layout.row#footer__container-followus": {
-    "children": ["rich-text#section__dektop--text-followus"]
+    "children": ["rich-text#section__dektop--text-followus"],
+    "props": {
+      "blockClass": "container-footer-followus"
+    }
   },
   "rich-text#section__dektop--text-followus": {
     "title": "Síguenos",
@@ -315,7 +318,8 @@
     "title": "Imagen global pay",
     "props": {
       "src": "assets/img/home__footer-global-pay.png",
-      "description": "imagen de global pay "
+      "description": "imagen de global pay ",
+        "blockClass": "image-footer-global-pay"
     }
   },
   "image#section__dektop--image-pay-one": {

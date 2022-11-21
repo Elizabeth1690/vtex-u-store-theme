@@ -23,13 +23,14 @@
     }
   },
   "disclosure-trigger#item-information-general": {
-    "children": ["rich-text#information-general"]
+    "children": ["rich-text#information-general"],
+    "props": { "blockClass": "container-title-disclosure-main" }
   },
   "rich-text#information-general": {
     "title": "Menú Principal",
     "props": {
       "text": "Más Información",
-      "blockClass": "text-disclosure-principal"
+      "blockClass": "text-disclosure-information"
     }
   },
   "disclosure-content#item-information-general": {
@@ -41,7 +42,11 @@
     ]
   },
   "flex-layout.row#disclosure__footer-information-sessions-general": {
-    "children": ["disclosure-layout-group#footer__sessions--group"]
+    "children": ["disclosure-layout-group#footer__sessions--group"],
+    "props": {
+      "maxVisible": "many",
+      "blockClass": "container-content-disclosure-group"
+    }
   },
   "disclosure-layout-group#footer__sessions--group": {
     "children": [
@@ -52,11 +57,15 @@
       "flex-layout.col#disclosure__footer-item-legal-information"
     ],
     "props": {
-      "maxVisible": "many"
+      "maxVisible": "many",
+      "blockClass": "disclosure-group"
     }
   },
   "flex-layout.col#disclosure__footer-item-help": {
-    "children": ["disclosure-layout#footer__item-help"]
+    "children": ["disclosure-layout#footer__item-help"],
+    "props": {
+      "blockClass": "disclosure-column-group"
+    }
   },
   "disclosure-layout#footer__item-help": {
     "children": ["disclosure-trigger#item-help", "disclosure-content#item-help"]
@@ -69,7 +78,7 @@
     "title": "titulo menu desplegable centro de ayuda",
     "props": {
       "text": "Centro de ayuda",
-      "blockClass": "title-disclosure-help"
+      "blockClass": "text-disclosure-group"
     }
   },
   "disclosure-content#item-help": {
@@ -102,7 +111,8 @@
         "type": "internal",
         "href": "/",
         "tagTitle": "Preguntas Frecuentes",
-        "text": "Preguntas Frecuentes"
+        "text": "Preguntas Frecuentes",
+        "blockClass":"text-menu-group"
       }
     }
   },
@@ -203,7 +213,10 @@
     }
   },
   "flex-layout.col#disclosure__footer-item-interest-success": {
-    "children": ["disclosure-layout#footer__item-success"]
+    "children": ["disclosure-layout#footer__item-success"],
+    "props": {
+      "blockClass": "disclosure-column-group"
+    }
   },
   "disclosure-layout#footer__item-success": {
     "children": [
@@ -219,7 +232,7 @@
     "title": "titulo menu desplegable centro de ayuda",
     "props": {
       "text": "exito.com",
-      "blockClass": "title-disclosure-help"
+      "blockClass": "text-disclosure-group"
     }
   },
   "disclosure-content#item-success": {
@@ -314,7 +327,10 @@
     }
   },
   "flex-layout.col#disclosure__footer-item-our-company": {
-    "children": ["disclosure-layout#footer__item-company"]
+    "children": ["disclosure-layout#footer__item-company"],
+    "props": {
+      "blockClass": "disclosure-column-group"
+    }
   },
   "disclosure-layout#footer__item-company": {
     "children": [
@@ -330,7 +346,7 @@
     "title": "titulo menu desplegable centro de ayuda",
     "props": {
       "text": "Nuestra compañia",
-      "blockClass": "title-disclosure-help"
+      "blockClass": "text-disclosure-group"
     }
   },
   "disclosure-content#item-company": {
@@ -425,7 +441,10 @@
     }
   },
   "flex-layout.col#disclosure__footer-item-communities": {
-    "children": ["disclosure-layout#footer__item-communities"]
+    "children": ["disclosure-layout#footer__item-communities"],
+    "props": {
+      "blockClass": "disclosure-column-group"
+    }
   },
   "disclosure-layout#footer__item-communities": {
     "children": [
@@ -441,7 +460,7 @@
     "title": "titulo menu desplegable centro de ayuda",
     "props": {
       "text": "Comunidades",
-      "blockClass": "title-disclosure-help"
+      "blockClass": "text-disclosure-group"
     }
   },
   "disclosure-content#item-communities": {
@@ -481,7 +500,10 @@
     }
   },
   "flex-layout.col#disclosure__footer-item-legal-information": {
-    "children": ["disclosure-layout#footer__item-information"]
+    "children": ["disclosure-layout#footer__item-information"],
+    "props": {
+      "blockClass": "disclosure-column-group"
+    }
   },
   "disclosure-layout#footer__item-information": {
     "children": [
@@ -497,7 +519,7 @@
     "title": "titulo menu desplegable centro de ayuda",
     "props": {
       "text": "Información Legal",
-      "blockClass": "title-disclosure-help"
+      "blockClass": "text-disclosure-group"
     }
   },
   "disclosure-content#item-information": {
