@@ -29,4 +29,10 @@
 }
 
 @media (max-width: 768px) {
+  .content--container-menu-content-item-help--visible
+    :global(.vtex-menu-2-x-styledLinkContent) {
+    color: #4d5766;
+    font-size: 10px;
+    text-decoration: none;
+  }
 }

@@ -23,4 +23,24 @@
   .imageElement--image-footer-global-pay {
     margin-bottom: 20px;
   }
+
+  .imageElement--image-footer-code {
+    display: none;
+  }
+
+  .imageElement--image-success {
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 65px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageElement--image-footer-placetopay {
+    height: 30px;
+  }
+  .imageElement--image-success {
+    margin-left: 0;
+  }
 }
