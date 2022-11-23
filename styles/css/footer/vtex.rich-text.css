@@ -64,3 +64,92 @@
   margin-top: 25px;
   padding-left: 15px;
 }
+
+.paragraph--text-disclosure-group {
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 23px;
+  margin-left: 20px;
+}
+
+.paragraph--text-disclosure-information {
+  color: #000;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.paragraph--text-visit {
+  color: #4d5766;
+  font-size: 12px;
+  margin: auto 50px;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+}
+
+.paragraph--text-copyright {
+  color: #4d5766;
+  font-size: 12px;
+  margin: 22px 50px 0 0;
+}
+
+@media (max-width: 768px) {
+  .paragraph--text-footer-main {
+    font-size: 13px;
+    white-space: normal;
+  }
+
+  .paragraph--text-footer-title {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .paragraph--text-footer-group {
+    font-size: 12px;
+  }
+  .link--text-footer-cities {
+    font-size: 12px;
+  }
+
+  .paragraph--text-footer-offers {
+    font-size: 12px;
+  }
+
+  .paragraph--text-footer-safe {
+    font-size: 14px;
+    color: #222;
+    margin-top: 25px;
+    padding-left: 0;
+  }
+
+  .paragraph--text-visit {
+    font-size: 10px;
+    white-space: normal;
+  }
+
+  .paragraph--text-footer-app {
+    margin-right: 40px;
+    margin-bottom: 15px;
+  }
+
+  .paragraph--text-disclosure-group {
+    font-size: 11px;
+    margin-top: 23px;
+  }
+
+  .paragraph--text-disclosure-information {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .paragraph--text-copyright {
+    margin: 22px 0 0 15px;
+  }
+  .paragraph--text-footer-app {
+    border-left: 0;
+    border-right: 2px solid #d3d3d3;
+    margin-left: 50px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+  }
+}

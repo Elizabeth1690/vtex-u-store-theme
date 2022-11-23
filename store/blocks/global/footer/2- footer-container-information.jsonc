@@ -233,7 +233,8 @@
     "props": {
       "src": "assets/img/home__footer-code.png",
       "description": "imagen de código de barra del éxito",
-      "width": 200
+      "width": 200,
+      "blockClass": "image-footer-code"
     }
   },
   "rich-text#section__dektop--text-app": {
@@ -254,7 +255,10 @@
     }
   },
   "flex-layout.row#footer__container-followus": {
-    "children": ["rich-text#section__dektop--text-followus"]
+    "children": ["rich-text#section__dektop--text-followus"],
+    "props": {
+      "blockClass": "container-footer-followus"
+    }
   },
   "rich-text#section__dektop--text-followus": {
     "title": "Síguenos",
@@ -315,14 +319,16 @@
     "title": "Imagen global pay",
     "props": {
       "src": "assets/img/home__footer-global-pay.png",
-      "description": "imagen de global pay "
+      "description": "imagen de global pay ",
+      "blockClass": "image-footer-global-pay"
     }
   },
   "image#section__dektop--image-pay-one": {
     "title": "Imagen de placetpay",
     "props": {
       "src": "assets/img/home__footer-placetopay.png",
-      "description": "imagen de global pay "
+      "description": "imagen de global pay ",
+      "blockClass": "image-footer-placetopay"
     }
   }
 }

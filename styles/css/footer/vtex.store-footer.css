@@ -1,3 +1,14 @@
 .socialNetworksContainer {
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.socialNetworkImage {
+  width: 27px;
+  height: 27px;
+}
+
+@media (max-width: 768px) {
+  .socialNetworkImage {
+    width: 25px;
+  }
 }

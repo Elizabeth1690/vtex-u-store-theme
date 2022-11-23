@@ -7,3 +7,40 @@
   aspect-ratio: 41/41;
   padding-left: 30px;
 }
+
+.imageElement--image-logo-group {
+  width: 50px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .imageElement--home__image-main {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 20px;
+  }
+
+  .imageElement--image-footer-global-pay {
+    margin-bottom: 20px;
+  }
+
+  .imageElement--image-footer-code {
+    display: none;
+  }
+
+  .imageElement--image-success {
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 65px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageElement--image-footer-placetopay {
+    height: 30px;
+  }
+  .imageElement--image-success {
+    margin-left: 0;
+  }
+}
