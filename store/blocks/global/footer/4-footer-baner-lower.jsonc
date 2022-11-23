@@ -60,7 +60,7 @@
     "props": {
       "src": "assets/img/home__footer-carulla.png",
       "title": "image-logo-carulla",
-      "blockClass": "image-logo-carulla",
+      "blockClass": "image-logo-group",
       "link": {
         "url": "https://www.carulla.com/"
       }
@@ -72,7 +72,9 @@
     "props": {
       "src": "assets/img/home__footer-viva.png",
       "title": "image-logo-vivaexito",
-      "blockClass": "image-logo-vivaexito",
+      "width": 33,
+      "height": 30,
+      "blockClass": "image-logo-viva-exito",
       "link": {
         "url": "https://www.vivaonline.com.co/"
       }
@@ -82,7 +84,9 @@
     "title": "imagen super inter",
     "props": {
       "src": "assets/img/home__footer-superinter.png",
-      "title": "image-logo-superinter",
+      "title": "image-logo-group",
+      "width": 45,
+      "height": 30,
       "blockClass": "image-logo-superinter",
       "link": {
         "url": "https://www.superinter.com.co/"
@@ -94,6 +98,8 @@
     "props": {
       "src": "assets/img/home__footer-surtimax.png",
       "title": "image-logo-surtimax",
+      "width": 56,
+      "height": 30,
       "blockClass": "image-logo-surtimax",
       "link": {
         "url": "https://www.surtimax.com.co/"
@@ -105,7 +111,8 @@
     "title": "contenedor texto copyright",
     "children": ["rich-text#footer_copyright"],
     "props": {
-      "blockClass": "container-text-copyright"
+      "blockClass": "container-text-copyright",
+      "horizontalAlign": "right"
     }
   },
 

@@ -1,5 +1,5 @@
 {
-  "search-result-layout.customQuery#home__search": {
+  /* "search-result-layout.customQuery#home__search": {
     "title": "Lista de productos",
     "props": {
       "querySchema": {
@@ -39,5 +39,57 @@
   },
   "gallery": {
     "blocks": ["product-summary.shelf"]
+  },*/
+
+  "flex-layout.row#global__product--list": {
+    "children": ["flex-layout.col#global__product--list"]
+  },
+  "flex-layout.col#global__product--list": {
+    "children": ["list-context.product-list#global__slider--home--products"]
+  },
+  "list-context.product-list#global__slider--home--products": {
+    "title": "Lista productos home",
+    "blocks": ["product-summary.shelf#home__product--shelf--releases"],
+    "children": ["slider-layout#global__products--releases"],
+    "props": {
+      "blockClass": "global__list--products"
+    }
+  },
+  "product-summary.shelf#home__product--shelf--releases": {
+    "children": [
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "flex-layout.row#buy-button"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "blockClass": "image-product-summary"
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "children": ["add-to-cart-button"]
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "text": "Agregar",
+      "blockClass": "comprar__button--global"
+    }
+  },
+  "slider-layout#global__products--releases": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "slider__global--products",
+      "fullWidth": false
+    }
   }
 }
