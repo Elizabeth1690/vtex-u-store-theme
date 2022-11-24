@@ -107,9 +107,9 @@
   "flex-layout.col#minicart__footer": {
     "children": [
       "minicart-summary",
-      "rich-text#promo",
-      "minicart-checkout-button",
-      "drawer-close-button"
+      // "rich-text#promo",
+      "minicart-checkout-button"
+      // "drawer-close-button"
     ]
   }
 }

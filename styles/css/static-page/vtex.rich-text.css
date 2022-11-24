@@ -1,0 +1,41 @@
+.heading--text-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.paragraph--text-content {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  font-weight: 400;
+  text-align: justify;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.link--text-content {
+  text-decoration: none;
+  color: #000;
+}
+
+.heading--text-title-group {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  font-weight: 900;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.paragraph--text-title-group {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  font-weight: 900;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
