@@ -64,6 +64,11 @@
       "flex-layout.row#buy-button"
     ]
   },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
   "product-summary-image": {
     "props": {
       "blockClass": "image-product-summary"
