@@ -1,0 +1,458 @@
+{
+  "store.custom#legal-day": {
+    "blocks": [
+      "flex-layout.row#legal-day",
+      "flex-layout.row#foods",
+      "flex-layout.row#unbeatable-price",
+      "flex-layout.row#promise-delivery",
+      "flex-layout.row#Shipping-cost",
+      "flex-layout.row#substitute-products",
+      "flex-layout.row#purchase-legal",
+      "flex-layout.row#available-cities",
+      "flex-layout.row#quantity-limitation",
+      "flex-layout.row#legal-Card",
+      "flex-layout.row#st-contest"
+    ]
+  },
+  "flex-layout.row#legal-day": {
+    "children": ["flex-layout.col#legal-day"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#legal-day": {
+    "children": [
+      "flex-layout.row#legal-day-title",
+      "flex-layout.row#legal-day-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#legal-day-title": {
+    "children": ["rich-text#legal-day-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#legal-day-content": {
+    "children": ["rich-text#legal-day-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#legal-day-title": {
+    "props": {
+      "text": "# Legales del día",
+      "blockClass": "text-title"
+    }
+  },
+  "rich-text#legal-day-content": {
+    "props": {
+      "text": " Los siguientes términos y condiciones aplican para exito.com, éxito atendido y app éxito. Válido desde las 6:00 am del 1 de Noviembre hasta las 11:59 pm 30 de Noviembre 2022 (hora colombiana) o hasta agotar existencias. Unidades limitadas. Precios sujetos a cambios sin previo aviso. Para productos en oferta es permitida la compra de máximo 2 unidades diarias de la misma referencia por cédula en productos de electrohogar, digital, deporte, tiempo libre y relojes y máximo 4 unidades diarias de la misma referencia por cédula en productos de hogar, moda, juguetería y accesorios de bebe. Nuestra promesa de entrega para productos de tienda (no alimentos) es de 3 a 10 días hábiles a partir de la aprobación del pedido (no aplica para productos Marketplace). La promesa de entrega en evento se amplía de 10 a 12 días hábiles después de la aprobación del pedido. El despacho del producto está sujeto a disponibilidad. La promesa de entrega puede variar de acuerdo al tipo de despacho (almacén, centro de distribución o directamente del proveedor).Para productos Marketplace las unidades disponibles comunicadas son variables y dependen de las ventas del vendedor en ésta y otras plataformas. Por la compra de productos Marketplace no acumulas Puntos Colombia. Aplican condiciones y restricciones para mayoristas. Las ofertas comunicadas no son acumulables entre sí. El tamaño de las fotos no necesariamente representa el tamaño real del producto. Consulta el tamaño real en las especificaciones del producto. Las ofertas marcadas como exclusivo en www.exito.com no aplican en los almacenes. Las compras que excedan el número de unidades anunciadas como máximo permitido por cliente, serán canceladas y en caso de haberse efectuado el pago se procederá a la devolución del dinero de acuerdo con el medio de pago. Por compras realizadas a través de www.exito.com no se otorgan minutos a móvil Éxito. *Ofertas exclusivas comprando por exito.com.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#foods": {
+    "children": ["flex-layout.col#foods"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#foods": {
+    "children": [
+      "flex-layout.row#foods-title",
+      "flex-layout.row#foods-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#foods-title": {
+    "children": ["rich-text#foods-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#foods-content": {
+    "children": ["rich-text#foods-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#foods-title": {
+    "props": {
+      "text": "# Alimentos",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#foods-content": {
+    "props": {
+      "text": " Para productos en oferta de las categorías de licores, aseo hogar y cuidado personal es permitida la compra de máximo **12 unidades diarias, para el resto de las categorías 20 unidades incluyendo productos frescos como Carne, pollo, pescado, frutas y verduras. Los clientes que realicen más de 2 pedidos con la misma cedula o correo electrónico y contengan más de 12 unidades de una misma referencia, estos podrán ser cancelados por restricciones de compras mayoristas.** Las ofertas y precios de frutas y verduras corresponden a la unidad y en carnes rojas el precio corresponde al gramaje y peso del producto. Las ofertas y descuentos de mercado no aplican en farmacia, compotas, formulas materno-infantiles, bebidas energizantes y licores de rentas departamentales: Aguardiente, ron, cigarrillos. El año de cosecha de los vinos puede variar de acuerdo con la disponibilidad de inventario de cada almacén. Las fotos son imágenes de referencia' El descuento paga dos lleva tres aplica para la misma referencia. Aplican referencias seleccionadas. El exceso de alcohol es perjudicial para la salud. Ley 30 de 1986. Prohíbase el expendio de bebidas embriagantes a menores de edad. Para Bogotá solo de despachan licores a domicilios no aplica para compra y recoge. En lugares donde sea decretada la ley seca no se permitirá la venta de licor y se despachará licor una vez sea levantada la medida, la entrega se hará de acuerdo con la política de entrega establecida por Grupo Éxito S.A. Ley 124 de 1994. El descuento de Miércoles de mercado no aplica para productos de Granos, arroz, aceites, leche, huevos farmacia, compotas, fórmulas infantiles, licores y bebidas energizantes.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#unbeatable-price": {
+    "children": ["flex-layout.col#unbeatable-price"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#unbeatable-price": {
+    "children": [
+      "flex-layout.row#price-title",
+      "flex-layout.row#price-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#price-title": {
+    "children": ["rich-text#price-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#price-content": {
+    "children": ["rich-text#price-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#price-title": {
+    "props": {
+      "text": "Precio insuperable",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#price-content": {
+    "props": {
+      "text": "Precio insuperable: aplica para los productos marcados con el sello de “precio insuperable”. Válido hasta el 31 de diciembre de 2022. Si el valor de la diferencia es inferior a $10.000, ésta se le entregará al cliente en efectivo, pero si es mayor se entregará en tarjeta regalo. La diferencia que se le entrega al cliente aplica solo hasta 3 productos de la misma referencia. Los productos deben ser adquiridos el mismo día en ambos establecimientos y debe presentarse la factura o tirilla de compra para verificación en un plazo máximo de 8 días calendario siguientes a la compra. Los productos deben ser comparables en cuanto a su presentación y contenido. La diferencia se calcula en precio por unidad de medida. No aplica en productos que estén en oferta en los demás establecimientos. Los productos marcados con el sello de “precio insuperable” solo podrán ser comparables con productos marca propia de los demás establecimientos.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#promise-delivery": {
+    "children": ["flex-layout.col#promise-delivery"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#promise-delivery": {
+    "children": [
+      "flex-layout.row#promise-delivery-title",
+      "flex-layout.row#promise-delivery-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#promise-delivery-title": {
+    "children": ["rich-text#promise-delivery-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#promise-delivery-content": {
+    "children": ["rich-text#promise-delivery-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#promise-delivery-title": {
+    "props": {
+      "text": "Promesa de entrega",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#promise-delivery-content": {
+    "props": {
+      "text": "Los pedidos con entrega a domicilio de alimentos tienen una promesa de entrega de franjas de 4 horas. La entrega del pedido se debe realizar en cualquier momento dentro de la franja seleccionada por el cliente de acuerdo a la disponibilidad al momento de la compra. Los pedidos de compra y recoge tienen una promesa de entrega de franjas de 1 hora, el cliente puede pasar a recoger el pedido en cualquier momento después de la franja inicial.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#Shipping-cost": {
+    "children": ["flex-layout.col#Shipping-cost"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#Shipping-cost": {
+    "children": [
+      "flex-layout.row#Shipping-cost-title",
+      "flex-layout.row#Shipping-cost-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#Shipping-cost-title": {
+    "children": ["rich-text#Shipping-cost-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#Shipping-cost-content": {
+    "children": ["rich-text#Shipping-cost-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#Shipping-cost-title": {
+    "props": {
+      "text": "Costo envío",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#Shipping-cost-content": {
+    "props": {
+      "text": "El costo de envío para los pedidos programados de alimentos es de 8.000 para Bogotá Medellín y Cali, para barranquilla $6.000 y otras ciudades : $5.000.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#substitute-products": {
+    "children": ["flex-layout.col#substitute-products"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#substitute-products": {
+    "children": [
+      "flex-layout.row#substitute-products-title",
+      "flex-layout.row#substitute-products-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#substitute-products-title": {
+    "children": ["rich-text#substitute-products-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#substitute-products-content": {
+    "children": ["rich-text#substitute-products-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#substitute-products-title": {
+    "props": {
+      "text": "Productos sustitutos o agotados",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#substitute-products-content": {
+    "props": {
+      "text": "Si el producto no está disponible en el momento del despacho se le ofrecerá al cliente una alternativa de un producto similar con su la aprobación. En caso de no lograr contacto, se eliminará de su respectivo pedido.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#purchase-legal": {
+    "children": ["flex-layout.col#purchase-legal"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#purchase-legal": {
+    "children": [
+      "flex-layout.row#purchase-legal-title",
+      "flex-layout.row#purchase-legal-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#purchase-legal-title": {
+    "children": ["rich-text#purchase-legal-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#purchase-legal-content": {
+    "children": ["rich-text#purchase-legal-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#purchase-legal-title": {
+    "props": {
+      "text": "Legales de compra y recoge",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#purchase-legal-content": {
+    "props": {
+      "text": "Luego de realizado el pedido debe ser recogido en el almacén seleccionado por el cliente. El inventario del pedido está sujeto a la disponibilidad del producto en el momento de la preparación, después de 24 horas si el cliente no ha pasado a recogerlo, el almacén tiene potestad para cancelarlo.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#available-cities": {
+    "children": ["flex-layout.col#available-cities"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#available-cities": {
+    "children": [
+      "flex-layout.row#available-cities-title",
+      "flex-layout.row#available-cities-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#available-cities-title": {
+    "children": ["rich-text#available-cities-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#available-cities-content": {
+    "children": ["rich-text#available-cities-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#available-cities-title": {
+    "props": {
+      "text": "Ciudades disponibles de despacho",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#available-cities-content": {
+    "props": {
+      "text": "Bogotá, Chía, Montería, Bucaramanga, Fusagasugá, Medellín, Rio negro Cali Barranquilla Cartagena Villavicencio Santa Marta Sincelejo Armenia Neiva, Manizales, Pereira, Bello, Soacha, Ibagué, Cúcuta, Tunja, Pasto, Popayán, Valledupar, Zipaquirá. Para la ofertas con descuentos relacionales aplican únicamente para el cliente que recibió la comunicación. Los descuentos se verán reflejados después de ingresar su correo y agregar los productos al carrito de Compras. Para compras que incluyan obsequios o combos, aplica un obsequio por pedido. Para estrategias de extrapuntaje, los puntos se podrán ver reflejados hasta 10 días hábiles después de realizada la compra. Para las activaciones con cupones dentro del sitio aplica hasta agotar existencias o hasta la fecha final del descuento. Para aplicar al descuento el cliente debe estar registrado en éxito.com e ingresar con el correo. Es indispensable ingresar el nombre del cupón en campo requerido. El descuento se verá reflejado al finalizar el proceso de compra. El valor del cupón no cubre costos de envío. No aplica para compras marketplace. Para estrategias de bonos, la compra mínima debe ser superior al valor del bono, no se devuelve en ninguna ocasión el valor restante del bono.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#quantity-limitation": {
+    "children": ["flex-layout.col#quantity-limitation"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#quantity-limitation": {
+    "children": [
+      "flex-layout.row#quantity-limitation-title",
+      "flex-layout.row#quantity-limitation-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#quantity-limitation-title": {
+    "children": ["rich-text#quantity-limitation-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#quantity-limitation-content": {
+    "children": ["rich-text#quantity-limitation-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#quantity-limitation-title": {
+    "props": {
+      "text": "Limitación de cantidades y restricción de pedidos",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#quantity-limitation-content": {
+    "props": {
+      "text": "A exclusivo criterio de Grupo Éxito, se podrá limitar, reprogramar y/o cancelar las cantidades compradas por el cliente en especial pero sin limitarse, cuando se identifique por cualquier medio que se trata de una compra con destino a cliente mayorista. En tal caso, Grupo Éxito rechazará de plano las compras por medio de correo electrónico. Las restricciones a las compras pueden incluir entre otras, pedidos realizados a partir de la misma cuenta inscrita en el sitio, pedidos con la misma dirección de entrega, pagos con realizados con la misma cédula, pagos realizados con la misma tarjeta de crédito y/o débito y pedidos con la misma dirección de facturación.",
+      "blockClass": "text-content"
+    }
+  },
+  "flex-layout.row#legal-Card": {
+    "children": ["flex-layout.col#legal-Card"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#legal-Card": {
+    "children": [
+      "flex-layout.row#legal-Card-title",
+      "flex-layout.row#legal-Card-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#legal-Card-title": {
+    "children": ["rich-text#legal-Card-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#legal-Card-content": {
+    "children": ["rich-text#legal-Card-content"],
+    "props": {
+      "blockClass": "session-content-legal"
+    }
+  },
+  "rich-text#legal-Card-title": {
+    "props": {
+      "text": "Legales Tarjeta Éxito",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#legal-Card-content": {
+    "props": {
+      "text": "Los descuentos varían de acuerdo con la oferta seleccionada. Los descuentos se verán reflejados al momento de seleccionar a Tarjeta Éxito Mastercard como medio de pago. Precios sujetos a cambios sin previo aviso por parte de éxito.com. Para productos en oferta es permitida la compra de máximo 2 unidades diarias de la misma referencia por cédula y/o dirección en productos de Entretenimiento, Hogar y Moda. Máximo 10 unidades diarias de la misma referencia por cédula y/o dirección en mercado por parte de éxito.com. La promesa de entrega de éxito.com para productos de tienda (no alimentos) es de 7 a 10 días hábiles a partir de la aprobación del pedido (no aplica para productos Marketplace). Las ofertas comunicadas no son acumulables entre sí. Los productos de ambientación de las fotos, no hacen parte de las ofertas. El tamaño de las fotos no necesariamente representa el tamaño real del producto. Consulta el tamaño real en las especificaciones del producto. *Ofertas exclusivas en www.exito.com. Las compras que excedan el número de unidades anunciadas como máximo permitido por cliente, serán canceladas y en caso de haberse efectuado el pago se procederá a la devolución del dinero de acuerdo con el medio de pago por parte de éxito.com. Por compras realizadas a través de www.exito.com no se otorgan minutos a móvil Éxito. Las ofertas comunicadas por este medio, no suman con otros descuentos de las Tarjetas Éxito® Mastercard. Éxito® marca registrada de Almacenes Éxito S.A. La tasa efectiva anual cobrada por las Tarjeta Éxito® Mastercard es 38,64019% tasa vigente del 1 al 30 de Noviembre de 2022. Los intereses de las Tarjetas Éxito Mastercard se liquidarán con la tasa vigente al momento de la utilización. Para que el descuento sea efectivo la totalidad de la compra debe ser cancelada con las Tarjetas Éxito® Mastercard, y el titular de Puntos Colombia y las Tarjetas Éxito® Mastercard debe ser el mismo. El descuento en electrodomésticos, audio, video, digital, informática, celulares, muebles y colchones aplica para máximo 2 unidades por cliente pagando con las Tarjetas Éxito® Mastercard. Tarjeta Éxito® Pro, Tarjeta Éxito® Gold Mastercard y Tarjeta Digital Éxito emitidas por TUYA S.A. Compañía de Financiamiento. Aprobación sujeta a Análisis de riesgo por TUYA.S.A.",
+      "blockClass": "text-content"
+    }
+  },
+
+  "flex-layout.row#st-contest": {
+    "children": ["flex-layout.col#st-contest"],
+    "props": {
+      "blockClass": "session-main-legal"
+    }
+  },
+  "flex-layout.col#st-contest": {
+    "children": [
+      "flex-layout.row#st-contest-title",
+      "flex-layout.row#st-contest-content"
+    ],
+    "props": {
+      "blockClass": "session-legal",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#st-contest-title": {
+    "children": ["rich-text#st-contest-title"],
+    "props": {
+      "blockClass": "session-title-legal"
+    }
+  },
+  "flex-layout.row#st-contest-content": {
+    "children": ["rich-text#st-contest-content"],
+    "props": {
+      "blockClass": "session-content-lega-lastest"
+    }
+  },
+  "rich-text#st-contest-title": {
+    "props": {
+      "text": "Concurso St. Even y Moda Éxito",
+      "blockClass": "text-title-group"
+    }
+  },
+  "rich-text#st-contest-content": {
+    "props": {
+      "text": "El jueves 6 de octubre de 2022 se llevará a cabo un concurso en @ModaExito con el objetivo de entregar 4 cajas con productos de la marca St. Even. Desde la cuenta de Instagram, se publicará una historia el 6 de octubre de 2022 para dar apertura al concurso. Pasadas 24 horas se cerrará la actividad o cuando hayan respondido las 4 personas, lo primero que ocurra.\n Las personas ganadoras serán contactadas a través de Instagram, y se harán públicos el 7 de octubre a través del Instagram @ModaExito.\n\n Mecánica:\n\n 1.  Publicaremos una historia en Instagram con una pregunta que deberán responder en la caja habilitada de respuestas. ¿“Qué te enamora de St. Even?”\n\n 2.  Las primeras cuarto (4) personas en responder a esta pregunta y cumplan con los requisitos, recibirán la “Caja Rosa” con productos de la marca St. Even.\n\nTérminos y Condiciones\n 1. Los participantes deberán seguir a @ModaExito en Instagram.\n\n 2. Concurso válido únicamente para seguidores de @ModaExito que vivan en Colombia.\n 3. Podrán participar únicamente mayores de edad.\n 4. Se entregará una (1) caja por cada ganador. Son cuatro (4) en total.\n 5. Una vez terminado el concurso se contactarán a los ganadores para validar datos y programar el envío de las cajas.\n 6. La marca St. Even se hace responsable del contenido de la caja y de los envíos de las mismas.\n 7. Este concurso no está relacionado con Instagram.",
+      "blockClass": "text-content"
+    }
+  }
+}
