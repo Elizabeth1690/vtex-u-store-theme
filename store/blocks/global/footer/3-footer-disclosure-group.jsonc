@@ -112,7 +112,7 @@
         "href": "/",
         "tagTitle": "Preguntas Frecuentes",
         "text": "Preguntas Frecuentes",
-        "blockClass":"text-menu-group"
+        "blockClass": "text-menu-group"
       }
     }
   },
@@ -549,7 +549,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/legales-del-dia",
         "tagTitle": "Legales del día",
         "text": "Legales del día"
       }

@@ -1,5 +1,5 @@
 {
-  "store.search#department": {
+  /*"store.search#department": {
     "blocks": ["search-result-layout#department"]
   },
   "search-result-layout#department": {
@@ -46,7 +46,7 @@
       "name": "grid-one-column",
       "blockClass": "grid__selector--one-column"
     }
-  },*/
+  },
   "rich-text#desktop-response-department": {
     "props": {
       "text": "#Desktop search Department"
@@ -56,5 +56,5 @@
     "props": {
       "text": "#Mobile search Department"
     }
-  }
+  }*/
 }
