@@ -90,7 +90,14 @@
       "vtex.product-list@0.x:product-name",
       "price",
       "quantity-selector#minicart"
-    ]
+    ],
+    "props": {
+      "blockClass": "session__minicart",
+      "width": "60%",
+      "rowGap": 7,
+      "preventVertcalStretch": true,
+      "preserveLayout0nMobile": true
+    }
   },
   "quantity-selector#minicart": {
     "props": {
@@ -107,7 +114,7 @@
   "flex-layout.col#minicart__footer": {
     "children": [
       "minicart-summary",
-      // "rich-text#promo",
+      //"rich-text#promo",
       "minicart-checkout-button"
       // "drawer-close-button"
     ]

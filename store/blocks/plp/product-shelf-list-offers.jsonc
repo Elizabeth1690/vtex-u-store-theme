@@ -1,0 +1,143 @@
+{
+  "flex-layout.row#global__product--lista": {
+    "title": "Sesión principal lista de productos",
+    "children": ["flex-layout.col#global__product--lista"],
+    "props": {
+      "blockClass": "session-container-product"
+    }
+  },
+  "flex-layout.col#global__product--lista": {
+    "title": "Sesión lista de productos",
+    "children": [
+      "list-context.product-list#global__slider--home--products-offers-one"
+    ]
+  },
+  "list-context.product-list#global__slider--home--products-offers-one": {
+    "title": "Lista productos galería",
+    "blocks": ["product-summary.shelf#home__products--shelf--offers-one"],
+    "children": ["slider-layout#global__products--offers-one"],
+    "props": {
+      "blockClass": "global__list--products-offers"
+    }
+  },
+  "product-summary.shelf#home__products--shelf--offers-one": {
+    "title": "Contenido de la lista de productos",
+    "children": [
+      "responsive-layout.desktop#search__product-shelf-view-one",
+      "responsive-layout.mobile#search__product-shelf-view-list"
+    ],
+    "props": {
+      "blockClass": "home__products--shelf--offers",
+      "width": "100%",
+      "fullWidth": "true",
+      "preventHorizontalStretch": "true"
+    }
+  },
+  "responsive-layout.mobile#search__product-shelf-view-list": {
+    "children": ["flex-layout.row#search__product-shelf-view-one"],
+    "props": {
+      "blockClass": "session-product-shelf-view-list"
+    }
+  },
+  "responsive-layout.desktop#search__product-shelf-view-one": {
+    "children": ["flex-layout.row#search__product-shelf-view-one"],
+    "props": {
+      "blockClass": "session-products--shelf--offers"
+    }
+  },
+  "flex-layout.row#search__product-shelf-view-one": {
+    "children": [
+      "flex-layout.col#search__product-shelf-view-one-image",
+      "flex-layout.col#search__product-shelf-view-one-space",
+      "flex-layout.col#search__product-shelf-view-one-name",
+      "flex-layout.col#search__product-shelf-view-one-price",
+      "flex-layout.col#buy-button--list"
+    ],
+    "props": {
+      "blockClass": "session-product-shelf-view-one",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#search__product-shelf-view-one-image": {
+    "children": ["product-summary-image#products-offers-one"],
+    "props": {
+      "blockClass": "session-product-shelf-image-one",
+      "width": "20%",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#search__product-shelf-view-one-space": {
+    "children": ["product-summary-space#products-offers-one"],
+    "props": {
+      "blockClass": "session-product-shelf-space-one",
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#search__product-shelf-view-one-name": {
+    "children": ["product-summary-name#products-offers-one"],
+    "props": {
+      "blockClass": "session-product-shelf-name-one",
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#search__product-shelf-view-one-price": {
+    "children": ["product-summary-price#products-offers-one"],
+    "props": {
+      "blockClass": "session-product-shelf-price-one",
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#buy-button--list": {
+    "children": ["add-to-cart-button#products-offers-one"],
+    "props": {
+      "blockClass": "session-product-shelf-button-one",
+      "width": "20%"
+    }
+  },
+  "product-summary-image#products-offers-one": {
+    "title": "Imagen de la lista de productos",
+    "props": {
+      "width": 200
+    }
+  },
+  "product-summary-space#products-offers-one": {
+    "title": "Imagen de la lista de productos",
+    "props": {
+      "blockClass": "product-space"
+    }
+  },
+  "product-summary-price#products-offers-one": {
+    "title": "Imagen de la lista de productos",
+    "props": {
+      "blockClass": "product-space"
+    }
+  },
+  "add-to-cart-button#products-offers-one": {
+    "title": "Botón de compra",
+    "props": {
+      "text": "Agregar",
+      "blockClass": "boton-agregar"
+    }
+  },
+  "product-summary-name#products-offers-one": {
+    "title": "Botón de compra",
+    "props": {
+      "blockClass": "product-name"
+    }
+  },
+  "slider-layout#global__products--offers-one": {
+    "title": "Slider de la lista de productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "slider-product",
+      "fullWidth": false
+    }
+  }
+}

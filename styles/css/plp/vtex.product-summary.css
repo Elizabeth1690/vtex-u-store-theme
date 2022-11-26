@@ -1,0 +1,42 @@
+.element--home__products--shelf--offers :global(.vtex-button) {
+  border-radius: 10px;
+}
+
+.element--home__products--shelf--offers {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.imageContainer--product-image-offers {
+  height: auto;
+  padding-bottom: 0;
+  /*background-color: aqua;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 25px;
+  mix-blend-mode: multiply;
+  max-height: 17.56rem;*/
+}
+
+.brandName--product-name {
+  width: auto;
+  display: flex;
+  padding-right: 0.5rem;
+}
+
+.price_installment--product-price {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: flex;
+}
+
+.flexrowcontent--session-product-shelf-text-btn-group :global(.vtex-button) {
+  padding-top: 0.25em;
+  padding-bottom: 0.32em;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
