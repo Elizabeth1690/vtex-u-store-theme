@@ -1,0 +1,61 @@
+{
+  "flex-layout.row#global__product--listaa": {
+    "title": "Sesión principal lista de productos",
+    "children": ["flex-layout.col#global__product--listaa"],
+    "props": {
+      "blockClass": "session-container-product"
+    }
+  },
+  "flex-layout.col#global__product--listaa": {
+    "title": "Sesión lista de productos",
+    "children": ["list-context.product-list#global__slider--home--products"]
+  },
+  "list-context.product-list#global__slider--home--products-offers": {
+    "title": "Lista productos galería",
+    "blocks": ["product-summary.shelf#home__products--shelf--offers"],
+    "children": ["slider-layout#global__products--offers"],
+    "props": {
+      "blockClass": "global__list--products-offers"
+    }
+  },
+  "product-summary.shelf#home__products--shelf--offers": {
+    "title": "Contenido de la lista de productos",
+    "children": [
+      "product-summary-image#products-offers",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button#products-offers"
+    ],
+    "props": {
+      "blockClass": "home__products--shelf--offers"
+    }
+  },
+  "product-summary-image#products-offers": {
+    "title": "Imagen de la lista de productos",
+    "props": {
+      "width": 200
+    }
+  },
+  "add-to-cart-button#products-offers": {
+    "title": "Botón de compra",
+    "props": {
+      "text": "Agregar",
+      "blockClass": "boton-agregar"
+    }
+  },
+  "slider-layout#global__products--offers": {
+    "title": "Slider de la lista de productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "slider-product",
+      "fullWidth": false
+    }
+  }
+}
