@@ -243,33 +243,28 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf#home__productos--shelf--lanzamientos",
-      "GridSummary": "product-summary.shelf#home__productos--shelf--lanzamientos"
+      "ListSummary": "product-summary.shelf#home__products--shelf--offers-one",
+      "GridSummary": "product-summary.shelf#home__products--shelf--offers"
     }
   },
   "gallery-layout-switcher": {
-    "children": [
-      /*
-       * For accessbility to work properly,
-       * It's important to define the options in the same order as the layouts
-       */
-      "gallery-layout-option#grid",
-      "gallery-layout-option#list"
-    ]
+    "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
   },
   "gallery-layout-option#grid": {
     "props": {
       "name": "grid"
     },
-    "children": ["icon-grid", "responsive-layout.desktop#textOptionGrid"]
+    "children": ["icon-grid" /*"responsive-layout.desktop#textOptionGrid"*/]
   },
   "gallery-layout-option#list": {
     "props": {
       "name": "list"
     },
-    "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
-  },
-  "responsive-layout.desktop#textOptionGrid": {
+    "children": [
+      "icon-inline-grid" /*"responsive-layout.desktop#textOptionList"*/
+    ]
+  }
+  /*"responsive-layout.desktop#textOptionGrid": {
     "children": ["rich-text#option-grid"]
   },
   "responsive-layout.desktop#textOptionList": {
@@ -288,5 +283,5 @@
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
-  }
+  }*/
 }
