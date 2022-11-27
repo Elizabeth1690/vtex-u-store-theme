@@ -10,8 +10,9 @@
     "title": "Imagenes de producto",
     "children": ["product-images#product_info--image"]
   },
-  "product-images#product_info--image":{
-    "props":{
+  "product-images#product_info--image": {
+    "props": {
+      "displayThumbnailsArrows": true,
       "zoomMode": "open-modal"
     }
   },
@@ -19,11 +20,15 @@
     "title": "Data de producto",
     "children": [
       "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
       "product-price",
       "product-quantity",
       "rich-text#product__promo-info",
+      "product-description",
+      "shipping-simulator",
       "product-add-to-list-button",
-      "product-details"
+      "availability-subscriber",
+      "share"
     ]
   },
   "rich-text#product__promo-info": {
