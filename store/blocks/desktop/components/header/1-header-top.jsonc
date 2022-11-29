@@ -104,7 +104,7 @@
     "title": "texto mercado",
     "props": {
       "blockClass": "header__texto-mercado",
-      "text": "Mercado"
+      "text": "[Mercado](https://eliechavarria--itgloberspartnercl.myvtex.com/cemento?map=ft)"
     }
   },
   "flex-layout.col#header__top-text-moda": {

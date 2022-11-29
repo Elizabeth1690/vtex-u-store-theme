@@ -8,6 +8,7 @@
   "flex-layout.col#home__section--dektop-global-uno": {
     "children": [
       //"icon#home__orders--icon",
+      "whatsapp-button",
       "flex-layout.row#home__section--dektop-zero",
       "flex-layout.row#home__section--dektop-one",
       "flex-layout.row#home__section--dektop-two",
@@ -48,6 +49,13 @@
     ],
     "props": {
       "blockClass": "section__dektop-global"
+    }
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/WhatsApp-logo.png",
+      "phone": "7777777777",
+      "mesagge": "VTEX U RLZ"
     }
   }
 }
